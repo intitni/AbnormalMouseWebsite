@@ -1,0 +1,299 @@
+/**
+*  Publish Foundation theme
+*  Copyright (c) John Sundell 2019
+*  MIT license, see LICENSE file for details
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, PingFang SC;
+    text-align: left;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.app-info {
+    position: relative;
+}
+
+.site-description-sub {
+    color: #E0E0E0;
+}
+
+.site-description-fade {
+    color: #F2F2F2;
+}
+
+header {
+    padding-top: 22px;
+}
+
+header .wrapper {
+    text-align: left;
+    position: relative;
+}
+
+.language-switcher {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .app-icon {
+    margin-left: -26px;
+}
+
+header .site-name {
+    font-size: 2.875em;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.download-link-container {
+    margin-top: 30px;
+}
+
+.download-link-arrow {
+    top: 50%;
+    border-bottom: solid 2px #CE4A6F;
+    width: calc(50% - 460px);
+    margin-right: 10px;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+
+.download-link:hover .download-link-arrow {
+    width: calc(50% - 440px);
+}
+
+.download-link-arrow:after {
+    content: url('Images/download-link-arrow.svg');
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    top: -16px;
+}
+
+.download-link {
+    font-size: 1.625em;
+    color: #CE4A6F;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.download-link-description {
+    font-size: 0.45em;
+    color: #828282;
+    font-weight: 400;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 1.5em;
+}
+
+nav li a.selected {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333333;
+}
+
+h2 {
+    margin: 20px 0;
+    color: #333333;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #4F4F4F;
+}
+
+a {
+    color: inherit;
+}
+
+.content-wrapper > h2 {
+    margin-left: -52px;
+    font-size: 1.825em;
+    font-weight: bold;
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.content-wrapper > p {
+    font-size: 1em;
+    font-weight: regular;
+}
+
+.title-icon {
+    margin-right: 10px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.item-list > li {
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.item-list > li:last-child {
+    margin-bottom: 0;
+}
+
+.item-list h1 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.item-list p {
+    margin-bottom: 0;
+}
+
+.tag-list {
+    margin-bottom: 15px;
+}
+
+.tag-list li,
+.tag {
+    display: inline-block;
+    background-color: #000;
+    color: #ddd;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tag-list a,
+.tag a {
+    text-decoration: none;
+}
+
+.item-page .tag-list {
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.browse-all {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.all-tags li {
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
+}
+
+footer {
+    margin-top: 80px;
+    height: 120px;
+    color: #8a8a8a;
+    background-color: #F2F2F2;
+}
+
+footer .wrapper {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*    body {*/
+/*        background-color: #222;*/
+/*    }*/
+/**/
+/*    body,*/
+/*    header .site-name {*/
+/*        color: #ddd;*/
+/*    }*/
+/**/
+/*    .item-list > li {*/
+/*        background-color: #333;*/
+/*    }*/
+/**/
+/*    header {*/
+/*        background-color: #000;*/
+/*    }*/
+/*}*/
+
+@media(max-width: 960px) {
+    .wrapper {
+        max-width: 700px
+    }
+    
+    .download-link-arrow {
+        width: calc(50% - 360px);
+    }
+    
+    .download-link:hover .download-link-arrow {
+        width: calc(50% - 340px);
+    }
+}
+
+@media(max-width: 760px) {
+    .wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .content-wrapper > h2 {
+        margin-left: 0;
+    }
+    
+    .download-link-arrow {
+        width: 30px;
+    }
+    
+    .download-link:hover .download-link-arrow {
+        width: 50px;
+    }
+    
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
