@@ -57,6 +57,8 @@ header a {
 
 header .app-icon {
     margin-left: -26px;
+    width: 260px;
+    height: 260px;
 }
 
 header .site-name {
