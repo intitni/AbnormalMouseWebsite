@@ -298,4 +298,8 @@ footer .wrapper {
         padding-left: 20px;
         padding-right: 20px;
     }
+    
+    .title-icon {
+        display: none;
+    }
 }
