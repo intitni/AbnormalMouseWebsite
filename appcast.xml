@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>AbnormalMouse</title>
+        <item>
+            <title>2020.1</title>
+            <pubDate>Mon, 27 Jul 2020 23:33:14 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://abnormalmouse.intii.com/Abnormal%20Mouse_2020_0.zip" sparkle:version="7" sparkle:shortVersionString="2020.1" length="3737518" type="application/octet-stream" sparkle:edSignature="tEwAKozVGT5SzmZbWPSL0E9ycfyJS6PjT+OujDqI8/wHaxNtBUtFgOGjHwjQwH38Nse38Y5yxOQEkMCjZvYPDw=="/>
+        </item>
+    </channel>
+</rss>
