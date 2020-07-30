@@ -1,0 +1,347 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["4Plot7ElementV", ""]
+- ["4Plot4NodeO", ""]
+- ["4Plot7ElementV", "rss"]
+- ["4Plot4NodeO", "channel"]
+- ["4Plot4NodeO", "title"]
+- ["4Plot4NodeO", "language"]
+- ["4Plot4NodeO", "lastBuildDate"]
+- ["4Plot4NodeO", "ttl"]
+- ["4Plot4NodeO", "atomLink"]
+- ["4Plot4NodeO", "item"]
+- ["4Plot4NodeO", "guid"]
+- ["4Plot4NodeO", "content"]
+- ["4Plot4NodeO", "content"]
+- ["4Plot4NodeO", "title"]
+- ["4Plot4NodeO", "description"]
+- ["4Plot4NodeO", "link"]
+- ["4Plot4NodeO", "pubDate"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Date"
+- "Element"
+- !private "FloatLiteralType"
+- "HTML"
+- "Int"
+- !private "IntegerLiteralType"
+- "Language"
+- "Node"
+- "RSS"
+- "RSSChannelContext"
+- "RSSContentContext"
+- "RSSFeedContext"
+- "RSSItemContext"
+- "RSSRootContext"
+- "String"
+- !private "StringLiteralType"
+- "TimeZone"
+- "URLRepresentable"
+depends-member:
+- !private ["4Plot12AnyAttributeP", "any"]
+- !private ["4Plot7AnyNodeP", "Node"]
+- !private ["4Plot7AnyNodeP", "RSS"]
+- !private ["4Plot7AnyNodeP", "String"]
+- !private ["4Plot7AnyNodeP", "content"]
+- !private ["4Plot7AnyNodeP", "element"]
+- !private ["4Plot7AnyNodeP", "raw"]
+- !private ["4Plot7AnyNodeP", "selfClosedElement"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "render"]
+- !private ["4Plot9AttributeV", "any"]
+- !private ["SK", "init"]
+- !private ["SK", "render"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "render"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "timeZone"]
+- !private ["4Plot7ElementV11ClosingModeO", "standard"]
+- !private ["Sl", "init"]
+- !private ["Sl", "render"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "render"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "render"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "render"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "render"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["10Foundation12DataProtocolP", "render"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["So15NSDateFormatterC", "timeZone"]
+- !private ["Se", "current"]
+- !private ["Se", "init"]
+- !private ["Se", "render"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["4Plot14DocumentFormatP", "BodyContext"]
+- ["4Plot14DocumentFormatP", "GUIDContext"]
+- ["4Plot14DocumentFormatP", "ItemContext"]
+- !private ["4Plot14DocumentFormatP", "dateFormatter"]
+- ["4Plot7ElementV", "Element"]
+- ["4Plot7ElementV", "Node"]
+- ["4Plot7ElementV", "RSSFeedContext"]
+- ["4Plot7ElementV", "RSSRootContext"]
+- !private ["4Plot7ElementV", "init"]
+- ["4Plot7ElementV", "rss"]
+- !private ["SE", "current"]
+- !private ["SE", "init"]
+- !private ["SE", "render"]
+- !private ["SQ", "current"]
+- !private ["SQ", "init"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "render"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "string"]
+- !private ["SQ", "timeZone"]
+- !private ["s25ExpressibleByArrayLiteralP", "render"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Node"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "RSS"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "content"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "element"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "raw"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "selfClosedElement"]
+- !private ["s32ExpressibleByStringInterpolationP", "Node"]
+- !private ["s32ExpressibleByStringInterpolationP", "RSS"]
+- !private ["s32ExpressibleByStringInterpolationP", "String"]
+- !private ["s32ExpressibleByStringInterpolationP", "content"]
+- !private ["s32ExpressibleByStringInterpolationP", "element"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "raw"]
+- !private ["s32ExpressibleByStringInterpolationP", "selfClosedElement"]
+- !private ["s26ExpressibleByStringLiteralP", "Node"]
+- !private ["s26ExpressibleByStringLiteralP", "RSS"]
+- !private ["s26ExpressibleByStringLiteralP", "String"]
+- !private ["s26ExpressibleByStringLiteralP", "content"]
+- !private ["s26ExpressibleByStringLiteralP", "element"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "raw"]
+- !private ["s26ExpressibleByStringLiteralP", "selfClosedElement"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Node"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "RSS"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "content"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "element"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "raw"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "selfClosedElement"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "timeZone"]
+- ["4Plot4HTMLV", "BodyContext"]
+- !private ["SH", "current"]
+- !private ["SH", "init"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "render"]
+- !private ["SH", "standard"]
+- !private ["SH", "string"]
+- !private ["SH", "timeZone"]
+- !private ["4Plot8LanguageO", "deinit"]
+- !private ["4Plot8LanguageO", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "render"]
+- !private ["10Foundation19MutableDataProtocolP", "render"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "timeZone"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "timeZone"]
+- ["4Plot4NodeO", "Date"]
+- ["4Plot4NodeO", "HTML"]
+- ["4Plot4NodeO", "Int"]
+- ["4Plot4NodeO", "Language"]
+- ["4Plot4NodeO", "Node"]
+- ["4Plot4NodeO", "RSS"]
+- ["4Plot4NodeO", "RSSChannelContext"]
+- ["4Plot4NodeO", "RSSContentContext"]
+- ["4Plot4NodeO", "RSSFeedContext"]
+- ["4Plot4NodeO", "RSSItemContext"]
+- ["4Plot4NodeO", "String"]
+- ["4Plot4NodeO", "TimeZone"]
+- ["4Plot4NodeO", "URLRepresentable"]
+- ["4Plot4NodeO", "atomLink"]
+- ["4Plot4NodeO", "channel"]
+- ["4Plot4NodeO", "content"]
+- !private ["4Plot4NodeO", "deinit"]
+- ["4Plot4NodeO", "description"]
+- !private ["4Plot4NodeO", "element"]
+- ["4Plot4NodeO", "guid"]
+- ["4Plot4NodeO", "item"]
+- ["4Plot4NodeO", "language"]
+- ["4Plot4NodeO", "lastBuildDate"]
+- ["4Plot4NodeO", "link"]
+- ["4Plot4NodeO", "pubDate"]
+- !private ["4Plot4NodeO", "raw"]
+- !private ["4Plot4NodeO", "selfClosedElement"]
+- ["4Plot4NodeO", "title"]
+- ["4Plot4NodeO", "ttl"]
+- !private ["4Plot15NodeConvertibleP", "any"]
+- ["4Plot3RSSV", "GUIDContext"]
+- ["4Plot3RSSV", "ItemContext"]
+- !private ["4Plot3RSSV", "dateFormatter"]
+- ["4Plot22RSSBasedDocumentFormatP", "GUIDContext"]
+- ["4Plot22RSSBasedDocumentFormatP", "ItemContext"]
+- !private ["4Plot22RSSBasedDocumentFormatP", "dateFormatter"]
+- !private ["Sk", "render"]
+- !private ["Sm", "init"]
+- !private ["Sm", "render"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- ["4Plot10RenderableP", "BodyContext"]
+- !private ["4Plot10RenderableP", "Element"]
+- ["4Plot10RenderableP", "GUIDContext"]
+- ["4Plot10RenderableP", "ItemContext"]
+- !private ["4Plot10RenderableP", "Node"]
+- !private ["4Plot10RenderableP", "RSS"]
+- !private ["4Plot10RenderableP", "String"]
+- !private ["4Plot10RenderableP", "content"]
+- !private ["4Plot10RenderableP", "dateFormatter"]
+- !private ["4Plot10RenderableP", "element"]
+- !private ["4Plot10RenderableP", "init"]
+- !private ["4Plot10RenderableP", "raw"]
+- !private ["4Plot10RenderableP", "render"]
+- !private ["4Plot10RenderableP", "selfClosedElement"]
+- !private ["ST", "init"]
+- !private ["ST", "render"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation8TimeZoneV", "current"]
+- !private ["4Plot16URLRepresentableP", "init"]
+- !private ["4Plot16URLRepresentableP", "string"]
+- !private ["s14_ArrayProtocolP", "render"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "render"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "render"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "render"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "render"]
+depends-nominal:
+- !private "4Plot12AnyAttributeP"
+- !private "4Plot7AnyNodeP"
+- !private "Sa"
+- !private "4Plot9AttributeV"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "4Plot7ElementV11ClosingModeO"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "4Plot14DocumentFormatP"
+- "4Plot7ElementV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11NSFormatterC"
+- "4Plot4HTMLV"
+- !private "SH"
+- !private "4Plot8LanguageO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "4Plot4NodeO"
+- !private "4Plot15NodeConvertibleP"
+- "4Plot3RSSV"
+- "4Plot22RSSBasedDocumentFormatP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "4Plot10RenderableP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "4Plot16URLRepresentableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0e245596412b50502535ecf04b4ec6fc"

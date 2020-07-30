@@ -1,0 +1,295 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PublishingError"
+- "PublishingErrorConvertible"
+provides-nominal:
+- "7Publish15PublishingErrorV"
+- "7Publish26PublishingErrorConvertibleP"
+provides-member:
+- ["7Publish15PublishingErrorV", ""]
+- ["7Publish26PublishingErrorConvertibleP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CustomStringConvertible"
+- "Equatable"
+- "Error"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "LocalizedError"
+- "Path"
+- "PublishingError"
+- "PublishingErrorConvertible"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["Sl", "append"]
+- !private ["SL", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "errorDescription"]
+- ["s23CustomStringConvertibleP", "failureReason"]
+- ["s23CustomStringConvertibleP", "helpAnchor"]
+- !private ["s23CustomStringConvertibleP", "infoMessage"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- ["s23CustomStringConvertibleP", "publishingError"]
+- ["s23CustomStringConvertibleP", "recoverySuggestion"]
+- !private ["s23CustomStringConvertibleP", "stepName"]
+- !private ["s23CustomStringConvertibleP", "underlyingErrorMessage"]
+- !private ["Se", "append"]
+- !private ["Se", "map"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "append"]
+- ["SQ", "description"]
+- ["SQ", "errorDescription"]
+- ["SQ", "failureReason"]
+- ["SQ", "helpAnchor"]
+- !private ["SQ", "infoMessage"]
+- !private ["SQ", "map"]
+- !private ["SQ", "path"]
+- ["SQ", "publishingError"]
+- ["SQ", "recoverySuggestion"]
+- !private ["SQ", "stepName"]
+- !private ["SQ", "underlyingErrorMessage"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "failureReason"]
+- ["s5ErrorP", "helpAnchor"]
+- !private ["s5ErrorP", "infoMessage"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s5ErrorP", "path"]
+- ["s5ErrorP", "publishingError"]
+- ["s5ErrorP", "recoverySuggestion"]
+- !private ["s5ErrorP", "stepName"]
+- !private ["s5ErrorP", "underlyingErrorMessage"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s32ExpressibleByStringInterpolationP", "append"]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- !private ["SH", "append"]
+- !private ["SH", "map"]
+- ["10Foundation14LocalizedErrorP", "=="]
+- ["10Foundation14LocalizedErrorP", ""]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- ["10Foundation14LocalizedErrorP", "description"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- !private ["10Foundation14LocalizedErrorP", "infoMessage"]
+- !private ["10Foundation14LocalizedErrorP", "path"]
+- ["10Foundation14LocalizedErrorP", "publishingError"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- !private ["10Foundation14LocalizedErrorP", "stepName"]
+- !private ["10Foundation14LocalizedErrorP", "underlyingErrorMessage"]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- !private ["s10MirrorPathP", "append"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So19NSPasteboardReadingP", "append"]
+- !private ["So19NSPasteboardWritingP", "append"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So8NSStringC", "append"]
+- !private ["Sq", "map"]
+- ["7Publish4PathV", "deinit"]
+- ["7Publish15PublishingErrorV", "=="]
+- ["7Publish15PublishingErrorV", "Error"]
+- ["7Publish15PublishingErrorV", "Path"]
+- ["7Publish15PublishingErrorV", "PublishingError"]
+- ["7Publish15PublishingErrorV", "String"]
+- ["7Publish15PublishingErrorV", "__derived_struct_equals"]
+- ["7Publish15PublishingErrorV", "_code"]
+- ["7Publish15PublishingErrorV", "_domain"]
+- ["7Publish15PublishingErrorV", "_getEmbeddedNSError"]
+- ["7Publish15PublishingErrorV", "_userInfo"]
+- ["7Publish15PublishingErrorV", "deinit"]
+- ["7Publish15PublishingErrorV", "description"]
+- ["7Publish15PublishingErrorV", "errorDescription"]
+- ["7Publish15PublishingErrorV", "failureReason"]
+- ["7Publish15PublishingErrorV", "helpAnchor"]
+- ["7Publish15PublishingErrorV", "infoMessage"]
+- ["7Publish15PublishingErrorV", "init"]
+- ["7Publish15PublishingErrorV", "path"]
+- ["7Publish15PublishingErrorV", "publishingError"]
+- ["7Publish15PublishingErrorV", "recoverySuggestion"]
+- ["7Publish15PublishingErrorV", "stepName"]
+- ["7Publish15PublishingErrorV", "underlyingErrorMessage"]
+- ["7Publish26PublishingErrorConvertibleP", "=="]
+- ["7Publish26PublishingErrorConvertibleP", "PublishingError"]
+- ["7Publish26PublishingErrorConvertibleP", "String"]
+- ["7Publish26PublishingErrorConvertibleP", ""]
+- ["7Publish26PublishingErrorConvertibleP", "_code"]
+- ["7Publish26PublishingErrorConvertibleP", "_domain"]
+- ["7Publish26PublishingErrorConvertibleP", "_getEmbeddedNSError"]
+- ["7Publish26PublishingErrorConvertibleP", "_userInfo"]
+- ["7Publish26PublishingErrorConvertibleP", "description"]
+- ["7Publish26PublishingErrorConvertibleP", "errorDescription"]
+- ["7Publish26PublishingErrorConvertibleP", "failureReason"]
+- ["7Publish26PublishingErrorConvertibleP", "helpAnchor"]
+- !private ["7Publish26PublishingErrorConvertibleP", "infoMessage"]
+- !private ["7Publish26PublishingErrorConvertibleP", "path"]
+- ["7Publish26PublishingErrorConvertibleP", "publishingError"]
+- ["7Publish26PublishingErrorConvertibleP", "recoverySuggestion"]
+- !private ["7Publish26PublishingErrorConvertibleP", "stepName"]
+- !private ["7Publish26PublishingErrorConvertibleP", "underlyingErrorMessage"]
+- !private ["Sm", "append"]
+- !private ["ST", "append"]
+- !private ["SS", "append"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "append"]
+- !private ["s16TextOutputStreamP", "append"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "append"]
+- !private ["4Plot16URLRepresentableP", "append"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- "7Publish4PathV"
+- "7Publish15PublishingErrorV"
+- "7Publish26PublishingErrorConvertibleP"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "4Plot16URLRepresentableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9f6f0e1677a20b5ca04f158f086f9421"

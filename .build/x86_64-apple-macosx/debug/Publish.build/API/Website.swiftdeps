@@ -1,0 +1,467 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebsiteSectionID"
+- "WebsiteItemMetadata"
+- "Website"
+provides-nominal:
+- "7Publish16WebsiteSectionIDP"
+- "7Publish7WebsiteP"
+provides-member:
+- ["7Publish16WebsiteSectionIDP", ""]
+- ["7Publish7WebsiteP", ""]
+- ["7Publish7WebsiteP", "favicon"]
+- ["7Publish7WebsiteP", "tagHTMLConfig"]
+- ["7Publish7WebsiteP", "publish"]
+- ["7Publish7WebsiteP", "publish"]
+- ["7Publish7WebsiteP", "tagListPath"]
+- ["7Publish7WebsiteP", "path"]
+- ["7Publish7WebsiteP", "path"]
+- ["7Publish7WebsiteP", "url"]
+- ["7Publish7WebsiteP", "url"]
+- ["7Publish7WebsiteP", "url"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "??"
+- "CaseIterable"
+- "Decodable"
+- "DeploymentMethod"
+- "Favicon"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Indentation"
+- !private "IntegerLiteralType"
+- "Language"
+- "Location"
+- "Path"
+- "Plugin"
+- "PublishedWebsite"
+- !private "PublishingPipeline"
+- "PublishingStep"
+- "RSSFeedConfiguration"
+- "RawRepresentable"
+- "Set"
+- "StaticString"
+- "String"
+- "StringLiteralType"
+- "Tag"
+- "TagHTMLConfiguration"
+- "Theme"
+- "URL"
+- "Website"
+- "WebsiteItemMetadata"
+- "WebsiteSectionID"
+depends-member:
+- !private ["7Publish7AnyItemP", "date"]
+- !private ["Sa", "map"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- ["s12CaseIterableP", "RawValue"]
+- ["s12CaseIterableP", "String"]
+- ["s12CaseIterableP", ""]
+- !private ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "rawValue"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["SL", "appendingComponent"]
+- !private ["SL", "defaultForTagHTML"]
+- !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["SL", "normalizedString"]
+- !private ["SL", "string"]
+- !private ["7Publish15ContentProtocolP", "date"]
+- !private ["7Publish15ContentProtocolP", "path"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultForTagHTML"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "default"]
+- !private ["s17CustomReflectableP", "defaultForTagHTML"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "Kind"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendingComponent"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "defaultForTagHTML"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "normalizedString"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "Kind"]
+- ["Se", "RawValue"]
+- ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "allCases"]
+- !private ["Se", "appendingComponent"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "default"]
+- !private ["Se", "defaultForTagHTML"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "normalizedString"]
+- !private ["Se", "rawValue"]
+- !private ["Se", "string"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "Kind"]
+- !private ["SE", "appendingComponent"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "default"]
+- !private ["SE", "defaultForTagHTML"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "normalizedString"]
+- !private ["SE", "string"]
+- ["SQ", "Kind"]
+- ["SQ", "RawValue"]
+- ["SQ", "String"]
+- !private ["SQ", "allCases"]
+- !private ["SQ", "appendingComponent"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "date"]
+- !private ["SQ", "default"]
+- !private ["SQ", "defaultForTagHTML"]
+- !private ["SQ", "descending"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "map"]
+- !private ["SQ", "normalizedString"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "string"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appendingComponent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "defaultForTagHTML"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "normalizedString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "default"]
+- !private ["s23ExpressibleByNilLiteralP", "defaultForTagHTML"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "appendingComponent"]
+- !private ["s32ExpressibleByStringInterpolationP", "defaultForTagHTML"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "normalizedString"]
+- !private ["s32ExpressibleByStringInterpolationP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "appendingComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "defaultForTagHTML"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "normalizedString"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "appendingComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "defaultForTagHTML"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "normalizedString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["7Publish7FaviconV", "init"]
+- !private ["7Publish17FeedConfigurationP", "default"]
+- ["SH", "RawValue"]
+- ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "allCases"]
+- !private ["SH", "appendingComponent"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "date"]
+- !private ["SH", "default"]
+- !private ["SH", "defaultForTagHTML"]
+- !private ["SH", "descending"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "normalizedString"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "string"]
+- ["4Plot11IndentationV", "Kind"]
+- !private ["7Publish4ItemV", "date"]
+- !private ["7Publish4ItemV", "deinit"]
+- !private ["7Publish8LocationP", "date"]
+- !private ["7Publish8LocationP", "path"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So19NSPasteboardReadingP", "isEmpty"]
+- !private ["So19NSPasteboardWritingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["Sq", "default"]
+- !private ["Sq", "defaultForTagHTML"]
+- !private ["Sq", "init"]
+- !private ["7Publish4PathV", "appendingComponent"]
+- !private ["7Publish4PathV", "defaultForTagHTML"]
+- !private ["7Publish4PathV", "deinit"]
+- !private ["7Publish4PathV", "init"]
+- !private ["7Publish4PathV", "string"]
+- !private ["7Publish18PublishingPipelineV", "execute"]
+- !private ["7Publish18PublishingPipelineV", "init"]
+- !private ["7Publish14PublishingStepV", "addMarkdownFiles"]
+- !private ["7Publish14PublishingStepV", "copyResources"]
+- !private ["7Publish14PublishingStepV", "deploy"]
+- !private ["7Publish14PublishingStepV", "generateHTML"]
+- !private ["7Publish14PublishingStepV", "generateRSSFeed"]
+- !private ["7Publish14PublishingStepV", "generateSiteMap"]
+- !private ["7Publish14PublishingStepV", "group"]
+- !private ["7Publish14PublishingStepV", "installPlugin"]
+- !private ["7Publish14PublishingStepV", "optional"]
+- !private ["7Publish14PublishingStepV", "sortItems"]
+- !private ["7Publish14PublishingStepV", "unwrap"]
+- !private ["7Publish20RSSFeedConfigurationV", "default"]
+- !private ["Sk", "map"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- ["SY", "RawValue"]
+- ["SY", "String"]
+- ["SY", ""]
+- !private ["SY", "allCases"]
+- !private ["SY", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "callAsFunction"]
+- !private ["4Plot10RenderableP", "map"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["Sh", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["7Publish9SortOrderO", "descending"]
+- !private ["SS", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "isEmpty"]
+- !private ["7Publish13StringWrapperP", "appendingComponent"]
+- !private ["7Publish13StringWrapperP", "defaultForTagHTML"]
+- !private ["7Publish13StringWrapperP", "init"]
+- !private ["7Publish13StringWrapperP", "normalizedString"]
+- !private ["7Publish13StringWrapperP", "string"]
+- !private ["7Publish3TagV", "normalizedString"]
+- !private ["7Publish20TagHTMLConfigurationV", "basePath"]
+- !private ["7Publish20TagHTMLConfigurationV", "default"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "callAsFunction"]
+- !private ["4Plot16URLRepresentableP", "appendingPathComponent"]
+- !private ["4Plot16URLRepresentableP", "callAsFunction"]
+- !private ["4Plot16URLRepresentableP", "isEmpty"]
+- ["7Publish7WebsiteP", "DeploymentMethod"]
+- ["7Publish7WebsiteP", "Favicon"]
+- ["7Publish7WebsiteP", "Indentation"]
+- ["7Publish7WebsiteP", "ItemMetadata"]
+- ["7Publish7WebsiteP", "Language"]
+- ["7Publish7WebsiteP", "Location"]
+- ["7Publish7WebsiteP", "Path"]
+- ["7Publish7WebsiteP", "Plugin"]
+- ["7Publish7WebsiteP", "PublishedWebsite"]
+- !private ["7Publish7WebsiteP", "PublishingPipeline"]
+- ["7Publish7WebsiteP", "PublishingStep"]
+- ["7Publish7WebsiteP", "RSSFeedConfiguration"]
+- ["7Publish7WebsiteP", "SectionID"]
+- ["7Publish7WebsiteP", "Set"]
+- ["7Publish7WebsiteP", "StaticString"]
+- ["7Publish7WebsiteP", "String"]
+- ["7Publish7WebsiteP", "Tag"]
+- ["7Publish7WebsiteP", "TagHTMLConfiguration"]
+- ["7Publish7WebsiteP", "Theme"]
+- ["7Publish7WebsiteP", "URL"]
+- ["7Publish7WebsiteP", "WebsiteItemMetadata"]
+- ["7Publish7WebsiteP", "WebsiteSectionID"]
+- ["7Publish7WebsiteP", "description"]
+- ["7Publish7WebsiteP", "favicon"]
+- ["7Publish7WebsiteP", "imagePath"]
+- ["7Publish7WebsiteP", "language"]
+- ["7Publish7WebsiteP", "name"]
+- ["7Publish7WebsiteP", "path"]
+- ["7Publish7WebsiteP", "publish"]
+- ["7Publish7WebsiteP", "tagHTMLConfig"]
+- ["7Publish7WebsiteP", "tagListPath"]
+- ["7Publish7WebsiteP", "url"]
+- ["7Publish16WebsiteSectionIDP", "RawValue"]
+- ["7Publish16WebsiteSectionIDP", "String"]
+- !private ["7Publish16WebsiteSectionIDP", "allCases"]
+- !private ["7Publish16WebsiteSectionIDP", "rawValue"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "callAsFunction"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "default"]
+- !private ["s21_ObjectiveCBridgeableP", "defaultForTagHTML"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "7Publish7AnyItemP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s12CaseIterableP"
+- !private "Sl"
+- !private "SL"
+- !private "7Publish15ContentProtocolP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Publish7FaviconV"
+- !private "7Publish17FeedConfigurationP"
+- "SH"
+- "4Plot11IndentationV"
+- !private "7Publish4ItemV"
+- !private "7Publish8LocationP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "7Publish4PathV"
+- !private "7Publish18PublishingPipelineV"
+- !private "7Publish14PublishingStepV"
+- !private "7Publish20RSSFeedConfigurationV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Plot10RenderableP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "7Publish9SortOrderO"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "7Publish13StringWrapperP"
+- !private "7Publish3TagV"
+- !private "7Publish20TagHTMLConfigurationV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "4Plot16URLRepresentableP"
+- "7Publish7WebsiteP"
+- "7Publish16WebsiteSectionIDP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1c092d03ee26ce0df62b549685fcb54a"

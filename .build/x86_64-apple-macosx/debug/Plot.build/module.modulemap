@@ -1,0 +1,4 @@
+module Plot {
+    header "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Plot-Swift.h"
+    requires objc
+}

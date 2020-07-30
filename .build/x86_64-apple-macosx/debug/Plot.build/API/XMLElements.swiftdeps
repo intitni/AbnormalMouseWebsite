@@ -1,0 +1,118 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["4Plot7ElementV", ""]
+- ["4Plot7ElementV", "xml"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Attribute"
+- "Element"
+- !private "ExtendedGraphemeClusterType"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "XML"
+- "XMLRootContext"
+depends-member:
+- !private ["Sa", "asNodes"]
+- !private ["4Plot9AttributeV", "deinit"]
+- !private ["SK", "asNodes"]
+- !private ["s7CVarArgP", "asNodes"]
+- !private ["4Plot7ElementV11ClosingModeO", "neverClosed"]
+- !private ["Sl", "asNodes"]
+- !private ["10Foundation15ContiguousBytesP", "asNodes"]
+- !private ["s28CustomDebugStringConvertibleP", "asNodes"]
+- !private ["s17CustomReflectableP", "asNodes"]
+- !private ["s23CustomStringConvertibleP", "asNodes"]
+- !private ["10Foundation12DataProtocolP", "asNodes"]
+- !private ["Se", "asNodes"]
+- ["4Plot14DocumentFormatP", "DeclarationContext"]
+- ["4Plot7ElementV", "Attribute"]
+- ["4Plot7ElementV", "Element"]
+- ["4Plot7ElementV", "XML"]
+- ["4Plot7ElementV", "XMLRootContext"]
+- !private ["4Plot7ElementV", "init"]
+- ["4Plot7ElementV", "xml"]
+- !private ["SE", "asNodes"]
+- !private ["SQ", "asNodes"]
+- !private ["SQ", "neverClosed"]
+- !private ["s25ExpressibleByArrayLiteralP", "asNodes"]
+- !private ["SH", "asNodes"]
+- !private ["SH", "neverClosed"]
+- !private ["SM", "asNodes"]
+- !private ["10Foundation19MutableDataProtocolP", "asNodes"]
+- !private ["Sk", "asNodes"]
+- !private ["Sm", "asNodes"]
+- ["4Plot10RenderableP", "DeclarationContext"]
+- !private ["4Plot10RenderableP", "Element"]
+- !private ["4Plot10RenderableP", "asNodes"]
+- !private ["4Plot10RenderableP", "init"]
+- !private ["ST", "asNodes"]
+- ["4Plot3XMLV", "DeclarationContext"]
+- !private ["s14_ArrayProtocolP", "asNodes"]
+- !private ["s24_DestructorSafeContainerP", "asNodes"]
+- !private ["s19_HasContiguousBytesP", "asNodes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asNodes"]
+- !private ["s21_ObjectiveCBridgeableP", "asNodes"]
+depends-nominal:
+- !private "Sa"
+- !private "4Plot9AttributeV"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "4Plot7ElementV11ClosingModeO"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "4Plot14DocumentFormatP"
+- "4Plot7ElementV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "4Plot10RenderableP"
+- !private "ST"
+- "4Plot3XMLV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "242dca18b048766e432cdf7e91ed5194"

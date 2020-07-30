@@ -1,0 +1,269 @@
+{
+  "": {
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/master.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/Attribute.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Attribute.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Attribute.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Attribute~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Attribute.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/ControlFlow.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/ControlFlow.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/ControlFlow.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/ControlFlow~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/ControlFlow.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/Document.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Document.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Document.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Document~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Document.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/DocumentEncoding.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/DocumentEncoding.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/DocumentEncoding.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/DocumentEncoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/DocumentEncoding.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/Element.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Element.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Element.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Element~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Element.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTML.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTML.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTML.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTML~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTML.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLAnchorRelationship.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorRelationship.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorRelationship.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorRelationship~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorRelationship.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLAnchorTarget.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorTarget.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorTarget.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorTarget~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAnchorTarget.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLAttributes.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAttributes.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAttributes.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAttributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAttributes.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLAudioFormat.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAudioFormat.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAudioFormat.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAudioFormat~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLAudioFormat.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLComponents.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLComponents.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLComponents.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLComponents~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLComponents.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLElements.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLElements.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLElements.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLElements~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLElements.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLFormContentType.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormContentType.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormContentType.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormContentType~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormContentType.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLFormMethod.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormMethod.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormMethod.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormMethod~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLFormMethod.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLInputType.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLInputType.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLInputType.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLInputType~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLInputType.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLLinkRelationship.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLLinkRelationship.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLLinkRelationship.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLLinkRelationship~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLLinkRelationship.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLVideoFormat.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLVideoFormat.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLVideoFormat.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLVideoFormat~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLVideoFormat.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/HTMLViewportWidthMode.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLViewportWidthMode.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLViewportWidthMode.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLViewportWidthMode~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/HTMLViewportWidthMode.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/Indentation.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Indentation.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Indentation.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Indentation~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Indentation.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/Language.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Language.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Language.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Language~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Language.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/Node.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Node.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Node.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Node.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/PodcastAttributes.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastAttributes.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastAttributes.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastAttributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastAttributes.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/PodcastComponents.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastComponents.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastComponents.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastComponents~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastComponents.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/PodcastElements.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastElements.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastElements.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastElements~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastElements.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/PodcastEpisodeType.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastEpisodeType.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastEpisodeType.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastEpisodeType~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastEpisodeType.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/PodcastFeed.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastFeed.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastFeed.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastFeed~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastFeed.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/PodcastMediaType.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastMediaType.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastMediaType.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastMediaType~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastMediaType.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/PodcastType.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastType.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastType.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastType~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/PodcastType.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/RSS.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSS.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSS.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSS~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSS.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/RSSAttributes.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSAttributes.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSAttributes.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSAttributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSAttributes.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/RSSElements.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSElements.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSElements.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSElements~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/RSSElements.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/Renderable.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Renderable.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Renderable.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Renderable~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/Renderable.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/SiteMap.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMap.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMap.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMap~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMap.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/SiteMapChangeFrequency.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapChangeFrequency.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapChangeFrequency.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapChangeFrequency~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapChangeFrequency.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/SiteMapElements.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapElements.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapElements.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapElements~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/SiteMapElements.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/TwitterCardType.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/TwitterCardType.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/TwitterCardType.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/TwitterCardType~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/TwitterCardType.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/URLRepresentable.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/URLRepresentable.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/URLRepresentable.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/URLRepresentable~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/URLRepresentable.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/XML.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XML.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XML.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XML~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XML.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/XMLAttributes.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLAttributes.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLAttributes.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLAttributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLAttributes.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/API/XMLElements.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLElements.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLElements.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLElements~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/API/XMLElements.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/Internal/AnyNode.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/AnyNode.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/AnyNode.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/AnyNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/AnyNode.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/Internal/ElementRenderer.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/ElementRenderer.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/ElementRenderer.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/ElementRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/ElementRenderer.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/Internal/NodeConvertible.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/NodeConvertible.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/NodeConvertible.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/NodeConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/NodeConvertible.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/plot/Sources/Plot/Internal/String+Escaping.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/String+Escaping.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/String+Escaping.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/String+Escaping~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/Internal/String+Escaping.swiftdeps"
+  }
+}

@@ -1,0 +1,233 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PodcastFeed"
+- "PodcastCategoryContext"
+- "PodcastContentContext"
+- "PodcastNameableContext"
+provides-nominal:
+- "4Plot11PodcastFeedV"
+- "4Plot11PodcastFeedV11RootContextO"
+- "4Plot11PodcastFeedV0C7ContextO"
+- "4Plot11PodcastFeedV14ChannelContextO"
+- "4Plot11PodcastFeedV15CategoryContextO"
+- "4Plot11PodcastFeedV16EnclosureContextO"
+- "4Plot11PodcastFeedV11ItemContextO"
+- "4Plot11PodcastFeedV12MediaContextO"
+- "4Plot11PodcastFeedV12OwnerContextO"
+- "4Plot22PodcastCategoryContextP"
+- "4Plot21PodcastContentContextP"
+- "4Plot22PodcastNameableContextP"
+provides-member:
+- ["4Plot11PodcastFeedV", ""]
+- ["4Plot11PodcastFeedV11RootContextO", ""]
+- ["4Plot11PodcastFeedV0C7ContextO", ""]
+- ["4Plot11PodcastFeedV14ChannelContextO", ""]
+- ["4Plot11PodcastFeedV15CategoryContextO", ""]
+- ["4Plot11PodcastFeedV16EnclosureContextO", ""]
+- ["4Plot11PodcastFeedV11ItemContextO", ""]
+- ["4Plot11PodcastFeedV12MediaContextO", ""]
+- ["4Plot11PodcastFeedV12OwnerContextO", ""]
+- ["4Plot22PodcastCategoryContextP", ""]
+- ["4Plot21PodcastContentContextP", ""]
+- ["4Plot22PodcastNameableContextP", ""]
+- ["4Plot11PodcastFeedV", "RootContext"]
+- ["4Plot11PodcastFeedV", "FeedContext"]
+- ["4Plot11PodcastFeedV", "ChannelContext"]
+- ["4Plot11PodcastFeedV", "CategoryContext"]
+- ["4Plot11PodcastFeedV", "EnclosureContext"]
+- ["4Plot11PodcastFeedV", "ItemContext"]
+- ["4Plot11PodcastFeedV", "MediaContext"]
+- ["4Plot11PodcastFeedV", "OwnerContext"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Document"
+- "Indentation"
+- "Node"
+- "PodcastCategoryContext"
+- "PodcastContentContext"
+- "PodcastFeed"
+- "PodcastNameableContext"
+- "RSSBasedDocumentFormat"
+- "RSSChannelContext"
+- "RSSContentContext"
+- "RSSFeedContext"
+- "RSSItemContext"
+- "RSSRootContext"
+- "Renderable"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["4Plot7AnyNodeP", "channel"]
+- !private ["4Plot7AnyNodeP", "group"]
+- !private ["4Plot7AnyNodeP", "namespace"]
+- ["4Plot11PodcastFeedV15CategoryContextO", "deinit"]
+- ["4Plot11PodcastFeedV14ChannelContextO", "ItemContext"]
+- ["4Plot11PodcastFeedV14ChannelContextO", "PodcastFeed"]
+- ["4Plot11PodcastFeedV14ChannelContextO", "deinit"]
+- ["s23CustomStringConvertibleP", "Kind"]
+- ["Se", "Kind"]
+- !private ["4Plot8DocumentV", "deinit"]
+- !private ["4Plot8DocumentV", "feed"]
+- !private ["4Plot8DocumentV", "render"]
+- ["4Plot14DocumentFormatP", "ChannelContext"]
+- ["4Plot14DocumentFormatP", "FeedContext"]
+- ["4Plot14DocumentFormatP", "IndentationType"]
+- ["4Plot14DocumentFormatP", "ItemContext"]
+- ["4Plot14DocumentFormatP", "RootContext"]
+- ["4Plot14DocumentFormatP", ""]
+- ["4Plot14DocumentFormatP", "_Default_IndentationType"]
+- !private ["4Plot14DocumentFormatP", "document"]
+- ["4Plot14DocumentFormatP", "render"]
+- ["SE", "Kind"]
+- ["SQ", "Kind"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "channel"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "group"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "namespace"]
+- !private ["s32ExpressibleByStringInterpolationP", "channel"]
+- !private ["s32ExpressibleByStringInterpolationP", "group"]
+- !private ["s32ExpressibleByStringInterpolationP", "namespace"]
+- !private ["s26ExpressibleByStringLiteralP", "channel"]
+- !private ["s26ExpressibleByStringLiteralP", "group"]
+- !private ["s26ExpressibleByStringLiteralP", "namespace"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "channel"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "group"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "namespace"]
+- ["4Plot11PodcastFeedV0C7ContextO", "ChannelContext"]
+- ["4Plot11PodcastFeedV0C7ContextO", "PodcastFeed"]
+- ["4Plot11PodcastFeedV0C7ContextO", "deinit"]
+- ["4Plot11IndentationV", "Kind"]
+- ["4Plot11PodcastFeedV11ItemContextO", "deinit"]
+- !private ["4Plot4NodeO", "channel"]
+- !private ["4Plot4NodeO", "group"]
+- !private ["4Plot4NodeO", "namespace"]
+- ["4Plot11PodcastFeedV12OwnerContextO", "deinit"]
+- ["4Plot22PodcastCategoryContextP", "ItemContext"]
+- ["4Plot22PodcastCategoryContextP", ""]
+- ["4Plot21PodcastContentContextP", "ItemContext"]
+- ["4Plot21PodcastContentContextP", ""]
+- ["4Plot11PodcastFeedV", "CategoryContext"]
+- ["4Plot11PodcastFeedV", "ChannelContext"]
+- ["4Plot11PodcastFeedV", "Document"]
+- ["4Plot11PodcastFeedV", "EnclosureContext"]
+- ["4Plot11PodcastFeedV", "FeedContext"]
+- ["4Plot11PodcastFeedV", "Indentation"]
+- ["4Plot11PodcastFeedV", "IndentationType"]
+- ["4Plot11PodcastFeedV", "ItemContext"]
+- ["4Plot11PodcastFeedV", "MediaContext"]
+- ["4Plot11PodcastFeedV", "Node"]
+- ["4Plot11PodcastFeedV", "OwnerContext"]
+- ["4Plot11PodcastFeedV", "PodcastCategoryContext"]
+- ["4Plot11PodcastFeedV", "PodcastContentContext"]
+- ["4Plot11PodcastFeedV", "PodcastFeed"]
+- ["4Plot11PodcastFeedV", "PodcastNameableContext"]
+- ["4Plot11PodcastFeedV", "RSSChannelContext"]
+- ["4Plot11PodcastFeedV", "RSSFeedContext"]
+- ["4Plot11PodcastFeedV", "RSSItemContext"]
+- ["4Plot11PodcastFeedV", "RSSRootContext"]
+- ["4Plot11PodcastFeedV", "RootContext"]
+- ["4Plot11PodcastFeedV", "String"]
+- ["4Plot11PodcastFeedV", "_Default_IndentationType"]
+- ["4Plot11PodcastFeedV", "deinit"]
+- !private ["4Plot11PodcastFeedV", "document"]
+- ["4Plot11PodcastFeedV", "init"]
+- ["4Plot11PodcastFeedV", "render"]
+- ["4Plot22PodcastNameableContextP", "ItemContext"]
+- ["4Plot22PodcastNameableContextP", ""]
+- ["4Plot22RSSBasedDocumentFormatP", "ChannelContext"]
+- ["4Plot22RSSBasedDocumentFormatP", "FeedContext"]
+- ["4Plot22RSSBasedDocumentFormatP", "IndentationType"]
+- ["4Plot22RSSBasedDocumentFormatP", "ItemContext"]
+- ["4Plot22RSSBasedDocumentFormatP", "RootContext"]
+- ["4Plot22RSSBasedDocumentFormatP", ""]
+- ["4Plot22RSSBasedDocumentFormatP", "_Default_IndentationType"]
+- !private ["4Plot22RSSBasedDocumentFormatP", "document"]
+- ["4Plot22RSSBasedDocumentFormatP", "render"]
+- ["4Plot17RSSChannelContextP", "ItemContext"]
+- ["4Plot17RSSChannelContextP", ""]
+- ["4Plot17RSSContentContextP", "ItemContext"]
+- ["4Plot17RSSContentContextP", ""]
+- ["4Plot14RSSFeedContextP", "ChannelContext"]
+- ["4Plot14RSSFeedContextP", ""]
+- ["4Plot14RSSItemContextP", ""]
+- ["4Plot14RSSRootContextP", ""]
+- ["4Plot10RenderableP", "ChannelContext"]
+- ["4Plot10RenderableP", "FeedContext"]
+- ["4Plot10RenderableP", "IndentationType"]
+- ["4Plot10RenderableP", "ItemContext"]
+- ["4Plot10RenderableP", "RootContext"]
+- ["4Plot10RenderableP", ""]
+- ["4Plot10RenderableP", "_Default_IndentationType"]
+- !private ["4Plot10RenderableP", "channel"]
+- !private ["4Plot10RenderableP", "document"]
+- !private ["4Plot10RenderableP", "feed"]
+- !private ["4Plot10RenderableP", "group"]
+- !private ["4Plot10RenderableP", "namespace"]
+- ["4Plot10RenderableP", "render"]
+- ["4Plot11PodcastFeedV11RootContextO", "deinit"]
+- !private ["SS", "deinit"]
+- ["4Plot14XMLRootContextP", ""]
+depends-nominal:
+- !private "4Plot7AnyNodeP"
+- "4Plot11PodcastFeedV15CategoryContextO"
+- "4Plot11PodcastFeedV14ChannelContextO"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "4Plot8DocumentV"
+- "4Plot14DocumentFormatP"
+- "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "4Plot11PodcastFeedV0C7ContextO"
+- "4Plot11IndentationV"
+- "4Plot11PodcastFeedV11ItemContextO"
+- !private "4Plot4NodeO"
+- "4Plot11PodcastFeedV12OwnerContextO"
+- "4Plot22PodcastCategoryContextP"
+- "4Plot21PodcastContentContextP"
+- "4Plot11PodcastFeedV"
+- "4Plot22PodcastNameableContextP"
+- "4Plot22RSSBasedDocumentFormatP"
+- "4Plot17RSSChannelContextP"
+- "4Plot17RSSContentContextP"
+- "4Plot14RSSFeedContextP"
+- "4Plot14RSSItemContextP"
+- "4Plot14RSSRootContextP"
+- "4Plot10RenderableP"
+- "4Plot11PodcastFeedV11RootContextO"
+- !private "SS"
+- "4Plot14XMLRootContextP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "66a07aa945fbd762027afef5340024e7"

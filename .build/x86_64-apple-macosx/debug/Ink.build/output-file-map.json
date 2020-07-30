@@ -1,0 +1,209 @@
+{
+  "": {
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/master.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/API/Markdown.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Markdown.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Markdown.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Markdown~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Markdown.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/API/MarkdownParser.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/MarkdownParser.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/MarkdownParser.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/MarkdownParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/MarkdownParser.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/API/Modifier.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Modifier.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Modifier.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Modifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/API/Modifier.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Blockquote.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Blockquote.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Blockquote.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Blockquote~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Blockquote.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Character+Classification.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Classification.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Classification.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Classification~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Classification.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Character+Escaping.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Escaping.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Escaping.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Escaping~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Character+Escaping.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/CodeBlock.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/CodeBlock.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/CodeBlock.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/CodeBlock~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/CodeBlock.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/FormattedText.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/FormattedText.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/FormattedText.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/FormattedText~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/FormattedText.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Fragment.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Fragment.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Fragment.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Fragment~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Fragment.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/HTML.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTML.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTML.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTML~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTML.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/HTMLConvertible.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTMLConvertible.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTMLConvertible.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTMLConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HTMLConvertible.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Hashable+AnyOf.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Hashable+AnyOf.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Hashable+AnyOf.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Hashable+AnyOf~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Hashable+AnyOf.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Heading.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Heading.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Heading.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Heading~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Heading.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/HorizontalLine.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HorizontalLine.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HorizontalLine.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HorizontalLine~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/HorizontalLine.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Image.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Image.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Image.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Image~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Image.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/InlineCode.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/InlineCode.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/InlineCode.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/InlineCode~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/InlineCode.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/KeyPathPatterns.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/KeyPathPatterns.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/KeyPathPatterns.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/KeyPathPatterns~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/KeyPathPatterns.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Link.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Link.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Link.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Link~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Link.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/List.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/List.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/List.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/List~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/List.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Metadata.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Metadata.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Metadata.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Metadata~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Metadata.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Modifiable.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Modifiable.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Modifiable.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Modifiable~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Modifiable.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/ModifierCollection.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/ModifierCollection.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/ModifierCollection.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/ModifierCollection~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/ModifierCollection.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/NamedURLCollection.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/NamedURLCollection.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/NamedURLCollection.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/NamedURLCollection~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/NamedURLCollection.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Paragraph.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Paragraph.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Paragraph.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Paragraph~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Paragraph.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/PlainTextConvertible.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/PlainTextConvertible.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/PlainTextConvertible.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/PlainTextConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/PlainTextConvertible.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Readable.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Readable.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Readable.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Readable~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Readable.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Reader.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Reader.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Reader.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Reader~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Reader.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Require.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Require.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Require.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Require~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Require.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Substring+Trimming.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Substring+Trimming.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Substring+Trimming.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Substring+Trimming~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Substring+Trimming.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/Table.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Table.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Table.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Table~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/Table.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/TextStyle.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyle.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyle.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyle.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/TextStyleMarker.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyleMarker.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyleMarker.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyleMarker~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/TextStyleMarker.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/URL.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URL.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URL.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URL~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URL.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/ink/Sources/Ink/Internal/URLDeclaration.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URLDeclaration.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URLDeclaration.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URLDeclaration~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/Internal/URLDeclaration.swiftdeps"
+  }
+}

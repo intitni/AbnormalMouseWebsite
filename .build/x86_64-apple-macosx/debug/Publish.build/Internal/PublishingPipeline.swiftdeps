@@ -1,0 +1,445 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PublishingPipeline"
+provides-nominal:
+- "7Publish18PublishingPipelineV"
+provides-member:
+- ["7Publish18PublishingPipelineV", ""]
+- ["7Publish18PublishingPipelineV", "execute"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CommandLine"
+- !private "DistributedNotificationCenter"
+- !private "File"
+- !private "FloatLiteralType"
+- "Folder"
+- !private "IntegerLiteralType"
+- !private "Notification"
+- "Path"
+- "PublishedWebsite"
+- !private "PublishingContext"
+- !private "PublishingError"
+- !private "PublishingErrorConvertible"
+- "PublishingPipeline"
+- "PublishingStep"
+- !private "Set"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- "Website"
+- !private "~="
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "first"]
+- !private ["Sa", "flatMap"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "first"]
+- !private ["SK", "flatMap"]
+- ["7Publish14PublishingStepV4BodyO", "empty"]
+- ["7Publish14PublishingStepV4BodyO", "group"]
+- ["7Publish14PublishingStepV4BodyO", "operation"]
+- !private ["s7CVarArgP", "callAsFunction"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["s7CVarArgP", "post"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "first"]
+- !private ["Sl", "flatMap"]
+- !private ["s11CommandLineO", "arguments"]
+- !private ["s11CommandLineO", "output"]
+- !private ["SL", "string"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Group"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createSubfolderIfNeeded"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "empty"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "resolveSwiftPackageFolder"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subfolder"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "flatMap"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "first"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "string"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So31NSDistributedNotificationCenterC", "default"]
+- !private ["So31NSDistributedNotificationCenterC", "post"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "first"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "string"]
+- ["SQ", "Group"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "createSubfolderIfNeeded"]
+- !private ["SQ", "default"]
+- !private ["SQ", "deployment"]
+- !private ["SQ", "empty"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "first"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "generation"]
+- !private ["SQ", "info"]
+- !private ["SQ", "init"]
+- !private ["SQ", "post"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "resolveSwiftPackageFolder"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subfolder"]
+- !private ["SQ", "success"]
+- ["SQ", "system"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["5Files4FileV", "init"]
+- !private ["5Files4FileV", "resolveSwiftPackageFolder"]
+- ["5Files6FolderV", "Group"]
+- !private ["5Files6FolderV", "createSubfolderIfNeeded"]
+- !private ["5Files6FolderV", "empty"]
+- !private ["5Files6FolderV", "init"]
+- !private ["5Files6FolderV", "subfolder"]
+- !private ["5Files6FolderV7PublishE5GroupV", "init"]
+- !private ["SH", "Name"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- !private ["SH", "default"]
+- !private ["SH", "deployment"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "first"]
+- !private ["SH", "flatMap"]
+- !private ["SH", "generation"]
+- !private ["SH", "info"]
+- !private ["SH", "init"]
+- !private ["SH", "post"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "string"]
+- !private ["SH", "success"]
+- ["SH", "system"]
+- !private ["7Publish14PublishingStepV4KindO", "deinit"]
+- !private ["7Publish14PublishingStepV4KindO", "deployment"]
+- !private ["7Publish14PublishingStepV4KindO", "generation"]
+- !private ["7Publish14PublishingStepV4KindO", "rawValue"]
+- ["7Publish14PublishingStepV4KindO", "system"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- ["5Files8LocationP", "Group"]
+- !private ["5Files8LocationP", "createSubfolderIfNeeded"]
+- !private ["5Files8LocationP", "empty"]
+- !private ["5Files8LocationP", "init"]
+- !private ["5Files8LocationP", "resolveSwiftPackageFolder"]
+- !private ["5Files8LocationP", "subfolder"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "first"]
+- !private ["SM", "flatMap"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "flatMap"]
+- !private ["So8NSObjectC", "callAsFunction"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectP", "callAsFunction"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So18NSNotificationNamea", "init"]
+- !private ["10Foundation12NotificationV", "Name"]
+- !private ["10Foundation12NotificationV", "init"]
+- !private ["So20NSNotificationCenterC", "callAsFunction"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- !private ["s11CommandLineO7PublishE10OutputKindO", "info"]
+- !private ["s11CommandLineO7PublishE10OutputKindO", "success"]
+- !private ["7Publish4PathV", "deinit"]
+- !private ["7Publish4PathV", "string"]
+- !private ["7Publish16PublishedWebsiteV", "init"]
+- !private ["7Publish17PublishingContextV", "generationWillBegin"]
+- !private ["7Publish17PublishingContextV", "index"]
+- !private ["7Publish17PublishingContextV", "init"]
+- !private ["7Publish17PublishingContextV", "pages"]
+- !private ["7Publish17PublishingContextV", "prepareForStep"]
+- !private ["7Publish17PublishingContextV", "sections"]
+- !private ["7Publish15PublishingErrorV", "deinit"]
+- !private ["7Publish15PublishingErrorV", "init"]
+- !private ["7Publish26PublishingErrorConvertibleP", "init"]
+- !private ["7Publish26PublishingErrorConvertibleP", "publishingError"]
+- ["7Publish18PublishingPipelineV", "Bool"]
+- !private ["7Publish18PublishingPipelineV", "CommandLine"]
+- !private ["7Publish18PublishingPipelineV", "DistributedNotificationCenter"]
+- !private ["7Publish18PublishingPipelineV", "File"]
+- ["7Publish18PublishingPipelineV", "Folder"]
+- !private ["7Publish18PublishingPipelineV", "Notification"]
+- ["7Publish18PublishingPipelineV", "Path"]
+- ["7Publish18PublishingPipelineV", "PublishedWebsite"]
+- !private ["7Publish18PublishingPipelineV", "PublishingContext"]
+- !private ["7Publish18PublishingPipelineV", "PublishingError"]
+- !private ["7Publish18PublishingPipelineV", "PublishingErrorConvertible"]
+- ["7Publish18PublishingPipelineV", "PublishingStep"]
+- ["7Publish18PublishingPipelineV", "RunnableStep"]
+- !private ["7Publish18PublishingPipelineV", "Set"]
+- ["7Publish18PublishingPipelineV", "Step"]
+- ["7Publish18PublishingPipelineV", "String"]
+- ["7Publish18PublishingPipelineV", "execute"]
+- ["7Publish18PublishingPipelineV", "init"]
+- ["7Publish18PublishingPipelineV", "originFilePath"]
+- !private ["7Publish18PublishingPipelineV", "postNotification"]
+- !private ["7Publish18PublishingPipelineV", "resolveRootFolder"]
+- !private ["7Publish18PublishingPipelineV", "resolveStepKind"]
+- !private ["7Publish18PublishingPipelineV", "runnableSteps"]
+- !private ["7Publish18PublishingPipelineV", "setUpFolders"]
+- ["7Publish18PublishingPipelineV", "steps"]
+- ["7Publish14PublishingStepV", "Closure"]
+- ["7Publish14PublishingStepV", "Kind"]
+- !private ["7Publish14PublishingStepV", "body"]
+- !private ["7Publish14PublishingStepV", "kind"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "first"]
+- !private ["Sk", "flatMap"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "first"]
+- !private ["Sm", "flatMap"]
+- !private ["SY", "deployment"]
+- !private ["SY", "generation"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- ["SY", "system"]
+- !private ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["4Plot10RenderableP", "contains"]
+- !private ["4Plot10RenderableP", "count"]
+- !private ["4Plot10RenderableP", "enumerated"]
+- !private ["4Plot10RenderableP", "first"]
+- !private ["4Plot10RenderableP", "flatMap"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "first"]
+- !private ["ST", "flatMap"]
+- !private ["Sh", "contains"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["7Publish13StringWrapperP", "string"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["7Publish7WebsiteP", "name"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "flatMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "callAsFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "callAsFunction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
+- !private ["s21_ObjectiveCBridgeableP", "Name"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "7Publish14PublishingStepV4BodyO"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s11CommandLineO"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So31NSDistributedNotificationCenterC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Files4FileV"
+- "5Files6FolderV"
+- !private "5Files6FolderV7PublishE5GroupV"
+- "SH"
+- "7Publish14PublishingStepV4KindO"
+- !private "10Foundation14LocalizedErrorP"
+- "5Files8LocationP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So18NSNotificationNamea"
+- !private "10Foundation12NotificationV"
+- !private "So20NSNotificationCenterC"
+- !private "s11CommandLineO7PublishE10OutputKindO"
+- !private "7Publish4PathV"
+- !private "7Publish16PublishedWebsiteV"
+- !private "7Publish17PublishingContextV"
+- !private "7Publish15PublishingErrorV"
+- !private "7Publish26PublishingErrorConvertibleP"
+- "7Publish18PublishingPipelineV"
+- "7Publish14PublishingStepV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Plot10RenderableP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "7Publish13StringWrapperP"
+- !private "s16TextOutputStreamP"
+- !private "7Publish7WebsiteP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b739d8baac40aa2c88896e107e63d445"

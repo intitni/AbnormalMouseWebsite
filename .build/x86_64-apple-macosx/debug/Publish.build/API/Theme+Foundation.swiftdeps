@@ -1,0 +1,443 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7Publish5ThemeV", ""]
+- ["7Publish5ThemeV", "foundation"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private ">"
+- !private "FloatLiteralType"
+- !private "FoundationHTMLFactory"
+- "HTML"
+- "HTMLFactory"
+- "Index"
+- !private "IntegerLiteralType"
+- "Item"
+- "Node"
+- "Page"
+- "PublishingContext"
+- "Section"
+- "Self"
+- !private "StringLiteralType"
+- "TagDetailsPage"
+- "TagListPage"
+- !private "TernaryPrecedence"
+- "Theme"
+- !private "UnicodeScalarType"
+- "Website"
+depends-member:
+- !private ["7Publish7AnyItemP", "body"]
+- !private ["7Publish7AnyItemP", "date"]
+- !private ["7Publish7AnyItemP", "description"]
+- !private ["7Publish7AnyItemP", "path"]
+- !private ["7Publish7AnyItemP", "sectionID"]
+- !private ["7Publish7AnyItemP", "tags"]
+- !private ["7Publish7AnyItemP", "title"]
+- !private ["4Plot7AnyNodeP", "a"]
+- !private ["4Plot7AnyNodeP", "article"]
+- !private ["4Plot7AnyNodeP", "body"]
+- !private ["4Plot7AnyNodeP", "class"]
+- !private ["4Plot7AnyNodeP", "contentBody"]
+- !private ["4Plot7AnyNodeP", "div"]
+- !private ["4Plot7AnyNodeP", "footer"]
+- !private ["4Plot7AnyNodeP", "forEach"]
+- !private ["4Plot7AnyNodeP", "group"]
+- !private ["4Plot7AnyNodeP", "h1"]
+- !private ["4Plot7AnyNodeP", "h2"]
+- !private ["4Plot7AnyNodeP", "head"]
+- !private ["4Plot7AnyNodeP", "header"]
+- !private ["4Plot7AnyNodeP", "href"]
+- !private ["4Plot7AnyNodeP", "if"]
+- !private ["4Plot7AnyNodeP", "itemList"]
+- !private ["4Plot7AnyNodeP", "lang"]
+- !private ["4Plot7AnyNodeP", "li"]
+- !private ["4Plot7AnyNodeP", "nav"]
+- !private ["4Plot7AnyNodeP", "p"]
+- !private ["4Plot7AnyNodeP", "span"]
+- !private ["4Plot7AnyNodeP", "tagList"]
+- !private ["4Plot7AnyNodeP", "text"]
+- !private ["4Plot7AnyNodeP", "ul"]
+- !private ["4Plot7AnyNodeP", "wrapper"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s12CaseIterableP", "allCases"]
+- !private ["s12CaseIterableP", "string"]
+- !private ["Sl", "count"]
+- !private ["Sl", "sorted"]
+- !private ["SL", "string"]
+- !private ["7Publish15ContentProtocolP", "body"]
+- !private ["7Publish15ContentProtocolP", "date"]
+- !private ["7Publish15ContentProtocolP", "description"]
+- !private ["7Publish15ContentProtocolP", "id"]
+- !private ["7Publish15ContentProtocolP", "items"]
+- !private ["7Publish15ContentProtocolP", "path"]
+- !private ["7Publish15ContentProtocolP", "sectionID"]
+- !private ["7Publish15ContentProtocolP", "tag"]
+- !private ["7Publish15ContentProtocolP", "tags"]
+- !private ["7Publish15ContentProtocolP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["Se", "allCases"]
+- !private ["Se", "sorted"]
+- !private ["Se", "string"]
+- ["4Plot14DocumentFormatP", "BodyContext"]
+- !private ["4Plot14DocumentFormatP", "init"]
+- !private ["SE", "sorted"]
+- !private ["SE", "string"]
+- !private ["SQ", "allCases"]
+- !private ["SQ", "body"]
+- !private ["SQ", "date"]
+- !private ["SQ", "descending"]
+- !private ["SQ", "description"]
+- !private ["SQ", "path"]
+- !private ["SQ", "sectionID"]
+- !private ["SQ", "sorted"]
+- !private ["SQ", "string"]
+- !private ["SQ", "tags"]
+- !private ["SQ", "title"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "a"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "article"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "body"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "class"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contentBody"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "div"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "footer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "forEach"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "group"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "h1"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "h2"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "head"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "header"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "href"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "if"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "itemList"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lang"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "li"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "nav"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "p"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "span"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "tagList"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "text"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ul"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "wrapper"]
+- !private ["s32ExpressibleByStringInterpolationP", "a"]
+- !private ["s32ExpressibleByStringInterpolationP", "article"]
+- !private ["s32ExpressibleByStringInterpolationP", "body"]
+- !private ["s32ExpressibleByStringInterpolationP", "class"]
+- !private ["s32ExpressibleByStringInterpolationP", "contentBody"]
+- !private ["s32ExpressibleByStringInterpolationP", "div"]
+- !private ["s32ExpressibleByStringInterpolationP", "footer"]
+- !private ["s32ExpressibleByStringInterpolationP", "forEach"]
+- !private ["s32ExpressibleByStringInterpolationP", "group"]
+- !private ["s32ExpressibleByStringInterpolationP", "h1"]
+- !private ["s32ExpressibleByStringInterpolationP", "h2"]
+- !private ["s32ExpressibleByStringInterpolationP", "head"]
+- !private ["s32ExpressibleByStringInterpolationP", "header"]
+- !private ["s32ExpressibleByStringInterpolationP", "href"]
+- !private ["s32ExpressibleByStringInterpolationP", "if"]
+- !private ["s32ExpressibleByStringInterpolationP", "itemList"]
+- !private ["s32ExpressibleByStringInterpolationP", "lang"]
+- !private ["s32ExpressibleByStringInterpolationP", "li"]
+- !private ["s32ExpressibleByStringInterpolationP", "nav"]
+- !private ["s32ExpressibleByStringInterpolationP", "p"]
+- !private ["s32ExpressibleByStringInterpolationP", "span"]
+- !private ["s32ExpressibleByStringInterpolationP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "tagList"]
+- !private ["s32ExpressibleByStringInterpolationP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "ul"]
+- !private ["s32ExpressibleByStringInterpolationP", "wrapper"]
+- !private ["s26ExpressibleByStringLiteralP", "a"]
+- !private ["s26ExpressibleByStringLiteralP", "article"]
+- !private ["s26ExpressibleByStringLiteralP", "body"]
+- !private ["s26ExpressibleByStringLiteralP", "class"]
+- !private ["s26ExpressibleByStringLiteralP", "contentBody"]
+- !private ["s26ExpressibleByStringLiteralP", "div"]
+- !private ["s26ExpressibleByStringLiteralP", "footer"]
+- !private ["s26ExpressibleByStringLiteralP", "forEach"]
+- !private ["s26ExpressibleByStringLiteralP", "group"]
+- !private ["s26ExpressibleByStringLiteralP", "h1"]
+- !private ["s26ExpressibleByStringLiteralP", "h2"]
+- !private ["s26ExpressibleByStringLiteralP", "head"]
+- !private ["s26ExpressibleByStringLiteralP", "header"]
+- !private ["s26ExpressibleByStringLiteralP", "href"]
+- !private ["s26ExpressibleByStringLiteralP", "if"]
+- !private ["s26ExpressibleByStringLiteralP", "itemList"]
+- !private ["s26ExpressibleByStringLiteralP", "lang"]
+- !private ["s26ExpressibleByStringLiteralP", "li"]
+- !private ["s26ExpressibleByStringLiteralP", "nav"]
+- !private ["s26ExpressibleByStringLiteralP", "p"]
+- !private ["s26ExpressibleByStringLiteralP", "span"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "tagList"]
+- !private ["s26ExpressibleByStringLiteralP", "text"]
+- !private ["s26ExpressibleByStringLiteralP", "ul"]
+- !private ["s26ExpressibleByStringLiteralP", "wrapper"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "a"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "article"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "body"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "class"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contentBody"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "div"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "footer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "forEach"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "group"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "h1"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "h2"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "head"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "header"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "href"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "if"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "itemList"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lang"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "li"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "nav"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "p"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "span"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "tagList"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "text"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ul"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "wrapper"]
+- ["4Plot4HTMLV", "BodyContext"]
+- !private ["4Plot4HTMLV", "init"]
+- !private ["7Publish11HTMLFactoryP", "HTML"]
+- ["7Publish11HTMLFactoryP", "Site"]
+- !private ["7Publish11HTMLFactoryP", ""]
+- ["7Publish11HTMLFactoryP", "_Default_Site"]
+- !private ["7Publish11HTMLFactoryP", "init"]
+- ["7Publish11HTMLFactoryP", "makeIndexHTML"]
+- ["7Publish11HTMLFactoryP", "makeItemHTML"]
+- ["7Publish11HTMLFactoryP", "makePageHTML"]
+- ["7Publish11HTMLFactoryP", "makeSectionHTML"]
+- ["7Publish11HTMLFactoryP", "makeTagDetailsHTML"]
+- ["7Publish11HTMLFactoryP", "makeTagListHTML"]
+- !private ["SH", "allCases"]
+- !private ["SH", "body"]
+- !private ["SH", "date"]
+- !private ["SH", "descending"]
+- !private ["SH", "description"]
+- !private ["SH", "path"]
+- !private ["SH", "sectionID"]
+- !private ["SH", "sorted"]
+- !private ["SH", "string"]
+- !private ["SH", "tags"]
+- !private ["SH", "title"]
+- !private ["7Publish5IndexV", "deinit"]
+- !private ["7Publish5IndexV", "title"]
+- !private ["7Publish4ItemV", "body"]
+- !private ["7Publish4ItemV", "date"]
+- !private ["7Publish4ItemV", "deinit"]
+- !private ["7Publish4ItemV", "description"]
+- !private ["7Publish4ItemV", "path"]
+- !private ["7Publish4ItemV", "sectionID"]
+- !private ["7Publish4ItemV", "tags"]
+- !private ["7Publish4ItemV", "title"]
+- !private ["7Publish8LocationP", "body"]
+- !private ["7Publish8LocationP", "date"]
+- !private ["7Publish8LocationP", "description"]
+- !private ["7Publish8LocationP", "id"]
+- !private ["7Publish8LocationP", "items"]
+- !private ["7Publish8LocationP", "path"]
+- !private ["7Publish8LocationP", "sectionID"]
+- !private ["7Publish8LocationP", "tag"]
+- !private ["7Publish8LocationP", "tags"]
+- !private ["7Publish8LocationP", "title"]
+- ["4Plot4NodeO", "HTML"]
+- ["4Plot4NodeO", "Item"]
+- ["4Plot4NodeO", "Node"]
+- ["4Plot4NodeO", "PublishingContext"]
+- ["4Plot4NodeO", "Website"]
+- !private ["4Plot4NodeO", "a"]
+- !private ["4Plot4NodeO", "article"]
+- !private ["4Plot4NodeO", "body"]
+- !private ["4Plot4NodeO", "class"]
+- !private ["4Plot4NodeO", "contentBody"]
+- !private ["4Plot4NodeO", "div"]
+- !private ["4Plot4NodeO", "footer"]
+- !private ["4Plot4NodeO", "forEach"]
+- !private ["4Plot4NodeO", "group"]
+- !private ["4Plot4NodeO", "h1"]
+- !private ["4Plot4NodeO", "h2"]
+- !private ["4Plot4NodeO", "head"]
+- !private ["4Plot4NodeO", "header"]
+- !private ["4Plot4NodeO", "href"]
+- !private ["4Plot4NodeO", "if"]
+- !private ["4Plot4NodeO", "itemList"]
+- !private ["4Plot4NodeO", "lang"]
+- !private ["4Plot4NodeO", "li"]
+- !private ["4Plot4NodeO", "nav"]
+- !private ["4Plot4NodeO", "p"]
+- !private ["4Plot4NodeO", "span"]
+- !private ["4Plot4NodeO", "tagList"]
+- !private ["4Plot4NodeO", "text"]
+- !private ["4Plot4NodeO", "ul"]
+- !private ["4Plot4NodeO", "wrapper"]
+- !private ["7Publish4PageV", "body"]
+- !private ["7Publish4PageV", "deinit"]
+- !private ["7Publish4PathV", "deinit"]
+- !private ["7Publish17PublishingContextV", "allItems"]
+- !private ["7Publish17PublishingContextV", "items"]
+- !private ["7Publish17PublishingContextV", "sections"]
+- !private ["7Publish17PublishingContextV", "site"]
+- !private ["SY", "allCases"]
+- !private ["SY", "string"]
+- ["4Plot10RenderableP", "BodyContext"]
+- !private ["4Plot10RenderableP", "a"]
+- !private ["4Plot10RenderableP", "article"]
+- !private ["4Plot10RenderableP", "body"]
+- !private ["4Plot10RenderableP", "class"]
+- !private ["4Plot10RenderableP", "contentBody"]
+- !private ["4Plot10RenderableP", "div"]
+- !private ["4Plot10RenderableP", "footer"]
+- !private ["4Plot10RenderableP", "forEach"]
+- !private ["4Plot10RenderableP", "group"]
+- !private ["4Plot10RenderableP", "h1"]
+- !private ["4Plot10RenderableP", "h2"]
+- !private ["4Plot10RenderableP", "head"]
+- !private ["4Plot10RenderableP", "header"]
+- !private ["4Plot10RenderableP", "href"]
+- !private ["4Plot10RenderableP", "if"]
+- !private ["4Plot10RenderableP", "init"]
+- !private ["4Plot10RenderableP", "itemList"]
+- !private ["4Plot10RenderableP", "lang"]
+- !private ["4Plot10RenderableP", "li"]
+- !private ["4Plot10RenderableP", "nav"]
+- !private ["4Plot10RenderableP", "p"]
+- !private ["4Plot10RenderableP", "span"]
+- !private ["4Plot10RenderableP", "tagList"]
+- !private ["4Plot10RenderableP", "text"]
+- !private ["4Plot10RenderableP", "ul"]
+- !private ["4Plot10RenderableP", "wrapper"]
+- !private ["7Publish7SectionV", "deinit"]
+- !private ["7Publish7SectionV", "id"]
+- !private ["7Publish7SectionV", "items"]
+- !private ["7Publish7SectionV", "path"]
+- !private ["7Publish7SectionV", "title"]
+- !private ["7Publish10SectionMapV", "subscript"]
+- !private ["ST", "count"]
+- !private ["ST", "sorted"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "sorted"]
+- !private ["s10SetAlgebraP", "sorted"]
+- !private ["7Publish9SortOrderO", "descending"]
+- !private ["7Publish13StringWrapperP", "string"]
+- !private ["7Publish3TagV", "deinit"]
+- !private ["7Publish3TagV", "string"]
+- !private ["7Publish14TagDetailsPageV", "deinit"]
+- !private ["7Publish14TagDetailsPageV", "tag"]
+- !private ["7Publish11TagListPageV", "deinit"]
+- !private ["7Publish11TagListPageV", "tags"]
+- !private ["7Publish5ThemeV", "FoundationHTMLFactory"]
+- ["7Publish5ThemeV", "Self"]
+- !private ["7Publish5ThemeV", "Theme"]
+- ["7Publish5ThemeV", "foundation"]
+- !private ["7Publish5ThemeV", "init"]
+- !private ["7Publish7WebsiteP", "SectionID"]
+- !private ["7Publish7WebsiteP", "description"]
+- !private ["7Publish7WebsiteP", "language"]
+- !private ["7Publish7WebsiteP", "name"]
+- !private ["7Publish7WebsiteP", "path"]
+- !private ["7Publish7WebsiteP", "tagListPath"]
+- !private ["7Publish16WebsiteSectionIDP", "allCases"]
+- !private ["7Publish16WebsiteSectionIDP", "string"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+depends-nominal:
+- !private "7Publish7AnyItemP"
+- !private "4Plot7AnyNodeP"
+- !private "s7CVarArgP"
+- !private "s12CaseIterableP"
+- !private "Sl"
+- !private "SL"
+- !private "7Publish15ContentProtocolP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "4Plot14DocumentFormatP"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "4Plot4HTMLV"
+- "7Publish11HTMLFactoryP"
+- !private "SH"
+- !private "7Publish5IndexV"
+- !private "7Publish4ItemV"
+- !private "7Publish8LocationP"
+- "4Plot4NodeO"
+- !private "7Publish4PageV"
+- !private "7Publish4PathV"
+- !private "7Publish17PublishingContextV"
+- !private "SY"
+- "4Plot10RenderableP"
+- !private "7Publish7SectionV"
+- !private "7Publish10SectionMapV"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "7Publish9SortOrderO"
+- !private "7Publish13StringWrapperP"
+- !private "7Publish3TagV"
+- !private "7Publish14TagDetailsPageV"
+- !private "7Publish11TagListPageV"
+- "7Publish5ThemeV"
+- !private "7Publish7WebsiteP"
+- !private "7Publish16WebsiteSectionIDP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cd3e6c8f77791f19301c03986e977a3c"

@@ -1,0 +1,368 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DeploymentMethod"
+provides-nominal:
+- "7Publish16DeploymentMethodV"
+provides-member:
+- ["7Publish16DeploymentMethodV", ""]
+- ["7Publish16DeploymentMethodV", "git"]
+- ["7Publish16DeploymentMethodV", "gitHub"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Date"
+- !private "DateFormatter"
+- "DeploymentMethod"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "PublishingContext"
+- !private "PublishingError"
+- "Self"
+- !private "ShellOutError"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- "Void"
+- "Website"
+- !private "shellOut"
+depends-member:
+- !private ["11Codextended16AnyDateFormatterP", "dateFormat"]
+- !private ["11Codextended16AnyDateFormatterP", "init"]
+- !private ["11Codextended16AnyDateFormatterP", "string"]
+- !private ["Sa", "gitInit"]
+- !private ["Sa", "gitPull"]
+- !private ["Sa", "gitPush"]
+- !private ["SK", "gitInit"]
+- !private ["SK", "gitPull"]
+- !private ["SK", "gitPush"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "gitInit"]
+- !private ["s7CVarArgP", "gitPull"]
+- !private ["s7CVarArgP", "gitPush"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "string"]
+- !private ["Sl", "gitInit"]
+- !private ["Sl", "gitPull"]
+- !private ["Sl", "gitPush"]
+- !private ["SL", "gitInit"]
+- !private ["SL", "gitPull"]
+- !private ["SL", "gitPush"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "gitInit"]
+- !private ["10Foundation15ContiguousBytesP", "gitPull"]
+- !private ["10Foundation15ContiguousBytesP", "gitPush"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "gitInit"]
+- !private ["s28CustomDebugStringConvertibleP", "gitPull"]
+- !private ["s28CustomDebugStringConvertibleP", "gitPush"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s17CustomReflectableP", "gitInit"]
+- !private ["s17CustomReflectableP", "gitPull"]
+- !private ["s17CustomReflectableP", "gitPush"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "containsSubfolder"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "empty"]
+- !private ["s23CustomStringConvertibleP", "gitInit"]
+- !private ["s23CustomStringConvertibleP", "gitPull"]
+- !private ["s23CustomStringConvertibleP", "gitPush"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["10Foundation12DataProtocolP", "gitInit"]
+- !private ["10Foundation12DataProtocolP", "gitPull"]
+- !private ["10Foundation12DataProtocolP", "gitPush"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So15NSDateFormatterC", "dateFormat"]
+- !private ["So15NSDateFormatterC", "init"]
+- !private ["So15NSDateFormatterC", "string"]
+- !private ["Se", "gitInit"]
+- !private ["Se", "gitPull"]
+- !private ["Se", "gitPush"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["7Publish16DeploymentMethodV", "Body"]
+- ["7Publish16DeploymentMethodV", "Bool"]
+- !private ["7Publish16DeploymentMethodV", "Date"]
+- !private ["7Publish16DeploymentMethodV", "DateFormatter"]
+- !private ["7Publish16DeploymentMethodV", "DeploymentMethod"]
+- ["7Publish16DeploymentMethodV", "PublishingContext"]
+- !private ["7Publish16DeploymentMethodV", "PublishingError"]
+- ["7Publish16DeploymentMethodV", "Self"]
+- !private ["7Publish16DeploymentMethodV", "ShellOutError"]
+- ["7Publish16DeploymentMethodV", "String"]
+- ["7Publish16DeploymentMethodV", "Void"]
+- ["7Publish16DeploymentMethodV", "body"]
+- ["7Publish16DeploymentMethodV", "git"]
+- ["7Publish16DeploymentMethodV", "gitHub"]
+- ["7Publish16DeploymentMethodV", "init"]
+- ["7Publish16DeploymentMethodV", "name"]
+- !private ["7Publish16DeploymentMethodV", "shellOut"]
+- !private ["SE", "gitInit"]
+- !private ["SE", "gitPull"]
+- !private ["SE", "gitPush"]
+- !private ["SE", "init"]
+- !private ["SQ", "containsSubfolder"]
+- !private ["SQ", "dateFormat"]
+- !private ["SQ", "empty"]
+- !private ["SQ", "gitInit"]
+- !private ["SQ", "gitPull"]
+- !private ["SQ", "gitPush"]
+- !private ["SQ", "init"]
+- !private ["SQ", "path"]
+- !private ["SQ", "string"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "message"]
+- !private ["s25ExpressibleByArrayLiteralP", "gitInit"]
+- !private ["s25ExpressibleByArrayLiteralP", "gitPull"]
+- !private ["s25ExpressibleByArrayLiteralP", "gitPush"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "gitInit"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "gitPull"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "gitPush"]
+- !private ["s32ExpressibleByStringInterpolationP", "gitInit"]
+- !private ["s32ExpressibleByStringInterpolationP", "gitPull"]
+- !private ["s32ExpressibleByStringInterpolationP", "gitPush"]
+- !private ["s26ExpressibleByStringLiteralP", "gitInit"]
+- !private ["s26ExpressibleByStringLiteralP", "gitPull"]
+- !private ["s26ExpressibleByStringLiteralP", "gitPush"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "gitInit"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "gitPull"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "gitPush"]
+- !private ["5Files6FolderV", "containsSubfolder"]
+- !private ["5Files6FolderV", "empty"]
+- !private ["5Files6FolderV", "path"]
+- !private ["So11NSFormatterC", "dateFormat"]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "dateFormat"]
+- !private ["SH", "gitInit"]
+- !private ["SH", "gitPull"]
+- !private ["SH", "gitPush"]
+- !private ["SH", "init"]
+- !private ["SH", "string"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- !private ["10Foundation14LocalizedErrorP", "message"]
+- !private ["5Files8LocationP", "containsSubfolder"]
+- !private ["5Files8LocationP", "empty"]
+- !private ["5Files8LocationP", "path"]
+- !private ["s25LosslessStringConvertibleP", "gitInit"]
+- !private ["s25LosslessStringConvertibleP", "gitPull"]
+- !private ["s25LosslessStringConvertibleP", "gitPush"]
+- !private ["s10MirrorPathP", "gitInit"]
+- !private ["s10MirrorPathP", "gitPull"]
+- !private ["s10MirrorPathP", "gitPush"]
+- !private ["SM", "gitInit"]
+- !private ["SM", "gitPull"]
+- !private ["SM", "gitPush"]
+- !private ["10Foundation19MutableDataProtocolP", "gitInit"]
+- !private ["10Foundation19MutableDataProtocolP", "gitPull"]
+- !private ["10Foundation19MutableDataProtocolP", "gitPush"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "dateFormat"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "string"]
+- !private ["7Publish17PublishingContextV", "createDeploymentFolder"]
+- !private ["7Publish15PublishingErrorV", "deinit"]
+- !private ["7Publish15PublishingErrorV", "init"]
+- !private ["7Publish26PublishingErrorConvertibleP", "init"]
+- !private ["7Publish26PublishingErrorConvertibleP", "message"]
+- !private ["Sk", "gitInit"]
+- !private ["Sk", "gitPull"]
+- !private ["Sk", "gitPush"]
+- !private ["Sm", "gitInit"]
+- !private ["Sm", "gitPull"]
+- !private ["Sm", "gitPush"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["4Plot10RenderableP", "gitInit"]
+- !private ["4Plot10RenderableP", "gitPull"]
+- !private ["4Plot10RenderableP", "gitPush"]
+- !private ["ST", "gitInit"]
+- !private ["ST", "gitPull"]
+- !private ["ST", "gitPush"]
+- !private ["8ShellOut0aB7CommandV", "gitInit"]
+- !private ["8ShellOut0aB7CommandV", "gitPull"]
+- !private ["8ShellOut0aB7CommandV", "gitPush"]
+- !private ["8ShellOut0aB5ErrorV", "message"]
+- !private ["SS", "gitInit"]
+- !private ["SS", "gitPull"]
+- !private ["SS", "gitPush"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "gitInit"]
+- !private ["Sy", "gitPull"]
+- !private ["Sy", "gitPush"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "gitInit"]
+- !private ["s16TextOutputStreamP", "gitPull"]
+- !private ["s16TextOutputStreamP", "gitPush"]
+- !private ["s20TextOutputStreamableP", "gitInit"]
+- !private ["s20TextOutputStreamableP", "gitPull"]
+- !private ["s20TextOutputStreamableP", "gitPush"]
+- !private ["4Plot16URLRepresentableP", "gitInit"]
+- !private ["4Plot16URLRepresentableP", "gitPull"]
+- !private ["4Plot16URLRepresentableP", "gitPush"]
+- !private ["s14_ArrayProtocolP", "gitInit"]
+- !private ["s14_ArrayProtocolP", "gitPull"]
+- !private ["s14_ArrayProtocolP", "gitPush"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "gitInit"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "gitPull"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "gitPush"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "gitInit"]
+- !private ["s24_DestructorSafeContainerP", "gitPull"]
+- !private ["s24_DestructorSafeContainerP", "gitPush"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "gitInit"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "gitPull"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "gitPush"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "gitInit"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "gitPull"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "gitPush"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "gitInit"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "gitPull"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "gitPush"]
+- !private ["s19_HasContiguousBytesP", "gitInit"]
+- !private ["s19_HasContiguousBytesP", "gitPull"]
+- !private ["s19_HasContiguousBytesP", "gitPush"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "gitInit"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "gitPull"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "gitPush"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "gitInit"]
+- !private ["s21_ObjectiveCBridgeableP", "gitPull"]
+- !private ["s21_ObjectiveCBridgeableP", "gitPush"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "11Codextended16AnyDateFormatterP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "So15NSDateFormatterC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "7Publish16DeploymentMethodV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Files6FolderV"
+- !private "So11NSFormatterC"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "5Files8LocationP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7Publish17PublishingContextV"
+- !private "7Publish15PublishingErrorV"
+- !private "7Publish26PublishingErrorConvertibleP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Plot10RenderableP"
+- !private "ST"
+- !private "8ShellOut0aB7CommandV"
+- !private "8ShellOut0aB5ErrorV"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "4Plot16URLRepresentableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "28a8abc73bd247b5bda386efc0e0c531"

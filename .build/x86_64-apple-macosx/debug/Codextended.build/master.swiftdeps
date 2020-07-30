@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "eac4daf0a9c8262ca3b22b59ab2f0eef"
+build_time: [1595430672, 557981000]
+inputs:
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/codextended/Sources/Codextended/Codextended.swift": [1595430668, 630024289]

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "fa30098c99afc9af91f915c3e91b36a6"
+build_time: [1595430672, 558049000]
+inputs:
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/shellout/Sources/ShellOut.swift": [1595430668, 881331613]

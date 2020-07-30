@@ -1,0 +1,4 @@
+module Codextended {
+    header "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/Codextended-Swift.h"
+    requires objc
+}

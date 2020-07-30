@@ -1,0 +1,215 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["4Plot4NodeO", ""]
+- ["4Plot4NodeO", "encoding"]
+- ["4Plot4NodeO", "stylesheet"]
+- ["4Plot4NodeO", "url"]
+- ["4Plot4NodeO", "siteName"]
+- ["4Plot4NodeO", "title"]
+- ["4Plot4NodeO", "description"]
+- ["4Plot4NodeO", "socialImageLink"]
+- ["4Plot4NodeO", "twitterCardType"]
+- ["4Plot4NodeO", "viewport"]
+- ["4Plot4NodeO", "favicon"]
+- ["4Plot4NodeO", "rssFeedLink"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Attribute"
+- "DocumentEncoding"
+- "Double"
+- "FloatLiteralType"
+- "HTML"
+- "HTMLViewportWidthMode"
+- "IntegerLiteralType"
+- "Node"
+- "String"
+- "StringLiteralType"
+- "TwitterCardType"
+- "URLRepresentable"
+depends-member:
+- !private ["4Plot12AnyAttributeP", "attribute"]
+- !private ["4Plot12AnyAttributeP", "charset"]
+- !private ["4Plot12AnyAttributeP", "content"]
+- !private ["4Plot12AnyAttributeP", "href"]
+- !private ["4Plot12AnyAttributeP", "integrity"]
+- !private ["4Plot12AnyAttributeP", "name"]
+- !private ["4Plot12AnyAttributeP", "rel"]
+- !private ["4Plot12AnyAttributeP", "type"]
+- !private ["4Plot12AnyAttributeP", "unwrap"]
+- !private ["4Plot7AnyNodeP", "Attribute"]
+- ["4Plot7AnyNodeP", "HTML"]
+- !private ["4Plot7AnyNodeP", "element"]
+- !private ["4Plot7AnyNodeP", "group"]
+- !private ["4Plot7AnyNodeP", "link"]
+- !private ["4Plot7AnyNodeP", "meta"]
+- !private ["4Plot9AttributeV", "attribute"]
+- !private ["4Plot9AttributeV", "charset"]
+- !private ["4Plot9AttributeV", "content"]
+- !private ["4Plot9AttributeV", "deinit"]
+- !private ["4Plot9AttributeV", "href"]
+- !private ["4Plot9AttributeV", "integrity"]
+- !private ["4Plot9AttributeV", "name"]
+- !private ["4Plot9AttributeV", "rel"]
+- !private ["4Plot9AttributeV", "type"]
+- !private ["4Plot9AttributeV", "unwrap"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["4Plot14DocumentFormatP", "HeadContext"]
+- !private ["SQ", "alternate"]
+- !private ["SQ", "canonical"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "shortcutIcon"]
+- !private ["SQ", "stylesheet"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Attribute"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "HTML"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "element"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "group"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "link"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "meta"]
+- !private ["s32ExpressibleByStringInterpolationP", "Attribute"]
+- ["s32ExpressibleByStringInterpolationP", "HTML"]
+- !private ["s32ExpressibleByStringInterpolationP", "element"]
+- !private ["s32ExpressibleByStringInterpolationP", "group"]
+- !private ["s32ExpressibleByStringInterpolationP", "link"]
+- !private ["s32ExpressibleByStringInterpolationP", "meta"]
+- !private ["s26ExpressibleByStringLiteralP", "Attribute"]
+- ["s26ExpressibleByStringLiteralP", "HTML"]
+- !private ["s26ExpressibleByStringLiteralP", "element"]
+- !private ["s26ExpressibleByStringLiteralP", "group"]
+- !private ["s26ExpressibleByStringLiteralP", "link"]
+- !private ["s26ExpressibleByStringLiteralP", "meta"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Attribute"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "HTML"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "element"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "group"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "link"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "meta"]
+- ["4Plot4HTMLV", "HeadContext"]
+- !private ["4Plot20HTMLLinkRelationshipO", "alternate"]
+- !private ["4Plot20HTMLLinkRelationshipO", "canonical"]
+- !private ["4Plot20HTMLLinkRelationshipO", "shortcutIcon"]
+- !private ["4Plot20HTMLLinkRelationshipO", "stylesheet"]
+- !private ["4Plot21HTMLViewportWidthModeO", "string"]
+- !private ["SH", "alternate"]
+- !private ["SH", "canonical"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "shortcutIcon"]
+- !private ["SH", "stylesheet"]
+- !private ["4Plot4HTMLV11LinkContextO", "deinit"]
+- !private ["4Plot4HTMLV11MetaContextO", "deinit"]
+- !private ["4Plot4NodeO", "Attribute"]
+- ["4Plot4NodeO", "DocumentEncoding"]
+- ["4Plot4NodeO", "Double"]
+- ["4Plot4NodeO", "HTML"]
+- ["4Plot4NodeO", "HTMLViewportWidthMode"]
+- ["4Plot4NodeO", "Node"]
+- ["4Plot4NodeO", "String"]
+- ["4Plot4NodeO", "TwitterCardType"]
+- ["4Plot4NodeO", "URLRepresentable"]
+- ["4Plot4NodeO", "description"]
+- !private ["4Plot4NodeO", "element"]
+- ["4Plot4NodeO", "encoding"]
+- ["4Plot4NodeO", "favicon"]
+- !private ["4Plot4NodeO", "group"]
+- !private ["4Plot4NodeO", "link"]
+- !private ["4Plot4NodeO", "meta"]
+- ["4Plot4NodeO", "rssFeedLink"]
+- ["4Plot4NodeO", "siteName"]
+- ["4Plot4NodeO", "socialImageLink"]
+- ["4Plot4NodeO", "stylesheet"]
+- ["4Plot4NodeO", "title"]
+- ["4Plot4NodeO", "twitterCardType"]
+- ["4Plot4NodeO", "url"]
+- ["4Plot4NodeO", "viewport"]
+- !private ["4Plot15NodeConvertibleP", "attribute"]
+- !private ["4Plot15NodeConvertibleP", "charset"]
+- !private ["4Plot15NodeConvertibleP", "content"]
+- !private ["4Plot15NodeConvertibleP", "href"]
+- !private ["4Plot15NodeConvertibleP", "integrity"]
+- !private ["4Plot15NodeConvertibleP", "name"]
+- !private ["4Plot15NodeConvertibleP", "rel"]
+- !private ["4Plot15NodeConvertibleP", "type"]
+- !private ["4Plot15NodeConvertibleP", "unwrap"]
+- !private ["SY", "alternate"]
+- !private ["SY", "canonical"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "shortcutIcon"]
+- !private ["SY", "stylesheet"]
+- !private ["4Plot10RenderableP", "Attribute"]
+- ["4Plot10RenderableP", "HTML"]
+- ["4Plot10RenderableP", "HeadContext"]
+- !private ["4Plot10RenderableP", "element"]
+- !private ["4Plot10RenderableP", "group"]
+- !private ["4Plot10RenderableP", "link"]
+- !private ["4Plot10RenderableP", "meta"]
+- !private ["SS", "deinit"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["4Plot15TwitterCardTypeO", "deinit"]
+- !private ["4Plot15TwitterCardTypeO", "rawValue"]
+- !private ["4Plot16URLRepresentableP", "string"]
+depends-nominal:
+- !private "4Plot12AnyAttributeP"
+- "4Plot7AnyNodeP"
+- !private "4Plot9AttributeV"
+- !private "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "4Plot14DocumentFormatP"
+- !private "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "4Plot4HTMLV"
+- !private "4Plot20HTMLLinkRelationshipO"
+- !private "4Plot21HTMLViewportWidthModeO"
+- !private "SH"
+- !private "4Plot4HTMLV11LinkContextO"
+- !private "4Plot4HTMLV11MetaContextO"
+- "4Plot4NodeO"
+- !private "4Plot15NodeConvertibleP"
+- !private "SY"
+- "4Plot10RenderableP"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "4Plot15TwitterCardTypeO"
+- !private "4Plot16URLRepresentableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d64c2ad2daa1117057cb4ead564d34fc"

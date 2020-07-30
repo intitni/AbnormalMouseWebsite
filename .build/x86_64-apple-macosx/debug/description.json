@@ -1,0 +1,32 @@
+{
+  "allExecutables" : [
+    "publish-cli",
+    "ink-cli",
+    "AbnormalMouseWebsite"
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+    "AbnormalMouseWebsite"
+  ],
+  "swiftTargetMap" : {
+    "C.AbnormalMouseWebsite-debug.module" : "AbnormalMouseWebsite",
+    "C.Codextended-debug.module" : "Codextended",
+    "C.Files-debug.module" : "Files",
+    "C.Ink-debug.module" : "Ink",
+    "C.InkCLI-debug.module" : "InkCLI",
+    "C.Plot-debug.module" : "Plot",
+    "C.Publish-debug.module" : "Publish",
+    "C.PublishCLI-debug.module" : "PublishCLI",
+    "C.PublishCLICore-debug.module" : "PublishCLICore",
+    "C.ShellOut-debug.module" : "ShellOut",
+    "C.Sweep-debug.module" : "Sweep"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

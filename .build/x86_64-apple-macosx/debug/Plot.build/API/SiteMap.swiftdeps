@@ -1,0 +1,191 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SiteMap"
+provides-nominal:
+- "4Plot7SiteMapV"
+- "4Plot7SiteMapV11RootContextO"
+- "4Plot7SiteMapV13URLSetContextO"
+- "4Plot7SiteMapV10URLContextO"
+provides-member:
+- ["4Plot7SiteMapV", ""]
+- ["4Plot7SiteMapV11RootContextO", ""]
+- ["4Plot7SiteMapV13URLSetContextO", ""]
+- ["4Plot7SiteMapV10URLContextO", ""]
+- ["4Plot7SiteMapV", "RootContext"]
+- ["4Plot7SiteMapV", "URLSetContext"]
+- ["4Plot7SiteMapV", "URLContext"]
+- ["4Plot7SiteMapV", "dateFormatter"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "DateFormatter"
+- "Document"
+- "DocumentFormat"
+- !private "FloatLiteralType"
+- "Indentation"
+- "Node"
+- "Renderable"
+- "SiteMap"
+- "String"
+- "StringLiteralType"
+- "XMLRootContext"
+depends-member:
+- !private ["4Plot12AnyAttributeP", "encoding"]
+- !private ["4Plot12AnyAttributeP", "version"]
+- !private ["4Plot7AnyNodeP", "group"]
+- !private ["4Plot9AttributeV", "encoding"]
+- !private ["4Plot9AttributeV", "version"]
+- ["s7CVarArgP", "dateFormat"]
+- ["s7CVarArgP", "init"]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "Kind"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["So15NSDateFormatterC", "dateFormat"]
+- ["So15NSDateFormatterC", "init"]
+- ["Se", "Kind"]
+- !private ["4Plot8DocumentV", "deinit"]
+- !private ["4Plot8DocumentV", "init"]
+- !private ["4Plot8DocumentV", "render"]
+- !private ["4Plot16DocumentEncodingO", "utf8"]
+- ["4Plot14DocumentFormatP", "DateFormatter"]
+- !private ["4Plot14DocumentFormatP", "Document"]
+- ["4Plot14DocumentFormatP", "IndentationType"]
+- ["4Plot14DocumentFormatP", "RootContext"]
+- ["4Plot14DocumentFormatP", "URLSetContext"]
+- ["4Plot14DocumentFormatP", ""]
+- ["4Plot14DocumentFormatP", "_Default_IndentationType"]
+- !private ["4Plot14DocumentFormatP", "document"]
+- ["4Plot14DocumentFormatP", "render"]
+- !private ["4Plot7ElementV", "urlset"]
+- !private ["4Plot7ElementV", "xml"]
+- ["SE", "Kind"]
+- ["SQ", "Kind"]
+- ["SQ", "dateFormat"]
+- ["SQ", "init"]
+- !private ["SQ", "utf8"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "group"]
+- !private ["s32ExpressibleByStringInterpolationP", "group"]
+- !private ["s26ExpressibleByStringLiteralP", "group"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "group"]
+- ["So11NSFormatterC", "dateFormat"]
+- ["So11NSFormatterC", "init"]
+- ["SH", "dateFormat"]
+- ["SH", "init"]
+- !private ["SH", "utf8"]
+- ["4Plot11IndentationV", "Kind"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectP", "dateFormat"]
+- ["So8NSObjectP", "init"]
+- !private ["4Plot4NodeO", "group"]
+- !private ["4Plot15NodeConvertibleP", "encoding"]
+- !private ["4Plot15NodeConvertibleP", "version"]
+- !private ["SY", "utf8"]
+- ["4Plot10RenderableP", "DateFormatter"]
+- !private ["4Plot10RenderableP", "Document"]
+- ["4Plot10RenderableP", "IndentationType"]
+- ["4Plot10RenderableP", "RootContext"]
+- ["4Plot10RenderableP", "URLSetContext"]
+- ["4Plot10RenderableP", ""]
+- ["4Plot10RenderableP", "_Default_IndentationType"]
+- !private ["4Plot10RenderableP", "document"]
+- !private ["4Plot10RenderableP", "group"]
+- !private ["4Plot10RenderableP", "init"]
+- ["4Plot10RenderableP", "render"]
+- !private ["4Plot10RenderableP", "urlset"]
+- !private ["4Plot10RenderableP", "xml"]
+- ["4Plot7SiteMapV11RootContextO", "deinit"]
+- ["4Plot7SiteMapV", "DateFormatter"]
+- ["4Plot7SiteMapV", "Document"]
+- ["4Plot7SiteMapV", "Indentation"]
+- ["4Plot7SiteMapV", "IndentationType"]
+- ["4Plot7SiteMapV", "Node"]
+- ["4Plot7SiteMapV", "RootContext"]
+- ["4Plot7SiteMapV", "SiteMap"]
+- ["4Plot7SiteMapV", "String"]
+- ["4Plot7SiteMapV", "URLContext"]
+- ["4Plot7SiteMapV", "URLSetContext"]
+- ["4Plot7SiteMapV", "XMLRootContext"]
+- ["4Plot7SiteMapV", "_Default_IndentationType"]
+- ["4Plot7SiteMapV", "dateFormatter"]
+- ["4Plot7SiteMapV", "deinit"]
+- !private ["4Plot7SiteMapV", "document"]
+- ["4Plot7SiteMapV", "init"]
+- ["4Plot7SiteMapV", "render"]
+- ["4Plot14XMLRootContextP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateFormat"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- !private "4Plot12AnyAttributeP"
+- !private "4Plot7AnyNodeP"
+- !private "4Plot9AttributeV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So15NSDateFormatterC"
+- "Se"
+- !private "4Plot8DocumentV"
+- !private "4Plot16DocumentEncodingO"
+- "4Plot14DocumentFormatP"
+- !private "4Plot7ElementV"
+- "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11NSFormatterC"
+- "SH"
+- "4Plot11IndentationV"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "4Plot4NodeO"
+- !private "4Plot15NodeConvertibleP"
+- !private "SY"
+- "4Plot10RenderableP"
+- "4Plot7SiteMapV11RootContextO"
+- "4Plot7SiteMapV"
+- "4Plot14XMLRootContextP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8cf6b50d3d1754354854f69a5ef8d47c"

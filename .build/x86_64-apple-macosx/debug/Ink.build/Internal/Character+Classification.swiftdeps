@@ -1,0 +1,154 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SJ", ""]
+- ["Sh", ""]
+- ["SJ", "isSameLineWhitespace"]
+- ["Sh", "boldItalicStyleMarkers"]
+- ["Sh", "allStyleMarkers"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "Bool"
+- "Character"
+- "ExtendedGraphemeClusterType"
+- "Self"
+- "Set"
+- "StringLiteralType"
+- "UnicodeScalarType"
+depends-member:
+- ["s7CVarArgP", "Self"]
+- ["s7CVarArgP", "boldItalicStyleMarkers"]
+- ["s7CVarArgP", "union"]
+- ["SJ", "Bool"]
+- !private ["SJ", "isNewline"]
+- ["SJ", "isSameLineWhitespace"]
+- !private ["SJ", "isWhitespace"]
+- ["Sl", "Self"]
+- ["Sl", "boldItalicStyleMarkers"]
+- ["Sl", "union"]
+- !private ["SL", "isNewline"]
+- !private ["SL", "isWhitespace"]
+- ["s28CustomDebugStringConvertibleP", "Self"]
+- ["s28CustomDebugStringConvertibleP", "boldItalicStyleMarkers"]
+- !private ["s28CustomDebugStringConvertibleP", "isNewline"]
+- !private ["s28CustomDebugStringConvertibleP", "isWhitespace"]
+- ["s28CustomDebugStringConvertibleP", "union"]
+- ["s17CustomReflectableP", "Self"]
+- ["s17CustomReflectableP", "boldItalicStyleMarkers"]
+- !private ["s17CustomReflectableP", "isNewline"]
+- !private ["s17CustomReflectableP", "isWhitespace"]
+- ["s17CustomReflectableP", "union"]
+- ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", "boldItalicStyleMarkers"]
+- !private ["s23CustomStringConvertibleP", "isNewline"]
+- !private ["s23CustomStringConvertibleP", "isWhitespace"]
+- ["s23CustomStringConvertibleP", "union"]
+- ["Se", "Self"]
+- ["Se", "boldItalicStyleMarkers"]
+- ["Se", "union"]
+- ["SE", "Self"]
+- ["SE", "boldItalicStyleMarkers"]
+- ["SE", "union"]
+- ["SQ", "Self"]
+- ["SQ", "boldItalicStyleMarkers"]
+- !private ["SQ", "isNewline"]
+- !private ["SQ", "isWhitespace"]
+- ["SQ", "union"]
+- ["s25ExpressibleByArrayLiteralP", "Self"]
+- ["s25ExpressibleByArrayLiteralP", "boldItalicStyleMarkers"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isNewline"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isNewline"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isWhitespace"]
+- ["SH", "Self"]
+- ["SH", "boldItalicStyleMarkers"]
+- !private ["SH", "isNewline"]
+- !private ["SH", "isWhitespace"]
+- ["SH", "union"]
+- !private ["s25LosslessStringConvertibleP", "isNewline"]
+- !private ["s25LosslessStringConvertibleP", "isWhitespace"]
+- ["ST", "Self"]
+- ["ST", "boldItalicStyleMarkers"]
+- ["ST", "union"]
+- ["Sh", "Character"]
+- ["Sh", "Self"]
+- ["Sh", "allStyleMarkers"]
+- ["Sh", "boldItalicStyleMarkers"]
+- ["Sh", "union"]
+- ["s10SetAlgebraP", "Self"]
+- ["s10SetAlgebraP", "boldItalicStyleMarkers"]
+- ["s10SetAlgebraP", "union"]
+- !private ["s20TextOutputStreamableP", "isNewline"]
+- !private ["s20TextOutputStreamableP", "isWhitespace"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isNewline"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isWhitespace"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isNewline"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isNewline"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isWhitespace"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Self"]
+- ["s35_HasCustomAnyHashableRepresentationP", "boldItalicStyleMarkers"]
+- ["s35_HasCustomAnyHashableRepresentationP", "union"]
+- ["s21_ObjectiveCBridgeableP", "Self"]
+- ["s21_ObjectiveCBridgeableP", "boldItalicStyleMarkers"]
+- ["s21_ObjectiveCBridgeableP", "union"]
+depends-nominal:
+- "s7CVarArgP"
+- "SJ"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f925590b1226f2126b1f1bd755931faf"

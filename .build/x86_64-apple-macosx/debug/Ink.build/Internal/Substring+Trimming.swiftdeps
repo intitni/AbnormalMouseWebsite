@@ -1,0 +1,176 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Ss", ""]
+- ["Ss", "trimmingLeadingWhitespaces"]
+- ["Ss", "trimmingTrailingWhitespaces"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Self"
+- "Substring"
+depends-member:
+- ["SK", "Self"]
+- !private ["SK", "drop"]
+- !private ["SK", "dropLast"]
+- !private ["SK", "last"]
+- !private ["SJ", "isWhitespace"]
+- ["Sl", "Self"]
+- !private ["Sl", "drop"]
+- !private ["Sl", "dropLast"]
+- !private ["Sl", "last"]
+- ["SL", "Self"]
+- !private ["SL", "drop"]
+- !private ["SL", "dropLast"]
+- !private ["SL", "isWhitespace"]
+- !private ["SL", "last"]
+- ["s28CustomDebugStringConvertibleP", "Self"]
+- !private ["s28CustomDebugStringConvertibleP", "drop"]
+- !private ["s28CustomDebugStringConvertibleP", "dropLast"]
+- !private ["s28CustomDebugStringConvertibleP", "isWhitespace"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- ["s17CustomReflectableP", "Self"]
+- !private ["s17CustomReflectableP", "drop"]
+- !private ["s17CustomReflectableP", "dropLast"]
+- !private ["s17CustomReflectableP", "isWhitespace"]
+- !private ["s17CustomReflectableP", "last"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "drop"]
+- !private ["s23CustomStringConvertibleP", "dropLast"]
+- !private ["s23CustomStringConvertibleP", "isWhitespace"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- ["SQ", "Self"]
+- !private ["SQ", "drop"]
+- !private ["SQ", "dropLast"]
+- !private ["SQ", "isWhitespace"]
+- !private ["SQ", "last"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Self"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "drop"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dropLast"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "last"]
+- ["s32ExpressibleByStringInterpolationP", "Self"]
+- !private ["s32ExpressibleByStringInterpolationP", "drop"]
+- !private ["s32ExpressibleByStringInterpolationP", "dropLast"]
+- !private ["s32ExpressibleByStringInterpolationP", "last"]
+- ["s26ExpressibleByStringLiteralP", "Self"]
+- !private ["s26ExpressibleByStringLiteralP", "drop"]
+- !private ["s26ExpressibleByStringLiteralP", "dropLast"]
+- !private ["s26ExpressibleByStringLiteralP", "last"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Self"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "drop"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dropLast"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isWhitespace"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "last"]
+- ["SH", "Self"]
+- !private ["SH", "drop"]
+- !private ["SH", "dropLast"]
+- !private ["SH", "isWhitespace"]
+- !private ["SH", "last"]
+- ["s25LosslessStringConvertibleP", "Self"]
+- !private ["s25LosslessStringConvertibleP", "drop"]
+- !private ["s25LosslessStringConvertibleP", "dropLast"]
+- !private ["s25LosslessStringConvertibleP", "isWhitespace"]
+- !private ["s25LosslessStringConvertibleP", "last"]
+- ["Sm", "Self"]
+- !private ["Sm", "drop"]
+- !private ["Sm", "dropLast"]
+- !private ["Sm", "last"]
+- ["ST", "Self"]
+- !private ["ST", "drop"]
+- !private ["ST", "dropLast"]
+- !private ["ST", "last"]
+- ["Sy", "Self"]
+- !private ["Sy", "drop"]
+- !private ["Sy", "dropLast"]
+- !private ["Sy", "last"]
+- ["Ss", "Self"]
+- !private ["Ss", "drop"]
+- !private ["Ss", "dropLast"]
+- !private ["Ss", "last"]
+- ["Ss", "trimmingLeadingWhitespaces"]
+- ["Ss", "trimmingTrailingWhitespaces"]
+- ["s16TextOutputStreamP", "Self"]
+- !private ["s16TextOutputStreamP", "drop"]
+- !private ["s16TextOutputStreamP", "dropLast"]
+- !private ["s16TextOutputStreamP", "last"]
+- ["s20TextOutputStreamableP", "Self"]
+- !private ["s20TextOutputStreamableP", "drop"]
+- !private ["s20TextOutputStreamableP", "dropLast"]
+- !private ["s20TextOutputStreamableP", "isWhitespace"]
+- !private ["s20TextOutputStreamableP", "last"]
+- ["s30_CustomPlaygroundQuickLookableP", "Self"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "drop"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "dropLast"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isWhitespace"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "last"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isWhitespace"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isWhitespace"]
+- ["s19_HasContiguousBytesP", "Self"]
+- !private ["s19_HasContiguousBytesP", "drop"]
+- !private ["s19_HasContiguousBytesP", "dropLast"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- ["s21_ObjectiveCBridgeableP", "Self"]
+- !private ["s21_ObjectiveCBridgeableP", "drop"]
+- !private ["s21_ObjectiveCBridgeableP", "dropLast"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+depends-nominal:
+- "SK"
+- !private "SJ"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "Sm"
+- "ST"
+- "Sy"
+- "Ss"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6ff793a62896678fe98b3aaa808bbbf1"

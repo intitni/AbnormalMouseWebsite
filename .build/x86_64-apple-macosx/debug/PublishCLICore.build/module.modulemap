@@ -1,0 +1,4 @@
+module PublishCLICore {
+    header "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/PublishCLICore-Swift.h"
+    requires objc
+}

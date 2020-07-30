@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/master.swiftdeps"
+  },
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/files/Sources/Files.swift": {
+    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/Files.d",
+    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/Files.swift.o",
+    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/Files~partial.swiftmodule",
+    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/Files.swiftdeps"
+  }
+}

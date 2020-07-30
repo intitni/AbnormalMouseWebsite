@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "4bc8862ed9c7c149385fe9bc01818bc7"
+build_time: [1595430672, 557513000]
+inputs:
+  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/sweep/Sources/Sweep/Sweep.swift": [1595430669, 51486587]

@@ -1,0 +1,877 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PodcastFeedGenerator"
+provides-nominal:
+- "7Publish20PodcastFeedGeneratorV"
+provides-member:
+- ["7Publish20PodcastFeedGeneratorV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "=="
+- !private ">"
+- !private "??"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Codable"
+- "Date"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Item"
+- !private "Node"
+- "PodcastCompatibleWebsiteItemMetadata"
+- !private "PodcastError"
+- "PodcastFeed"
+- "PodcastFeedConfiguration"
+- "PodcastFeedGenerator"
+- "Predicate"
+- "PublishingContext"
+- "Section"
+- "String"
+- "StringLiteralType"
+- "Website"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["11Codextended16AnyDateFormatterP", "timeZone"]
+- !private ["7Publish7AnyItemP", "audio"]
+- !private ["7Publish7AnyItemP", "date"]
+- !private ["7Publish7AnyItemP", "description"]
+- !private ["7Publish7AnyItemP", "lastModified"]
+- !private ["7Publish7AnyItemP", "metadata"]
+- !private ["7Publish7AnyItemP", "path"]
+- !private ["7Publish7AnyItemP", "rssTitle"]
+- !private ["4Plot7AnyNodeP", "atomLink"]
+- !private ["4Plot7AnyNodeP", "audio"]
+- !private ["4Plot7AnyNodeP", "author"]
+- !private ["4Plot7AnyNodeP", "category"]
+- !private ["4Plot7AnyNodeP", "content"]
+- !private ["4Plot7AnyNodeP", "copyright"]
+- !private ["4Plot7AnyNodeP", "description"]
+- !private ["4Plot7AnyNodeP", "duration"]
+- !private ["4Plot7AnyNodeP", "email"]
+- !private ["4Plot7AnyNodeP", "episodeNumber"]
+- !private ["4Plot7AnyNodeP", "explicit"]
+- !private ["4Plot7AnyNodeP", "forEach"]
+- !private ["4Plot7AnyNodeP", "guid"]
+- !private ["4Plot7AnyNodeP", "image"]
+- !private ["4Plot7AnyNodeP", "item"]
+- !private ["4Plot7AnyNodeP", "language"]
+- !private ["4Plot7AnyNodeP", "lastBuildDate"]
+- !private ["4Plot7AnyNodeP", "link"]
+- !private ["4Plot7AnyNodeP", "name"]
+- !private ["4Plot7AnyNodeP", "newFeedURL"]
+- !private ["4Plot7AnyNodeP", "owner"]
+- !private ["4Plot7AnyNodeP", "pubDate"]
+- !private ["4Plot7AnyNodeP", "seasonNumber"]
+- !private ["4Plot7AnyNodeP", "subtitle"]
+- !private ["4Plot7AnyNodeP", "summary"]
+- !private ["4Plot7AnyNodeP", "title"]
+- !private ["4Plot7AnyNodeP", "ttl"]
+- !private ["4Plot7AnyNodeP", "type"]
+- !private ["4Plot7AnyNodeP", "unwrap"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "first"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "sorted"]
+- !private ["7Publish5AudioV", "byteSize"]
+- !private ["7Publish5AudioV", "duration"]
+- !private ["7Publish5AudioV", "format"]
+- !private ["7Publish5AudioV", "url"]
+- !private ["SK", "count"]
+- !private ["SK", "decoded"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "first"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "sorted"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "timeZone"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "count"]
+- !private ["Sl", "decoded"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "first"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "sorted"]
+- !private ["SL", "init"]
+- !private ["7Publish15ContentProtocolP", "audio"]
+- !private ["7Publish15ContentProtocolP", "date"]
+- !private ["7Publish15ContentProtocolP", "description"]
+- !private ["7Publish15ContentProtocolP", "items"]
+- !private ["7Publish15ContentProtocolP", "lastModified"]
+- !private ["7Publish15ContentProtocolP", "metadata"]
+- !private ["7Publish15ContentProtocolP", "path"]
+- !private ["7Publish15ContentProtocolP", "rssTitle"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "decoded"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["10Foundation15ContiguousBytesP", "sorted"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "decoded"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "decoded"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "sorted"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "callAsFunction"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "decoded"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "read"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DataV", "decoded"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "decoded"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["10Foundation12DataProtocolP", "sorted"]
+- !private ["So15NSDateFormatterC", "timeZone"]
+- !private ["Se", ""]
+- !private ["Se", "author"]
+- !private ["Se", "byteSize"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "category"]
+- !private ["Se", "config"]
+- !private ["Se", "copyrightText"]
+- !private ["Se", "count"]
+- !private ["Se", "decoded"]
+- !private ["Se", "description"]
+- !private ["Se", "duration"]
+- !private ["Se", "emailAddress"]
+- ["Se", "encode"]
+- !private ["Se", "encoded"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "episodeNumber"]
+- !private ["Se", "feed"]
+- !private ["Se", "first"]
+- !private ["Se", "format"]
+- !private ["Se", "imageURL"]
+- !private ["Se", "indentation"]
+- ["Se", "init"]
+- !private ["Se", "isExplicit"]
+- !private ["Se", "itemCount"]
+- !private ["Se", "name"]
+- !private ["Se", "newFeedURL"]
+- !private ["Se", "podcast"]
+- !private ["Se", "rawValue"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "seasonNumber"]
+- !private ["Se", "sorted"]
+- !private ["Se", "subcategory"]
+- !private ["Se", "subtitle"]
+- !private ["Se", "targetPath"]
+- !private ["Se", "ttlInterval"]
+- !private ["Se", "type"]
+- !private ["Se", "url"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["4Plot14DocumentFormatP", "init"]
+- !private ["4Plot14DocumentFormatP", "render"]
+- !private ["SE", ""]
+- !private ["SE", "author"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "category"]
+- !private ["SE", "config"]
+- !private ["SE", "copyrightText"]
+- !private ["SE", "count"]
+- !private ["SE", "decoded"]
+- !private ["SE", "description"]
+- !private ["SE", "emailAddress"]
+- ["SE", "encode"]
+- !private ["SE", "encoded"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "feed"]
+- !private ["SE", "first"]
+- !private ["SE", "imageURL"]
+- !private ["SE", "indentation"]
+- ["SE", "init"]
+- !private ["SE", "isExplicit"]
+- !private ["SE", "itemCount"]
+- !private ["SE", "name"]
+- !private ["SE", "newFeedURL"]
+- !private ["SE", "rawValue"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "sorted"]
+- !private ["SE", "subcategory"]
+- !private ["SE", "subtitle"]
+- !private ["SE", "targetPath"]
+- !private ["SE", "ttlInterval"]
+- !private ["SE", "type"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "audio"]
+- !private ["SQ", "author"]
+- !private ["SQ", "byteSize"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "category"]
+- !private ["SQ", "copyrightText"]
+- !private ["SQ", "count"]
+- !private ["SQ", "date"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "decoded"]
+- ["SQ", "description"]
+- !private ["SQ", "duration"]
+- !private ["SQ", "emailAddress"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "episodeNumber"]
+- !private ["SQ", "first"]
+- !private ["SQ", "format"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "imageURL"]
+- !private ["SQ", "indentation"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isExplicit"]
+- !private ["SQ", "lastModified"]
+- !private ["SQ", "metadata"]
+- !private ["SQ", "missingAudio"]
+- !private ["SQ", "missingAudioDuration"]
+- !private ["SQ", "missingAudioSize"]
+- !private ["SQ", "name"]
+- !private ["SQ", "newFeedURL"]
+- !private ["SQ", "path"]
+- !private ["SQ", "podcast"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "read"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "rssTitle"]
+- !private ["SQ", "seasonNumber"]
+- !private ["SQ", "sorted"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subcategory"]
+- !private ["SQ", "subtitle"]
+- !private ["SQ", "targetPath"]
+- !private ["SQ", "timeZone"]
+- !private ["SQ", "ttlInterval"]
+- !private ["SQ", "type"]
+- !private ["SQ", "url"]
+- !private ["SQ", "write"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "atomLink"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "audio"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "author"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "category"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "content"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "copyright"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "duration"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "email"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "episodeNumber"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "explicit"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "forEach"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "guid"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "image"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "item"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "language"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lastBuildDate"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "link"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "name"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "newFeedURL"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "owner"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "pubDate"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "seasonNumber"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subtitle"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "summary"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "title"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ttl"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "type"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "unwrap"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s32ExpressibleByStringInterpolationP", "atomLink"]
+- !private ["s32ExpressibleByStringInterpolationP", "audio"]
+- !private ["s32ExpressibleByStringInterpolationP", "author"]
+- !private ["s32ExpressibleByStringInterpolationP", "category"]
+- !private ["s32ExpressibleByStringInterpolationP", "content"]
+- !private ["s32ExpressibleByStringInterpolationP", "copyright"]
+- !private ["s32ExpressibleByStringInterpolationP", "description"]
+- !private ["s32ExpressibleByStringInterpolationP", "duration"]
+- !private ["s32ExpressibleByStringInterpolationP", "email"]
+- !private ["s32ExpressibleByStringInterpolationP", "episodeNumber"]
+- !private ["s32ExpressibleByStringInterpolationP", "explicit"]
+- !private ["s32ExpressibleByStringInterpolationP", "forEach"]
+- !private ["s32ExpressibleByStringInterpolationP", "guid"]
+- !private ["s32ExpressibleByStringInterpolationP", "image"]
+- !private ["s32ExpressibleByStringInterpolationP", "item"]
+- !private ["s32ExpressibleByStringInterpolationP", "language"]
+- !private ["s32ExpressibleByStringInterpolationP", "lastBuildDate"]
+- !private ["s32ExpressibleByStringInterpolationP", "link"]
+- !private ["s32ExpressibleByStringInterpolationP", "name"]
+- !private ["s32ExpressibleByStringInterpolationP", "newFeedURL"]
+- !private ["s32ExpressibleByStringInterpolationP", "owner"]
+- !private ["s32ExpressibleByStringInterpolationP", "pubDate"]
+- !private ["s32ExpressibleByStringInterpolationP", "seasonNumber"]
+- !private ["s32ExpressibleByStringInterpolationP", "subtitle"]
+- !private ["s32ExpressibleByStringInterpolationP", "summary"]
+- !private ["s32ExpressibleByStringInterpolationP", "title"]
+- !private ["s32ExpressibleByStringInterpolationP", "ttl"]
+- !private ["s32ExpressibleByStringInterpolationP", "type"]
+- !private ["s32ExpressibleByStringInterpolationP", "unwrap"]
+- !private ["s26ExpressibleByStringLiteralP", "atomLink"]
+- !private ["s26ExpressibleByStringLiteralP", "audio"]
+- !private ["s26ExpressibleByStringLiteralP", "author"]
+- !private ["s26ExpressibleByStringLiteralP", "category"]
+- !private ["s26ExpressibleByStringLiteralP", "content"]
+- !private ["s26ExpressibleByStringLiteralP", "copyright"]
+- !private ["s26ExpressibleByStringLiteralP", "description"]
+- !private ["s26ExpressibleByStringLiteralP", "duration"]
+- !private ["s26ExpressibleByStringLiteralP", "email"]
+- !private ["s26ExpressibleByStringLiteralP", "episodeNumber"]
+- !private ["s26ExpressibleByStringLiteralP", "explicit"]
+- !private ["s26ExpressibleByStringLiteralP", "forEach"]
+- !private ["s26ExpressibleByStringLiteralP", "guid"]
+- !private ["s26ExpressibleByStringLiteralP", "image"]
+- !private ["s26ExpressibleByStringLiteralP", "item"]
+- !private ["s26ExpressibleByStringLiteralP", "language"]
+- !private ["s26ExpressibleByStringLiteralP", "lastBuildDate"]
+- !private ["s26ExpressibleByStringLiteralP", "link"]
+- !private ["s26ExpressibleByStringLiteralP", "name"]
+- !private ["s26ExpressibleByStringLiteralP", "newFeedURL"]
+- !private ["s26ExpressibleByStringLiteralP", "owner"]
+- !private ["s26ExpressibleByStringLiteralP", "pubDate"]
+- !private ["s26ExpressibleByStringLiteralP", "seasonNumber"]
+- !private ["s26ExpressibleByStringLiteralP", "subtitle"]
+- !private ["s26ExpressibleByStringLiteralP", "summary"]
+- !private ["s26ExpressibleByStringLiteralP", "title"]
+- !private ["s26ExpressibleByStringLiteralP", "ttl"]
+- !private ["s26ExpressibleByStringLiteralP", "type"]
+- !private ["s26ExpressibleByStringLiteralP", "unwrap"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "atomLink"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "audio"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "author"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "category"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "content"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "copyright"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "duration"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "email"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "episodeNumber"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "explicit"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "forEach"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "guid"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "image"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "item"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "language"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lastBuildDate"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "link"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "name"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "newFeedURL"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "owner"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "pubDate"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "seasonNumber"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subtitle"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "summary"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "title"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ttl"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "type"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "unwrap"]
+- !private ["7Publish17FeedConfigurationP", "author"]
+- !private ["7Publish17FeedConfigurationP", "category"]
+- !private ["7Publish17FeedConfigurationP", "copyrightText"]
+- !private ["7Publish17FeedConfigurationP", "description"]
+- !private ["7Publish17FeedConfigurationP", "imageURL"]
+- !private ["7Publish17FeedConfigurationP", "indentation"]
+- !private ["7Publish17FeedConfigurationP", "isExplicit"]
+- !private ["7Publish17FeedConfigurationP", "newFeedURL"]
+- !private ["7Publish17FeedConfigurationP", "subcategory"]
+- !private ["7Publish17FeedConfigurationP", "subtitle"]
+- !private ["7Publish17FeedConfigurationP", "targetPath"]
+- !private ["7Publish17FeedConfigurationP", "ttlInterval"]
+- !private ["7Publish17FeedConfigurationP", "type"]
+- !private ["5Files4FileV", "read"]
+- !private ["5Files4FileV", "write"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So11NSFormatterC", "timeZone"]
+- !private ["4Plot15HTMLAudioFormatO", "rawValue"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "audio"]
+- !private ["SH", "byteSize"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "count"]
+- !private ["SH", "date"]
+- ["SH", "debugDescription"]
+- !private ["SH", "decoded"]
+- ["SH", "description"]
+- !private ["SH", "duration"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "episodeNumber"]
+- !private ["SH", "first"]
+- !private ["SH", "format"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isExplicit"]
+- !private ["SH", "lastModified"]
+- !private ["SH", "metadata"]
+- !private ["SH", "missingAudio"]
+- !private ["SH", "missingAudioDuration"]
+- !private ["SH", "missingAudioSize"]
+- !private ["SH", "path"]
+- !private ["SH", "podcast"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "rssTitle"]
+- !private ["SH", "seasonNumber"]
+- !private ["SH", "sorted"]
+- ["SH", "stringValue"]
+- !private ["SH", "timeZone"]
+- !private ["SH", "url"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "init"]
+- !private ["7Publish4ItemV", "audio"]
+- !private ["7Publish4ItemV", "date"]
+- !private ["7Publish4ItemV", "deinit"]
+- !private ["7Publish4ItemV", "description"]
+- !private ["7Publish4ItemV", "lastModified"]
+- !private ["7Publish4ItemV", "metadata"]
+- !private ["7Publish4ItemV", "path"]
+- !private ["7Publish4ItemV", "rssTitle"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["7Publish8LocationP", "audio"]
+- !private ["7Publish8LocationP", "date"]
+- !private ["7Publish8LocationP", "description"]
+- !private ["7Publish8LocationP", "items"]
+- !private ["7Publish8LocationP", "lastModified"]
+- !private ["7Publish8LocationP", "metadata"]
+- !private ["7Publish8LocationP", "path"]
+- !private ["5Files8LocationP", "read"]
+- !private ["7Publish8LocationP", "rssTitle"]
+- !private ["5Files8LocationP", "write"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "decoded"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "first"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "sorted"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "decoded"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "sorted"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So8NSObjectC", "timeZone"]
+- !private ["So8NSObjectP", "timeZone"]
+- !private ["4Plot4NodeO", "atomLink"]
+- !private ["4Plot4NodeO", "audio"]
+- !private ["4Plot4NodeO", "author"]
+- !private ["4Plot4NodeO", "category"]
+- !private ["4Plot4NodeO", "content"]
+- !private ["4Plot4NodeO", "copyright"]
+- !private ["4Plot4NodeO", "description"]
+- !private ["4Plot4NodeO", "duration"]
+- !private ["4Plot4NodeO", "email"]
+- !private ["4Plot4NodeO", "episodeNumber"]
+- !private ["4Plot4NodeO", "explicit"]
+- !private ["4Plot4NodeO", "forEach"]
+- !private ["4Plot4NodeO", "guid"]
+- !private ["4Plot4NodeO", "image"]
+- !private ["4Plot4NodeO", "item"]
+- !private ["4Plot4NodeO", "language"]
+- !private ["4Plot4NodeO", "lastBuildDate"]
+- !private ["4Plot4NodeO", "link"]
+- !private ["4Plot4NodeO", "name"]
+- !private ["4Plot4NodeO", "newFeedURL"]
+- !private ["4Plot4NodeO", "owner"]
+- !private ["4Plot4NodeO", "pubDate"]
+- !private ["4Plot4NodeO", "seasonNumber"]
+- !private ["4Plot4NodeO", "subtitle"]
+- !private ["4Plot4NodeO", "summary"]
+- !private ["4Plot4NodeO", "title"]
+- !private ["4Plot4NodeO", "ttl"]
+- !private ["4Plot4NodeO", "type"]
+- !private ["4Plot4NodeO", "unwrap"]
+- !private ["Sj", "init"]
+- !private ["Sq", "callAsFunction"]
+- !private ["7Publish13PodcastAuthorV", "emailAddress"]
+- !private ["7Publish13PodcastAuthorV", "name"]
+- !private ["7Publish36PodcastCompatibleWebsiteItemMetadataP", "podcast"]
+- !private ["7Publish22PodcastEpisodeMetadataV", "episodeNumber"]
+- !private ["7Publish22PodcastEpisodeMetadataV", "isExplicit"]
+- !private ["7Publish22PodcastEpisodeMetadataV", "seasonNumber"]
+- !private ["7Publish12PodcastErrorV", "deinit"]
+- !private ["7Publish12PodcastErrorV", "init"]
+- !private ["4Plot11PodcastFeedV", "init"]
+- !private ["4Plot11PodcastFeedV", "render"]
+- !private ["7Publish24PodcastFeedConfigurationV", "author"]
+- !private ["7Publish24PodcastFeedConfigurationV", "category"]
+- !private ["7Publish24PodcastFeedConfigurationV", "copyrightText"]
+- ["7Publish24PodcastFeedConfigurationV", "deinit"]
+- !private ["7Publish24PodcastFeedConfigurationV", "description"]
+- !private ["7Publish24PodcastFeedConfigurationV", "imageURL"]
+- !private ["7Publish24PodcastFeedConfigurationV", "indentation"]
+- !private ["7Publish24PodcastFeedConfigurationV", "isExplicit"]
+- !private ["7Publish24PodcastFeedConfigurationV", "newFeedURL"]
+- !private ["7Publish24PodcastFeedConfigurationV", "subcategory"]
+- !private ["7Publish24PodcastFeedConfigurationV", "subtitle"]
+- !private ["7Publish24PodcastFeedConfigurationV", "targetPath"]
+- !private ["7Publish24PodcastFeedConfigurationV", "ttlInterval"]
+- !private ["7Publish24PodcastFeedConfigurationV", "type"]
+- !private ["7Publish20PodcastFeedGeneratorV", "Cache"]
+- ["7Publish20PodcastFeedGeneratorV", "Codable"]
+- ["7Publish20PodcastFeedGeneratorV", "Date"]
+- ["7Publish20PodcastFeedGeneratorV", "Int"]
+- ["7Publish20PodcastFeedGeneratorV", "Item"]
+- !private ["7Publish20PodcastFeedGeneratorV", "Node"]
+- !private ["7Publish20PodcastFeedGeneratorV", "PodcastError"]
+- ["7Publish20PodcastFeedGeneratorV", "PodcastFeed"]
+- ["7Publish20PodcastFeedGeneratorV", "PodcastFeedConfiguration"]
+- ["7Publish20PodcastFeedGeneratorV", "Predicate"]
+- ["7Publish20PodcastFeedGeneratorV", "PublishingContext"]
+- ["7Publish20PodcastFeedGeneratorV", "Section"]
+- ["7Publish20PodcastFeedGeneratorV", "String"]
+- ["7Publish20PodcastFeedGeneratorV", "config"]
+- ["7Publish20PodcastFeedGeneratorV", "context"]
+- ["7Publish20PodcastFeedGeneratorV", "date"]
+- ["7Publish20PodcastFeedGeneratorV", "generate"]
+- ["7Publish20PodcastFeedGeneratorV", "init"]
+- ["7Publish20PodcastFeedGeneratorV", "itemPredicate"]
+- !private ["7Publish20PodcastFeedGeneratorV", "makeFeed"]
+- ["7Publish20PodcastFeedGeneratorV", "sectionID"]
+- !private ["7Publish9PredicateV", "inverse"]
+- !private ["7Publish9PredicateV", "matches"]
+- !private ["7Publish17PublishingContextV", "cacheFile"]
+- !private ["7Publish17PublishingContextV", "createOutputFile"]
+- !private ["7Publish17PublishingContextV", "dateFormatter"]
+- !private ["7Publish17PublishingContextV", "lastGenerationDate"]
+- !private ["7Publish17PublishingContextV", "sections"]
+- !private ["7Publish17PublishingContextV", "site"]
+- !private ["7Publish26PublishingErrorConvertibleP", "init"]
+- !private ["4Plot22RSSBasedDocumentFormatP", "init"]
+- !private ["4Plot22RSSBasedDocumentFormatP", "render"]
+- !private ["Sk", "count"]
+- !private ["Sk", "decoded"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "first"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "sorted"]
+- !private ["Sm", "count"]
+- !private ["Sm", "decoded"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "first"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "sorted"]
+- !private ["SY", "rawValue"]
+- !private ["7Publish12PodcastErrorV6ReasonO", "missingAudio"]
+- !private ["7Publish12PodcastErrorV6ReasonO", "missingAudioDuration"]
+- !private ["7Publish12PodcastErrorV6ReasonO", "missingAudioSize"]
+- !private ["10Foundation20ReferenceConvertibleP", "callAsFunction"]
+- !private ["10Foundation20ReferenceConvertibleP", "decoded"]
+- !private ["4Plot10RenderableP", "atomLink"]
+- !private ["4Plot10RenderableP", "audio"]
+- !private ["4Plot10RenderableP", "author"]
+- !private ["4Plot10RenderableP", "category"]
+- !private ["4Plot10RenderableP", "content"]
+- !private ["4Plot10RenderableP", "copyright"]
+- !private ["4Plot10RenderableP", "count"]
+- !private ["4Plot10RenderableP", "description"]
+- !private ["4Plot10RenderableP", "duration"]
+- !private ["4Plot10RenderableP", "email"]
+- !private ["4Plot10RenderableP", "enumerated"]
+- !private ["4Plot10RenderableP", "episodeNumber"]
+- !private ["4Plot10RenderableP", "explicit"]
+- !private ["4Plot10RenderableP", "first"]
+- !private ["4Plot10RenderableP", "forEach"]
+- !private ["4Plot10RenderableP", "guid"]
+- !private ["4Plot10RenderableP", "image"]
+- !private ["4Plot10RenderableP", "init"]
+- !private ["4Plot10RenderableP", "item"]
+- !private ["4Plot10RenderableP", "language"]
+- !private ["4Plot10RenderableP", "lastBuildDate"]
+- !private ["4Plot10RenderableP", "link"]
+- !private ["4Plot10RenderableP", "name"]
+- !private ["4Plot10RenderableP", "newFeedURL"]
+- !private ["4Plot10RenderableP", "owner"]
+- !private ["4Plot10RenderableP", "pubDate"]
+- !private ["4Plot10RenderableP", "removeAll"]
+- !private ["4Plot10RenderableP", "render"]
+- !private ["4Plot10RenderableP", "seasonNumber"]
+- !private ["4Plot10RenderableP", "sorted"]
+- !private ["4Plot10RenderableP", "subtitle"]
+- !private ["4Plot10RenderableP", "summary"]
+- !private ["4Plot10RenderableP", "title"]
+- !private ["4Plot10RenderableP", "ttl"]
+- !private ["4Plot10RenderableP", "type"]
+- !private ["4Plot10RenderableP", "unwrap"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Publish7SectionV", "deinit"]
+- !private ["7Publish7SectionV", "items"]
+- !private ["7Publish10SectionMapV", "subscript"]
+- !private ["ST", "count"]
+- !private ["ST", "decoded"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "first"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "sorted"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation3URLV", "callAsFunction"]
+- !private ["4Plot16URLRepresentableP", "callAsFunction"]
+- ["7Publish7WebsiteP", "SectionID"]
+- !private ["7Publish7WebsiteP", "language"]
+- !private ["7Publish7WebsiteP", "name"]
+- !private ["7Publish7WebsiteP", "url"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "callAsFunction"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "callAsFunction"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s19_HasContiguousBytesP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "decoded"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "11Codextended16AnyDateFormatterP"
+- !private "7Publish7AnyItemP"
+- !private "4Plot7AnyNodeP"
+- !private "Sa"
+- !private "7Publish5AudioV"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "7Publish15ContentProtocolP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "So15NSDateFormatterC"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "4Plot14DocumentFormatP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Publish17FeedConfigurationP"
+- !private "5Files4FileV"
+- !private "s17FixedWidthIntegerP"
+- !private "So11NSFormatterC"
+- !private "4Plot15HTMLAudioFormatO"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "7Publish4ItemV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "7Publish8LocationP"
+- !private "5Files8LocationP"
+- !private "7Publish8LocationP"
+- !private "5Files8LocationP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "4Plot4NodeO"
+- !private "Sj"
+- !private "Sq"
+- !private "7Publish13PodcastAuthorV"
+- !private "7Publish36PodcastCompatibleWebsiteItemMetadataP"
+- !private "7Publish22PodcastEpisodeMetadataV"
+- !private "7Publish12PodcastErrorV"
+- !private "4Plot11PodcastFeedV"
+- "7Publish24PodcastFeedConfigurationV"
+- "7Publish20PodcastFeedGeneratorV"
+- !private "7Publish9PredicateV"
+- !private "7Publish17PublishingContextV"
+- !private "7Publish26PublishingErrorConvertibleP"
+- !private "4Plot22RSSBasedDocumentFormatP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "7Publish12PodcastErrorV6ReasonO"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Plot10RenderableP"
+- !private "s10SIMDScalarP"
+- !private "7Publish7SectionV"
+- !private "7Publish10SectionMapV"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation3URLV"
+- !private "4Plot16URLRepresentableP"
+- "7Publish7WebsiteP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "38508d5e31932a36f78888fe3cca06fb"

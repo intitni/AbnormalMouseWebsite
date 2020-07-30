@@ -1,6 +1,6 @@
 import Foundation
-import Publish
 import Plot
+import Publish
 
 private let websiteURLPrefix: String = "https://abnormalmouse.intii.com"
 
@@ -13,7 +13,7 @@ extension Language {
             return ("中文", URL(string: websiteURLPrefix + "/zh-cn")!)
         }
     }
-    
+
     var appTitle: String {
         switch self {
         case .chinese:
@@ -22,12 +22,12 @@ extension Language {
             return "Abnormal Mouse"
         }
     }
-    
+
     var appDescription: (String, String, String) {
         switch self {
         case .chinese:
             return (
-                "让一般鼠标在 macOS 中使用更轻松。",
+                "让你在 macOS 中使用一般鼠标更轻松。",
                 "如果你的鼠标有很多按键那就更好了。",
                 "为什么 magic mouse 那么贵。"
             )
@@ -39,11 +39,11 @@ extension Language {
             )
         }
     }
-    
+
     var downloadLink: URL {
-        URL(string: "https://abnormalmouse.intii.com")!
+        URL(string: "https://github.com/intitni/AbnormalMouseWebsite/releases/download/version%2F2020.1/Abnormal_Mouse_2020_1.zip")!
     }
-    
+
     var downloadLinkTitle: String {
         switch self {
         case .chinese:
@@ -52,20 +52,20 @@ extension Language {
             return "Download free trial."
         }
     }
-    
+
     var purchaseLink: URL {
         URL(string: "https://abnormalmouse.intii.com")!
     }
-    
+
     var purchaseLinkTitle: String {
         switch self {
         case .chinese:
-            return "现在购买只需 US$3。"
+            return "现在购买只需¥20。(即将到来)"
         default:
-            return "Buy now for US$3. "
+            return "Buy now for US$4. (Coming Soon) "
         }
     }
-    
+
     var purchaseLinkDescription: String {
         switch self {
         case .chinese:
@@ -74,7 +74,7 @@ extension Language {
             return "3 activations"
         }
     }
-    
+
     var contact: String {
         switch self {
         case .chinese:
@@ -99,7 +99,7 @@ extension Section {
 struct AbnormalMouseWebsite: Website {
     enum SectionID: String, WebsiteSectionID {
         case zh_cn = "zh-cn"
-        
+
         var language: Language {
             switch self {
             case .zh_cn: return .chinese

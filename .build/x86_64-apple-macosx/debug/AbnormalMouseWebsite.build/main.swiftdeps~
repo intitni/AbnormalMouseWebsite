@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AbnormalMouseWebsite"
+provides-nominal:
+- "20AbnormalMouseWebsiteAAV"
+- "20AbnormalMouseWebsiteAAV9SectionIDO"
+- "20AbnormalMouseWebsiteAAV12ItemMetadataV"
+provides-member:
+- ["4Plot8LanguageO", ""]
+- ["7Publish7SectionV", ""]
+- ["20AbnormalMouseWebsiteAAV", ""]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", ""]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", ""]
+- ["4Plot8LanguageO", "anotherLanguage"]
+- ["4Plot8LanguageO", "appTitle"]
+- ["4Plot8LanguageO", "appDescription"]
+- ["4Plot8LanguageO", "downloadLink"]
+- ["4Plot8LanguageO", "downloadLinkTitle"]
+- ["4Plot8LanguageO", "purchaseLink"]
+- ["4Plot8LanguageO", "purchaseLinkTitle"]
+- ["4Plot8LanguageO", "purchaseLinkDescription"]
+- ["4Plot8LanguageO", "contact"]
+- ["7Publish7SectionV", "language"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- "AbnormalMouseWebsite"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Language"
+- "Path"
+- "Section"
+- "String"
+- "StringLiteralType"
+- "URL"
+- "Website"
+- "WebsiteItemMetadata"
+- "WebsiteSectionID"
+- !private "_findStringSwitchCase"
+- "websiteURLPrefix"
+- !private "~="
+depends-member:
+- ["20AbnormalMouseWebsiteAAV", "ItemMetadata"]
+- ["20AbnormalMouseWebsiteAAV", "Language"]
+- ["20AbnormalMouseWebsiteAAV", "Path"]
+- ["20AbnormalMouseWebsiteAAV", "SectionID"]
+- ["20AbnormalMouseWebsiteAAV", "String"]
+- ["20AbnormalMouseWebsiteAAV", "URL"]
+- ["20AbnormalMouseWebsiteAAV", "WebsiteItemMetadata"]
+- ["20AbnormalMouseWebsiteAAV", "WebsiteSectionID"]
+- !private ["20AbnormalMouseWebsiteAAV", "_findStringSwitchCase"]
+- ["20AbnormalMouseWebsiteAAV", "deinit"]
+- ["20AbnormalMouseWebsiteAAV", "description"]
+- ["20AbnormalMouseWebsiteAAV", "favicon"]
+- ["20AbnormalMouseWebsiteAAV", "imagePath"]
+- ["20AbnormalMouseWebsiteAAV", "init"]
+- ["20AbnormalMouseWebsiteAAV", "language"]
+- ["20AbnormalMouseWebsiteAAV", "name"]
+- ["20AbnormalMouseWebsiteAAV", "publish"]
+- ["20AbnormalMouseWebsiteAAV", "tagHTMLConfig"]
+- ["20AbnormalMouseWebsiteAAV", "url"]
+- ["20AbnormalMouseWebsiteAAV", "websiteURLPrefix"]
+- ["s12CaseIterableP", "=="]
+- ["s12CaseIterableP", "AllCases"]
+- ["s12CaseIterableP", "RawValue"]
+- ["s12CaseIterableP", ""]
+- ["s12CaseIterableP", "_Default_AllCases"]
+- ["s12CaseIterableP", "_Default_RawValue"]
+- !private ["s12CaseIterableP", "_findStringSwitchCase"]
+- ["s12CaseIterableP", "_rawHashValue"]
+- ["s12CaseIterableP", "allCases"]
+- ["s12CaseIterableP", "hash"]
+- ["s12CaseIterableP", "hashValue"]
+- ["s12CaseIterableP", "init"]
+- !private ["s12CaseIterableP", "language"]
+- ["s12CaseIterableP", "rawValue"]
+- ["s12CaseIterableP", "zh_cn"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["7Publish15ContentProtocolP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "gitHub"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s17CustomReflectableP", "gitHub"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- ["Se", "AllCases"]
+- ["Se", "RawValue"]
+- ["Se", ""]
+- ["Se", "_Default_AllCases"]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- ["Se", "allCases"]
+- ["Se", "gitHub"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- !private ["Se", "language"]
+- ["Se", "rawValue"]
+- ["Se", "zh_cn"]
+- ["7Publish16DeploymentMethodV", "gitHub"]
+- ["SE", "gitHub"]
+- ["SE", "init"]
+- ["SQ", "=="]
+- ["SQ", "AllCases"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- ["SQ", "_Default_AllCases"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "allCases"]
+- ["SQ", "chinese"]
+- !private ["SQ", "english"]
+- ["SQ", "gitHub"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "language"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "websiteURLPrefix"]
+- ["SQ", "zh_cn"]
+- ["s23ExpressibleByNilLiteralP", "gitHub"]
+- ["SH", "=="]
+- ["SH", "AllCases"]
+- ["SH", "RawValue"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- ["SH", "_Default_AllCases"]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "allCases"]
+- ["SH", "chinese"]
+- !private ["SH", "english"]
+- ["SH", "gitHub"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "language"]
+- ["SH", "rawValue"]
+- !private ["SH", "websiteURLPrefix"]
+- ["SH", "zh_cn"]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "=="]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "__derived_struct_equals"]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "_rawHashValue"]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "deinit"]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "hash"]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "hashValue"]
+- ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "init"]
+- ["4Plot8LanguageO", "String"]
+- ["4Plot8LanguageO", "URL"]
+- ["4Plot8LanguageO", "anotherLanguage"]
+- ["4Plot8LanguageO", "appDescription"]
+- ["4Plot8LanguageO", "appTitle"]
+- ["4Plot8LanguageO", "chinese"]
+- ["4Plot8LanguageO", "contact"]
+- ["4Plot8LanguageO", "downloadLink"]
+- ["4Plot8LanguageO", "downloadLinkTitle"]
+- !private ["4Plot8LanguageO", "english"]
+- ["4Plot8LanguageO", "purchaseLink"]
+- ["4Plot8LanguageO", "purchaseLinkDescription"]
+- ["4Plot8LanguageO", "purchaseLinkTitle"]
+- !private ["4Plot8LanguageO", "websiteURLPrefix"]
+- !private ["7Publish8LocationP", "id"]
+- ["Sq", "gitHub"]
+- ["SY", "=="]
+- ["SY", "AllCases"]
+- ["SY", "RawValue"]
+- !private ["SY", "URL"]
+- ["SY", ""]
+- ["SY", "_Default_AllCases"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "allCases"]
+- ["SY", "chinese"]
+- !private ["SY", "english"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "language"]
+- ["SY", "rawValue"]
+- !private ["SY", "websiteURLPrefix"]
+- ["SY", "zh_cn"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["7Publish7SectionV", "AbnormalMouseWebsite"]
+- ["7Publish7SectionV", "Language"]
+- !private ["7Publish7SectionV", "id"]
+- ["7Publish7SectionV", "language"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "=="]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "AllCases"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "Language"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "RawValue"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "_Default_AllCases"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "_Default_RawValue"]
+- !private ["20AbnormalMouseWebsiteAAV9SectionIDO", "_findStringSwitchCase"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "_rawHashValue"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "allCases"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "deinit"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "hash"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "hashValue"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "init"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "language"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "rawValue"]
+- ["20AbnormalMouseWebsiteAAV9SectionIDO", "zh_cn"]
+- ["7Publish5ThemeV", "this"]
+- ["10Foundation3URLV", "init"]
+- ["4Plot16URLRepresentableP", "init"]
+- ["7Publish7WebsiteP", "ItemMetadata"]
+- ["7Publish7WebsiteP", "SectionID"]
+- ["7Publish7WebsiteP", "URL"]
+- ["7Publish7WebsiteP", ""]
+- !private ["7Publish7WebsiteP", "_findStringSwitchCase"]
+- ["7Publish7WebsiteP", "description"]
+- ["7Publish7WebsiteP", "favicon"]
+- ["7Publish7WebsiteP", "imagePath"]
+- ["7Publish7WebsiteP", "init"]
+- ["7Publish7WebsiteP", "language"]
+- ["7Publish7WebsiteP", "name"]
+- ["7Publish7WebsiteP", "publish"]
+- ["7Publish7WebsiteP", "tagHTMLConfig"]
+- ["7Publish7WebsiteP", "url"]
+- ["7Publish7WebsiteP", "websiteURLPrefix"]
+- ["7Publish16WebsiteSectionIDP", "=="]
+- ["7Publish16WebsiteSectionIDP", "AllCases"]
+- ["7Publish16WebsiteSectionIDP", "RawValue"]
+- ["7Publish16WebsiteSectionIDP", ""]
+- ["7Publish16WebsiteSectionIDP", "_Default_AllCases"]
+- ["7Publish16WebsiteSectionIDP", "_Default_RawValue"]
+- !private ["7Publish16WebsiteSectionIDP", "_findStringSwitchCase"]
+- ["7Publish16WebsiteSectionIDP", "_rawHashValue"]
+- ["7Publish16WebsiteSectionIDP", "allCases"]
+- ["7Publish16WebsiteSectionIDP", "hash"]
+- ["7Publish16WebsiteSectionIDP", "hashValue"]
+- ["7Publish16WebsiteSectionIDP", "init"]
+- !private ["7Publish16WebsiteSectionIDP", "language"]
+- ["7Publish16WebsiteSectionIDP", "rawValue"]
+- ["7Publish16WebsiteSectionIDP", "zh_cn"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s21_ObjectiveCBridgeableP", "gitHub"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "20AbnormalMouseWebsiteAAV"
+- "s12CaseIterableP"
+- "s9CodingKeyP"
+- !private "7Publish15ContentProtocolP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "7Publish16DeploymentMethodV"
+- "SE"
+- "SQ"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- "20AbnormalMouseWebsiteAAV12ItemMetadataV"
+- "4Plot8LanguageO"
+- !private "7Publish8LocationP"
+- "Sq"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "7Publish7SectionV"
+- "20AbnormalMouseWebsiteAAV9SectionIDO"
+- "7Publish5ThemeV"
+- "10Foundation3URLV"
+- "4Plot16URLRepresentableP"
+- "7Publish7WebsiteP"
+- "7Publish16WebsiteSectionIDP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "32a6afb0a34bc37e0ea7a9fb360b8d10"

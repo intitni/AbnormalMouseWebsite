@@ -1,0 +1,333 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyEncoder"
+- "AnyDecoder"
+- "AnyDateFormatter"
+provides-nominal:
+- "11Codextended10AnyEncoderP"
+- "10Foundation11JSONEncoderC"
+- "10Foundation19PropertyListEncoderC"
+- "11Codextended10AnyDecoderP"
+- "10Foundation11JSONDecoderC"
+- "10Foundation19PropertyListDecoderC"
+- "11Codextended16AnyDateFormatterP"
+- "So15NSDateFormatterC"
+- "So22NSISO8601DateFormatterC"
+provides-member:
+- ["11Codextended10AnyEncoderP", ""]
+- ["10Foundation11JSONEncoderC", ""]
+- ["10Foundation19PropertyListEncoderC", ""]
+- ["SE", ""]
+- ["s7EncoderP", ""]
+- ["11Codextended10AnyDecoderP", ""]
+- ["10Foundation11JSONDecoderC", ""]
+- ["10Foundation19PropertyListDecoderC", ""]
+- ["10Foundation4DataV", ""]
+- ["s7DecoderP", ""]
+- ["11Codextended16AnyDateFormatterP", ""]
+- ["So15NSDateFormatterC", ""]
+- ["So22NSISO8601DateFormatterC", ""]
+- ["SE", "encoded"]
+- ["s7EncoderP", "encodeSingleValue"]
+- ["s7EncoderP", "encode"]
+- ["s7EncoderP", "encode"]
+- ["s7EncoderP", "encode"]
+- ["s7EncoderP", "encode"]
+- ["10Foundation4DataV", "decoded"]
+- ["s7DecoderP", "decodeSingleValue"]
+- ["s7DecoderP", "decode"]
+- ["s7DecoderP", "decode"]
+- ["s7DecoderP", "decodeIfPresent"]
+- ["s7DecoderP", "decodeIfPresent"]
+- ["s7DecoderP", "decode"]
+- ["s7DecoderP", "decode"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyCodingKey"
+- "AnyDateFormatter"
+- "AnyDecoder"
+- "AnyEncoder"
+- "AssignmentPrecedence"
+- "CodingKey"
+- "Data"
+- "Date"
+- "DateFormatter"
+- "Decodable"
+- "Decoder"
+- !private "DecodingError"
+- "Encodable"
+- "Encoder"
+- "ISO8601DateFormatter"
+- "Int"
+- "JSONDecoder"
+- "JSONEncoder"
+- "PropertyListDecoder"
+- "PropertyListEncoder"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["11Codextended16AnyDateFormatterP", "Date"]
+- ["11Codextended16AnyDateFormatterP", "String"]
+- ["11Codextended16AnyDateFormatterP", ""]
+- ["11Codextended16AnyDateFormatterP", "date"]
+- ["11Codextended16AnyDateFormatterP", "string"]
+- ["11Codextended10AnyDecoderP", "Data"]
+- ["11Codextended10AnyDecoderP", "Decodable"]
+- ["11Codextended10AnyDecoderP", ""]
+- ["11Codextended10AnyDecoderP", "decode"]
+- !private ["11Codextended10AnyDecoderP", "init"]
+- ["11Codextended10AnyEncoderP", "Data"]
+- ["11Codextended10AnyEncoderP", "Encodable"]
+- ["11Codextended10AnyEncoderP", ""]
+- ["11Codextended10AnyEncoderP", "encode"]
+- !private ["11Codextended10AnyEncoderP", "init"]
+- !private ["SK", "JSONDecoder"]
+- !private ["SK", "init"]
+- ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "string"]
+- !private ["s9CodingKeyP", "String"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "JSONDecoder"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "JSONDecoder"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["10Foundation4DataV", "AnyDecoder"]
+- ["10Foundation4DataV", "Decodable"]
+- !private ["10Foundation4DataV", "JSONDecoder"]
+- ["10Foundation4DataV", "decoded"]
+- !private ["10Foundation12DataProtocolP", "JSONDecoder"]
+- ["So15NSDateFormatterC", "date"]
+- ["So15NSDateFormatterC", "deinit"]
+- ["So15NSDateFormatterC", "string"]
+- !private ["Se", "JSONDecoder"]
+- !private ["Se", "init"]
+- !private ["s7DecoderP", "AnyCodingKey"]
+- ["s7DecoderP", "AnyDateFormatter"]
+- ["s7DecoderP", "CodingKey"]
+- ["s7DecoderP", "Date"]
+- ["s7DecoderP", "Decodable"]
+- !private ["s7DecoderP", "DecodingError"]
+- ["s7DecoderP", "String"]
+- !private ["s7DecoderP", "container"]
+- ["s7DecoderP", "decode"]
+- ["s7DecoderP", "decodeIfPresent"]
+- ["s7DecoderP", "decodeSingleValue"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- !private ["s13DecodingErrorO", "dataCorruptedError"]
+- ["SE", "AnyEncoder"]
+- ["SE", "Data"]
+- !private ["SE", "JSONDecoder"]
+- !private ["SE", "JSONEncoder"]
+- ["SE", "encoded"]
+- !private ["SE", "init"]
+- !private ["s7EncoderP", "AnyCodingKey"]
+- ["s7EncoderP", "AnyDateFormatter"]
+- ["s7EncoderP", "CodingKey"]
+- ["s7EncoderP", "Date"]
+- ["s7EncoderP", "Encodable"]
+- ["s7EncoderP", "String"]
+- !private ["s7EncoderP", "container"]
+- ["s7EncoderP", "encode"]
+- ["s7EncoderP", "encodeSingleValue"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["SQ", "JSONDecoder"]
+- ["SQ", "date"]
+- !private ["SQ", "init"]
+- ["SQ", "string"]
+- !private ["s5ErrorP", "dataCorruptedError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["So11NSFormatterC", "date"]
+- ["So11NSFormatterC", "string"]
+- !private ["SH", "JSONDecoder"]
+- ["SH", "date"]
+- !private ["SH", "init"]
+- ["SH", "string"]
+- ["So22NSISO8601DateFormatterC", "date"]
+- ["So22NSISO8601DateFormatterC", "deinit"]
+- ["So22NSISO8601DateFormatterC", "string"]
+- ["10Foundation11JSONDecoderC", "decode"]
+- ["10Foundation11JSONDecoderC", "deinit"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- ["10Foundation11JSONEncoderC", "deinit"]
+- ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["10Foundation14LocalizedErrorP", "dataCorruptedError"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "JSONDecoder"]
+- !private ["10Foundation19MutableDataProtocolP", "JSONDecoder"]
+- ["So8NSCodingP", "date"]
+- ["So8NSCodingP", "string"]
+- ["So9NSCopyingP", "date"]
+- ["So9NSCopyingP", "string"]
+- ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "string"]
+- ["So8NSObjectP", "date"]
+- ["So8NSObjectP", "string"]
+- ["So14NSSecureCodingP", "date"]
+- ["So14NSSecureCodingP", "string"]
+- ["10Foundation19PropertyListDecoderC", "decode"]
+- ["10Foundation19PropertyListDecoderC", "deinit"]
+- ["10Foundation19PropertyListEncoderC", "deinit"]
+- ["10Foundation19PropertyListEncoderC", "encode"]
+- !private ["Sk", "JSONDecoder"]
+- !private ["Sm", "JSONDecoder"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "JSONDecoder"]
+- !private ["ST", "JSONDecoder"]
+- !private ["ST", "init"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "JSONDecoder"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "11Codextended16AnyDateFormatterP"
+- "11Codextended10AnyDecoderP"
+- "11Codextended10AnyEncoderP"
+- !private "SK"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "So15NSDateFormatterC"
+- !private "Se"
+- "s7DecoderP"
+- !private "s13DecodingErrorO"
+- "SE"
+- "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11NSFormatterC"
+- "SH"
+- "So22NSISO8601DateFormatterC"
+- "10Foundation11JSONDecoderC"
+- "10Foundation11JSONEncoderC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "10Foundation19PropertyListDecoderC"
+- "10Foundation19PropertyListEncoderC"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "7Combine15TopLevelDecoderP"
+- "7Combine15TopLevelEncoderP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "726d48f5a397a7a0a05745b5ce8ac01c"

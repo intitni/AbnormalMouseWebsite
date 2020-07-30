@@ -1,0 +1,187 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HorizontalLine"
+provides-nominal:
+- "3Ink14HorizontalLineV"
+provides-member:
+- ["3Ink14HorizontalLineV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- !private "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- "Fragment"
+- "HorizontalLine"
+- !private "IntegerLiteralType"
+- "Modifier"
+- "ModifierCollection"
+- "NamedURLCollection"
+- "Reader"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "require"
+depends-member:
+- !private ["SK", "isEmpty"]
+- !private ["SJ", "isAny"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "isAny"]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isAny"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s17CustomReflectableP", "isAny"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isAny"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["SQ", "horizontalLines"]
+- !private ["SQ", "isAny"]
+- !private ["SQ", "isEmpty"]
+- !private ["3Ink6ReaderV5ErrorV", "deinit"]
+- !private ["3Ink6ReaderV5ErrorV", "init"]
+- !private ["s5ErrorP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isAny"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isAny"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["3Ink15HTMLConvertibleP", "HorizontalLine"]
+- !private ["3Ink15HTMLConvertibleP", "Reader"]
+- ["3Ink15HTMLConvertibleP", ""]
+- ["3Ink15HTMLConvertibleP", "html"]
+- !private ["3Ink15HTMLConvertibleP", "init"]
+- ["3Ink15HTMLConvertibleP", "modifierTarget"]
+- ["3Ink15HTMLConvertibleP", "plainText"]
+- ["3Ink15HTMLConvertibleP", "read"]
+- !private ["3Ink15HTMLConvertibleP", "require"]
+- !private ["SH", "horizontalLines"]
+- !private ["SH", "isAny"]
+- !private ["SH", "isEmpty"]
+- ["3Ink14HorizontalLineV", "HorizontalLine"]
+- ["3Ink14HorizontalLineV", "Modifier"]
+- ["3Ink14HorizontalLineV", "ModifierCollection"]
+- ["3Ink14HorizontalLineV", "NamedURLCollection"]
+- ["3Ink14HorizontalLineV", "Reader"]
+- ["3Ink14HorizontalLineV", "String"]
+- ["3Ink14HorizontalLineV", "deinit"]
+- ["3Ink14HorizontalLineV", "html"]
+- ["3Ink14HorizontalLineV", "init"]
+- ["3Ink14HorizontalLineV", "modifierTarget"]
+- ["3Ink14HorizontalLineV", "plainText"]
+- ["3Ink14HorizontalLineV", "read"]
+- !private ["3Ink14HorizontalLineV", "require"]
+- !private ["s25LosslessStringConvertibleP", "isAny"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["3Ink10ModifiableP", "HorizontalLine"]
+- !private ["3Ink10ModifiableP", "Reader"]
+- ["3Ink10ModifiableP", ""]
+- ["3Ink10ModifiableP", "html"]
+- !private ["3Ink10ModifiableP", "init"]
+- ["3Ink10ModifiableP", "modifierTarget"]
+- ["3Ink10ModifiableP", "plainText"]
+- ["3Ink10ModifiableP", "read"]
+- !private ["3Ink10ModifiableP", "require"]
+- ["3Ink8ModifierV", "Target"]
+- !private ["3Ink20PlainTextConvertibleP", "HorizontalLine"]
+- !private ["3Ink20PlainTextConvertibleP", "Reader"]
+- ["3Ink20PlainTextConvertibleP", ""]
+- ["3Ink20PlainTextConvertibleP", "html"]
+- !private ["3Ink20PlainTextConvertibleP", "init"]
+- ["3Ink20PlainTextConvertibleP", "modifierTarget"]
+- ["3Ink20PlainTextConvertibleP", "plainText"]
+- ["3Ink20PlainTextConvertibleP", "read"]
+- !private ["3Ink20PlainTextConvertibleP", "require"]
+- !private ["Sm", "isEmpty"]
+- !private ["3Ink8ReadableP", "HorizontalLine"]
+- !private ["3Ink8ReadableP", "Reader"]
+- ["3Ink8ReadableP", ""]
+- ["3Ink8ReadableP", "html"]
+- !private ["3Ink8ReadableP", "init"]
+- ["3Ink8ReadableP", "modifierTarget"]
+- ["3Ink8ReadableP", "plainText"]
+- ["3Ink8ReadableP", "read"]
+- !private ["3Ink8ReadableP", "require"]
+- !private ["3Ink6ReaderV", "Error"]
+- !private ["3Ink6ReaderV", "currentCharacter"]
+- !private ["3Ink6ReaderV", "readCount"]
+- !private ["3Ink6ReaderV", "readUntilEndOfLine"]
+- !private ["ST", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["Ss", "isEmpty"]
+- !private ["3Ink8ModifierV6TargetO", "horizontalLines"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isAny"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isAny"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isAny"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isAny"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+depends-nominal:
+- !private "SK"
+- !private "SJ"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "3Ink6ReaderV5ErrorV"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "3Ink15HTMLConvertibleP"
+- !private "SH"
+- "3Ink14HorizontalLineV"
+- !private "s25LosslessStringConvertibleP"
+- "3Ink10ModifiableP"
+- "3Ink8ModifierV"
+- "3Ink20PlainTextConvertibleP"
+- !private "Sm"
+- "3Ink8ReadableP"
+- !private "3Ink6ReaderV"
+- !private "ST"
+- !private "Sy"
+- !private "Ss"
+- !private "3Ink8ModifierV6TargetO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Codextended.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/PublishCLICore.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Publish.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Ink.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Sweep.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Plot.build/module.modulemap"
+- "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7b1ec356a39674b65b44bd2652955a12"
