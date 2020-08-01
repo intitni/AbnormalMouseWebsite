@@ -20,7 +20,7 @@
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.2/Abnormal_Mouse_2020_2.zip" sparkle:version="9" sparkle:shortVersionString="2020.2" length="3762991" type="application/octet-stream" sparkle:edSignature="U0xwad/EOzNvs0A/858mOgX4HUDE5ya63xNu7DTz6v6/9OP57nrJqFdw5wS+Dh8QgyL+IKa80+pclx4LMdZZBQ=="/>
             <description><![CDATA[]]></description>
-            <sparkle:releaseNotesLink>https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.2/Abnormal_Mouse_2020_2.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/Abnormal_Mouse_2020_2.html</sparkle:releaseNotesLink>
         </item>
     </channel>
 </rss>
