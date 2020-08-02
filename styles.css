@@ -90,7 +90,7 @@ header .site-name {
 }
 
 .download-link-arrow:after {
-    content: url('Images/download-link-arrow.svg');
+    content: url('images/download-link-arrow.svg');
     right: 0;
     position: absolute;
     display: inline-block;
