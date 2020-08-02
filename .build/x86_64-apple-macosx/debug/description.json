@@ -1,8 +1,8 @@
 {
   "allExecutables" : [
+    "AbnormalMouseWebsite",
     "publish-cli",
-    "ink-cli",
-    "AbnormalMouseWebsite"
+    "ink-cli"
   ],
   "builtTestProducts" : [
 

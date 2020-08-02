@@ -20,11 +20,17 @@ provides-member:
 - ["4Plot8LanguageO", "purchaseLinkTitle"]
 - ["4Plot8LanguageO", "purchaseLinkDescription"]
 - ["4Plot8LanguageO", "contact"]
+- ["4Plot8LanguageO", "title"]
+- ["4Plot8LanguageO", "description"]
 - ["7Publish7SectionV", "language"]
+- ["7Publish7SectionV", "title"]
+- ["7Publish7SectionV", "description"]
+- ["7Publish7SectionV", "imagePath"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
 - "=="
+- !private "??"
 - "AbnormalMouseWebsite"
 - !private "BooleanLiteralType"
 - !private "FloatLiteralType"
@@ -84,6 +90,7 @@ depends-member:
 - ["s9CodingKeyP", "intValue"]
 - ["s9CodingKeyP", "stringValue"]
 - !private ["7Publish15ContentProtocolP", "id"]
+- !private ["7Publish15ContentProtocolP", "language"]
 - !private ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "debugDescription"]
 - ["s28CustomDebugStringConvertibleP", "description"]
@@ -128,6 +135,7 @@ depends-member:
 - ["SQ", "_rawHashValue"]
 - ["SQ", "allCases"]
 - ["SQ", "chinese"]
+- !private ["SQ", "description"]
 - !private ["SQ", "english"]
 - ["SQ", "gitHub"]
 - ["SQ", "hash"]
@@ -135,6 +143,7 @@ depends-member:
 - ["SQ", "init"]
 - !private ["SQ", "language"]
 - ["SQ", "rawValue"]
+- !private ["SQ", "title"]
 - !private ["SQ", "websiteURLPrefix"]
 - ["SQ", "zh_cn"]
 - ["s23ExpressibleByNilLiteralP", "gitHub"]
@@ -149,6 +158,7 @@ depends-member:
 - ["SH", "_rawHashValue"]
 - ["SH", "allCases"]
 - ["SH", "chinese"]
+- !private ["SH", "description"]
 - !private ["SH", "english"]
 - ["SH", "gitHub"]
 - ["SH", "hash"]
@@ -156,6 +166,7 @@ depends-member:
 - ["SH", "init"]
 - !private ["SH", "language"]
 - ["SH", "rawValue"]
+- !private ["SH", "title"]
 - !private ["SH", "websiteURLPrefix"]
 - ["SH", "zh_cn"]
 - ["20AbnormalMouseWebsiteAAV12ItemMetadataV", "=="]
@@ -172,14 +183,17 @@ depends-member:
 - ["4Plot8LanguageO", "appTitle"]
 - ["4Plot8LanguageO", "chinese"]
 - ["4Plot8LanguageO", "contact"]
+- ["4Plot8LanguageO", "description"]
 - ["4Plot8LanguageO", "downloadLink"]
 - ["4Plot8LanguageO", "downloadLinkTitle"]
 - !private ["4Plot8LanguageO", "english"]
 - ["4Plot8LanguageO", "purchaseLink"]
 - ["4Plot8LanguageO", "purchaseLinkDescription"]
 - ["4Plot8LanguageO", "purchaseLinkTitle"]
+- ["4Plot8LanguageO", "title"]
 - !private ["4Plot8LanguageO", "websiteURLPrefix"]
 - !private ["7Publish8LocationP", "id"]
+- !private ["7Publish8LocationP", "language"]
 - ["Sq", "gitHub"]
 - ["SY", "=="]
 - ["SY", "AllCases"]
@@ -192,19 +206,26 @@ depends-member:
 - ["SY", "_rawHashValue"]
 - ["SY", "allCases"]
 - ["SY", "chinese"]
+- !private ["SY", "description"]
 - !private ["SY", "english"]
 - ["SY", "hash"]
 - ["SY", "hashValue"]
 - ["SY", "init"]
 - !private ["SY", "language"]
 - ["SY", "rawValue"]
+- !private ["SY", "title"]
 - !private ["SY", "websiteURLPrefix"]
 - ["SY", "zh_cn"]
 - ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["7Publish7SectionV", "AbnormalMouseWebsite"]
 - ["7Publish7SectionV", "Language"]
+- ["7Publish7SectionV", "Path"]
+- ["7Publish7SectionV", "String"]
+- ["7Publish7SectionV", "description"]
 - !private ["7Publish7SectionV", "id"]
+- ["7Publish7SectionV", "imagePath"]
 - ["7Publish7SectionV", "language"]
+- ["7Publish7SectionV", "title"]
 - ["20AbnormalMouseWebsiteAAV9SectionIDO", "=="]
 - ["20AbnormalMouseWebsiteAAV9SectionIDO", "AllCases"]
 - ["20AbnormalMouseWebsiteAAV9SectionIDO", "Language"]
@@ -335,4 +356,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "32a6afb0a34bc37e0ea7a9fb360b8d10"
+interface-hash: "562d77f4b4d815e19fc31ae37c7c5f9e"

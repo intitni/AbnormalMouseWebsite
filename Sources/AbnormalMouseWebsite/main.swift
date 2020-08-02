@@ -7,19 +7,15 @@ private let websiteURLPrefix: String = "https://abnormalmouse.intii.com"
 extension Language {
     var anotherLanguage: (title: String, url: URL) {
         switch self {
-        case .chinese:
-            return ("English", URL(string: websiteURLPrefix)!)
-        default:
-            return ("中文", URL(string: websiteURLPrefix + "/zh-cn")!)
+        case .chinese: return ("English", URL(string: websiteURLPrefix)!)
+        default: return ("中文", URL(string: websiteURLPrefix + "/zh-cn")!)
         }
     }
 
     var appTitle: String {
         switch self {
-        case .chinese:
-            return "不一般鼠标"
-        default:
-            return "Abnormal Mouse"
+        case .chinese: return "不一般鼠标"
+        default: return "Abnormal Mouse"
         }
     }
 
@@ -41,15 +37,13 @@ extension Language {
     }
 
     var downloadLink: URL {
-        URL(string: "https://github.com/intitni/AbnormalMouseWebsite/releases/download/version%2F2020.1/Abnormal_Mouse_2020_1.zip")!
+        URL(string: "https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.2/Abnormal_Mouse_2020_2.zip")!
     }
 
     var downloadLinkTitle: String {
         switch self {
-        case .chinese:
-            return "下载试用。"
-        default:
-            return "Download free trial."
+        case .chinese: return "下载试用。"
+        default: return "Download free trial."
         }
     }
 
@@ -59,28 +53,36 @@ extension Language {
 
     var purchaseLinkTitle: String {
         switch self {
-        case .chinese:
-            return "现在购买只需¥20。(即将到来)"
-        default:
-            return "Buy now for US$4. (Coming Soon) "
+        case .chinese: return "现在购买只需¥20。(即将到来)"
+        default: return "Buy now for US$4. (Coming Soon) "
         }
     }
 
     var purchaseLinkDescription: String {
         switch self {
-        case .chinese:
-            return "可以激活 3 台设备"
-        default:
-            return "3 activations"
+        case .chinese: return "可以激活 3 台设备"
+        default: return "3 activations"
         }
     }
 
     var contact: String {
         switch self {
-        case .chinese:
-            return "联系我"
-        default:
-            return "Contact"
+        case .chinese: return "联系我"
+        default: return "Contact"
+        }
+    }
+    
+    var title: String {
+        switch self {
+        case .chinese: return "不一般鼠标 for macOS"
+        default: return "Abnormal Mouse for macOS"
+        }
+    }
+    
+    var description: String {
+        switch self {
+        case .chinese: return "让你在 macOS 中更轻松地使用一般鼠标。"
+        default: return "Fix normal mice for macOS."
         }
     }
 }
@@ -94,6 +96,10 @@ extension Section {
             return nil
         }
     }
+    
+    var title: String { language?.title ?? "" }
+    var description: String { language?.description ?? "" }
+    var imagePath: Path? { "image/twitter-card.png" }
 }
 
 struct AbnormalMouseWebsite: Website {
@@ -110,10 +116,10 @@ struct AbnormalMouseWebsite: Website {
     struct ItemMetadata: WebsiteItemMetadata {}
 
     var url = URL(string: websiteURLPrefix)!
-    var name = "Abnormal Mouse for macOS"
-    var description = "A description of AbnormalMouseWebsite"
+    var name: String { language.title }
+    var description: String { language.description }
     var language: Language { .english }
-    var imagePath: Path? { nil }
+    var imagePath: Path? { "image/twitter-card.png" }
 }
 
 try AbnormalMouseWebsite().publish(

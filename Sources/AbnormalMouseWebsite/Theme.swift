@@ -1,6 +1,8 @@
 import Foundation
 import Plot
 import Publish
+import Ink
+import Sweep
 
 public extension Theme {
     static var this: Self {
@@ -18,7 +20,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     ) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: index, on: context.site),
+            .indexHead(for: index, on: context.site),
             .body(
                 .appBanner(for: context.site.language, isSection: false),
                 .div(
@@ -36,14 +38,14 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     ) throws -> HTML {
         HTML(
             .lang(section.language ?? context.site.language),
-            .head(for: section, on: context.site),
+            .sectionHead(for: section, on: context.site),
             .body(
                 .appBanner(for: section.language ?? context.site.language, isSection: true),
                 .div(
                     .class("wrapper content-wrapper"),
                     section.content.body.node
                 ),
-                .footer(for: context.site.language)
+                .footer(for: section.language ?? context.site.language)
             )
         )
     }
@@ -191,7 +193,7 @@ private extension Node where Context == HTML.BodyContext {
                     .class("wrapper"),
                     .img(
                         .class("app-icon"),
-                        .src(isSection ? "../Images/icon.png" : "Images/icon.png")
+                        .src(isSection ? "../image/icon.png" : "image/icon.png")
                     ),
                     .p(
                         .class("site-name"),
@@ -284,6 +286,64 @@ private extension Node where Context == HTML.BodyContext {
                     .href("mailto:abnormalmouse@intii.com")
                 ))
             )
+        )
+    }
+}
+
+public extension Node where Context == HTML.DocumentContext {
+    static func sectionHead<T: Website>(
+        for location: Section<T>,
+        on site: T,
+        stylesheetPaths: [Path] = ["/styles.css"]
+    ) -> Node {
+        var title = location.title
+        if title.isEmpty {
+            title = site.name
+        }
+        var description = location.description
+        if description.isEmpty {
+            description = site.description
+        }
+
+        return .head(
+            .encoding(.utf8),
+            .siteName(title),
+            .url(site.url(for: location)),
+            .title(title),
+            .description(description),
+            .twitterCardType(.summary),
+            .forEach(stylesheetPaths, { .stylesheet($0) }),
+            .viewport(.accordingToDevice),
+            .unwrap(site.favicon, { .favicon($0) }),
+            .unwrap(location.imagePath ?? site.imagePath, { path in
+                let url = site.url(for: path)
+                return .socialImageLink(url)
+            })
+        )
+    }
+    
+    static func indexHead<T: Website>(
+        for location: Index,
+        on site: T,
+        stylesheetPaths: [Path] = ["/styles.css"]
+    ) -> Node {
+        let title = site.name
+        let description = site.description
+
+        return .head(
+            .encoding(.utf8),
+            .siteName(title),
+            .url(site.url(for: location)),
+            .title(title),
+            .description(description),
+            .twitterCardType(.summary),
+            .forEach(stylesheetPaths, { .stylesheet($0) }),
+            .viewport(.accordingToDevice),
+            .unwrap(site.favicon, { .favicon($0) }),
+            .unwrap(location.imagePath ?? site.imagePath, { path in
+                let url = site.url(for: path)
+                return .socialImageLink(url)
+            })
         )
     }
 }

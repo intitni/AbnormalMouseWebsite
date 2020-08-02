@@ -2,12 +2,6 @@
   "": {
     "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/AbnormalMouseWebsite.build/master.swiftdeps"
   },
-  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/Sources/AbnormalMouseWebsite/AppcastGenerator.swift": {
-    "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/AbnormalMouseWebsite.build/AppcastGenerator.d",
-    "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/AbnormalMouseWebsite.build/AppcastGenerator.swift.o",
-    "swiftmodule": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/AbnormalMouseWebsite.build/AppcastGenerator~partial.swiftmodule",
-    "swift-dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/AbnormalMouseWebsite.build/AppcastGenerator.swiftdeps"
-  },
   "/Users/int123c/Documents/Development/AbnormalMouseWebsite/Sources/AbnormalMouseWebsite/Theme.swift": {
     "dependencies": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/AbnormalMouseWebsite.build/Theme.d",
     "object": "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/AbnormalMouseWebsite.build/Theme.swift.o",
