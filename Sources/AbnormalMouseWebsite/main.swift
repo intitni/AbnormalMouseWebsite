@@ -23,7 +23,7 @@ extension Language {
         switch self {
         case .chinese:
             return (
-                "让你在 macOS 中使用一般鼠标更轻松。",
+                "让你在 macOS 中更轻松地使用一般鼠标。",
                 "如果你的鼠标有很多按键那就更好了。",
                 "为什么 magic mouse 那么贵。"
             )

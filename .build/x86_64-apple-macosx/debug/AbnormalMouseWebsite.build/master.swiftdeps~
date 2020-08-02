@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "b1c4ebf4f48092a7bfb30fba0954cc2c"
-build_time: [1596341546, 296832000]
-inputs:
-  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/Sources/AbnormalMouseWebsite/Theme.swift": [1596341347, 475380785]
-  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/Sources/AbnormalMouseWebsite/main.swift": [1596341530, 807755391]
