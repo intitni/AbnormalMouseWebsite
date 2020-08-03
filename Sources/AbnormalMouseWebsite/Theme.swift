@@ -22,6 +22,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
             .lang(context.site.language),
             .theHead(for: index, on: context.site),
             .body(
+                .gtag,
                 .appBanner(for: context.site.language, isSection: false),
                 .div(
                     .class("wrapper content-wrapper"),
@@ -40,6 +41,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
             .lang(section.language),
             .theHead(for: section, on: context.site),
             .body(
+                .gtag,
                 .appBanner(for: section.language, isSection: true),
                 .div(
                     .class("wrapper content-wrapper"),
@@ -58,6 +60,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
             .lang(context.site.language),
             .theHead(for: item, on: context.site),
             .body(
+                .gtag,
                 .class("item-page"),
                 .header(for: context, selectedSection: item.sectionID),
                 .wrapper(
@@ -83,6 +86,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
             .lang(context.site.language),
             .theHead(for: page, on: context.site),
             .body(
+                .gtag,
                 .header(for: context, selectedSection: nil),
                 .wrapper(.contentBody(page.body)),
                 .footer(for: context.site.language)
@@ -98,6 +102,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
             .lang(context.site.language),
             .theHead(for: page, on: context.site),
             .body(
+                .gtag,
                 .header(for: context, selectedSection: nil),
                 .wrapper(
                     .h1("Browse all tags"),
@@ -127,6 +132,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
             .lang(context.site.language),
             .theHead(for: page, on: context.site),
             .body(
+                .gtag,
                 .header(for: context, selectedSection: nil),
                 .wrapper(
                     .h1(
@@ -153,9 +159,65 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     }
 }
 
+private extension Node where Context == HTML.DocumentContext {
+    static func theHead<T: Website, L: Location>(
+        for location: L,
+        on site: T
+    ) -> Node<HTML.DocumentContext> {
+        var title = location.pageTitle
+        if title.isEmpty {
+            title = site.name
+        }
+        var description = location.pageDescription
+        if description.isEmpty {
+            description = site.description
+        }
+
+        return .head(
+            .encoding(.utf8),
+            .siteName(title),
+            .url(site.url(for: location)),
+            .title(title),
+            .description(description),
+            .twitterCardType(.summary),
+            .forEach(["/styles.css"], { .stylesheet($0) }),
+            .viewport(.accordingToDevice),
+            .unwrap(site.favicon, { .favicon($0) }),
+            .unwrap(location.imagePath ?? site.imagePath, { path in
+                let url = site.url(for: path)
+                return .socialImageLink(url)
+            }),
+            .script( // Enable Gtag
+                .raw("""
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-17603222-4');
+                """)
+            ),
+            .script( // Google Tag Manager
+                .raw("""
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-5K84TFL');
+                """)
+            )
+        )
+    }
+}
+
 private extension Node where Context == HTML.BodyContext {
     static func wrapper(_ nodes: Node...) -> Node {
         .div(.class("wrapper"), .group(nodes))
+    }
+
+    static var gtag: Node {
+        .noscript(.raw("""
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5K84TFL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>"
+        """))
     }
 
     static func header<T: Website>(
@@ -224,8 +286,13 @@ private extension Node where Context == HTML.BodyContext {
                 ),
                 .div(
                     .class("download-link-container"),
-                    .downloadLink(url: language.downloadLink, title: language.downloadLinkTitle),
                     .downloadLink(
+                        id: "download-trial",
+                        url: language.downloadLink,
+                        title: language.downloadLinkTitle
+                    ),
+                    .downloadLink(
+                        id: "purchase",
                         url: language.purchaseLink,
                         title: language.purchaseLinkTitle,
                         description: language.purchaseLinkDescription
@@ -235,13 +302,19 @@ private extension Node where Context == HTML.BodyContext {
         )
     }
 
-    static func downloadLink(url: URL, title: String, description: String = "") -> Node {
+    static func downloadLink(
+        id: String,
+        url: URL,
+        title: String,
+        description: String = ""
+    ) -> Node {
         return .p(
             .class("download-link"),
             .span(
                 .class("download-link-arrow")
             ),
             .a(
+                .id(id), 
                 .href(url),
                 .text(title),
                 .span(
@@ -285,50 +358,10 @@ private extension Node where Context == HTML.BodyContext {
                     .text(language.contact),
                     .href("mailto:abnormalmouse@intii.com")
                 ))
-            )
-        )
-    }
-}
-
-extension Node where Context == HTML.DocumentContext {
-    static func theHead<T: Website, L: Location>(
-        for location: L,
-        on site: T
-    ) -> Node<HTML.DocumentContext> {
-        var title = location.pageTitle
-        if title.isEmpty {
-            title = site.name
-        }
-        var description = location.pageDescription
-        if description.isEmpty {
-            description = site.description
-        }
-
-        return .head(
-            .encoding(.utf8),
-            .siteName(title),
-            .url(site.url(for: location)),
-            .title(title),
-            .description(description),
-            .twitterCardType(.summary),
-            .forEach(["/styles.css"], { .stylesheet($0) }),
-            .viewport(.accordingToDevice),
-            .unwrap(site.favicon, { .favicon($0) }),
-            .unwrap(location.imagePath ?? site.imagePath, { path in
-                let url = site.url(for: path)
-                return .socialImageLink(url)
-            }),
-            .script(.attribute(
+            ),
+            .script(.attribute( // Gtag
                 .src(URL(string: "https://www.googletagmanager.com/gtag/js?id=UA-17603222-4")!)
-            )),
-            .script(
-                .raw("""
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-17603222-4');
-                """)
-            )
+            ))
         )
     }
 }
