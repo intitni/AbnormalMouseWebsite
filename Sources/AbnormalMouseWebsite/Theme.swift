@@ -1,7 +1,7 @@
 import Foundation
+import Ink
 import Plot
 import Publish
-import Ink
 import Sweep
 
 public extension Theme {
@@ -20,7 +20,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     ) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .indexHead(for: index, on: context.site),
+            .theHead(for: index, on: context.site),
             .body(
                 .appBanner(for: context.site.language, isSection: false),
                 .div(
@@ -37,15 +37,15 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
         context: PublishingContext<Site>
     ) throws -> HTML {
         HTML(
-            .lang(section.language ?? context.site.language),
-            .sectionHead(for: section, on: context.site),
+            .lang(section.language),
+            .theHead(for: section, on: context.site),
             .body(
-                .appBanner(for: section.language ?? context.site.language, isSection: true),
+                .appBanner(for: section.language, isSection: true),
                 .div(
                     .class("wrapper content-wrapper"),
                     section.content.body.node
                 ),
-                .footer(for: section.language ?? context.site.language)
+                .footer(for: section.language)
             )
         )
     }
@@ -56,7 +56,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     ) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: item, on: context.site),
+            .theHead(for: item, on: context.site),
             .body(
                 .class("item-page"),
                 .header(for: context, selectedSection: item.sectionID),
@@ -81,7 +81,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     ) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: page, on: context.site),
+            .theHead(for: page, on: context.site),
             .body(
                 .header(for: context, selectedSection: nil),
                 .wrapper(.contentBody(page.body)),
@@ -96,7 +96,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     ) throws -> HTML? {
         HTML(
             .lang(context.site.language),
-            .head(for: page, on: context.site),
+            .theHead(for: page, on: context.site),
             .body(
                 .header(for: context, selectedSection: nil),
                 .wrapper(
@@ -125,7 +125,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
     ) throws -> HTML? {
         HTML(
             .lang(context.site.language),
-            .head(for: page, on: context.site),
+            .theHead(for: page, on: context.site),
             .body(
                 .header(for: context, selectedSection: nil),
                 .wrapper(
@@ -290,17 +290,16 @@ private extension Node where Context == HTML.BodyContext {
     }
 }
 
-public extension Node where Context == HTML.DocumentContext {
-    static func sectionHead<T: Website>(
-        for location: Section<T>,
-        on site: T,
-        stylesheetPaths: [Path] = ["/styles.css"]
-    ) -> Node {
-        var title = location.title
+extension Node where Context == HTML.DocumentContext {
+    static func theHead<T: Website, L: Location>(
+        for location: L,
+        on site: T
+    ) -> Node<HTML.DocumentContext> {
+        var title = location.pageTitle
         if title.isEmpty {
             title = site.name
         }
-        var description = location.description
+        var description = location.pageDescription
         if description.isEmpty {
             description = site.description
         }
@@ -312,38 +311,24 @@ public extension Node where Context == HTML.DocumentContext {
             .title(title),
             .description(description),
             .twitterCardType(.summary),
-            .forEach(stylesheetPaths, { .stylesheet($0) }),
+            .forEach(["/styles.css"], { .stylesheet($0) }),
             .viewport(.accordingToDevice),
             .unwrap(site.favicon, { .favicon($0) }),
             .unwrap(location.imagePath ?? site.imagePath, { path in
                 let url = site.url(for: path)
                 return .socialImageLink(url)
-            })
-        )
-    }
-    
-    static func indexHead<T: Website>(
-        for location: Index,
-        on site: T,
-        stylesheetPaths: [Path] = ["/styles.css"]
-    ) -> Node {
-        let title = site.name
-        let description = site.description
-
-        return .head(
-            .encoding(.utf8),
-            .siteName(title),
-            .url(site.url(for: location)),
-            .title(title),
-            .description(description),
-            .twitterCardType(.summary),
-            .forEach(stylesheetPaths, { .stylesheet($0) }),
-            .viewport(.accordingToDevice),
-            .unwrap(site.favicon, { .favicon($0) }),
-            .unwrap(location.imagePath ?? site.imagePath, { path in
-                let url = site.url(for: path)
-                return .socialImageLink(url)
-            })
+            }),
+            .script(.attribute(
+                .src(URL(string: "https://www.googletagmanager.com/gtag/js?id=UA-17603222-4")!)
+            )),
+            .script(
+                .raw("""
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-17603222-4');
+                """)
+            )
         )
     }
 }

@@ -53,7 +53,7 @@ extension Language {
 
     var purchaseLinkTitle: String {
         switch self {
-        case .chinese: return "现在购买只需¥20。(即将到来)"
+        case .chinese: return "现在购买只需¥22。(即将到来) "
         default: return "Buy now for US$4. (Coming Soon) "
         }
     }
@@ -87,18 +87,16 @@ extension Language {
     }
 }
 
-extension Section {
-    var language: Language? {
-        switch id {
-        case let x as AbnormalMouseWebsite.SectionID:
-            return x.language
-        default:
-            return nil
+extension Location {
+    var language: Language {
+        switch self {
+        case let loc as Section<AbnormalMouseWebsite>: return loc.id.language
+        default: return .english
         }
     }
     
-    var title: String { language?.title ?? "" }
-    var description: String { language?.description ?? "" }
+    var pageTitle: String { language.title }
+    var pageDescription: String { language.description }
     var imagePath: Path? { "image/twitter-card.png" }
 }
 

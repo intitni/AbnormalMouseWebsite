@@ -7,7 +7,7 @@ provides-nominal:
 - "20AbnormalMouseWebsiteAAV12ItemMetadataV"
 provides-member:
 - ["4Plot8LanguageO", ""]
-- ["7Publish7SectionV", ""]
+- ["7Publish8LocationP", ""]
 - ["20AbnormalMouseWebsiteAAV", ""]
 - ["20AbnormalMouseWebsiteAAV9SectionIDO", ""]
 - ["20AbnormalMouseWebsiteAAV12ItemMetadataV", ""]
@@ -22,22 +22,22 @@ provides-member:
 - ["4Plot8LanguageO", "contact"]
 - ["4Plot8LanguageO", "title"]
 - ["4Plot8LanguageO", "description"]
-- ["7Publish7SectionV", "language"]
-- ["7Publish7SectionV", "title"]
-- ["7Publish7SectionV", "description"]
-- ["7Publish7SectionV", "imagePath"]
+- ["7Publish8LocationP", "language"]
+- ["7Publish8LocationP", "pageTitle"]
+- ["7Publish8LocationP", "pageDescription"]
+- ["7Publish8LocationP", "imagePath"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
 - "=="
-- !private "??"
 - "AbnormalMouseWebsite"
 - !private "BooleanLiteralType"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
 - "Language"
+- "Location"
 - "Path"
-- "Section"
+- !private "Section"
 - "String"
 - "StringLiteralType"
 - "URL"
@@ -89,6 +89,11 @@ depends-member:
 - ["s9CodingKeyP", "init"]
 - ["s9CodingKeyP", "intValue"]
 - ["s9CodingKeyP", "stringValue"]
+- !private ["7Publish15ContentProtocolP", "AbnormalMouseWebsite"]
+- ["7Publish15ContentProtocolP", "Language"]
+- ["7Publish15ContentProtocolP", "Path"]
+- !private ["7Publish15ContentProtocolP", "Section"]
+- ["7Publish15ContentProtocolP", "String"]
 - !private ["7Publish15ContentProtocolP", "id"]
 - !private ["7Publish15ContentProtocolP", "language"]
 - !private ["s28CustomDebugStringConvertibleP", ""]
@@ -192,8 +197,16 @@ depends-member:
 - ["4Plot8LanguageO", "purchaseLinkTitle"]
 - ["4Plot8LanguageO", "title"]
 - !private ["4Plot8LanguageO", "websiteURLPrefix"]
+- !private ["7Publish8LocationP", "AbnormalMouseWebsite"]
+- ["7Publish8LocationP", "Language"]
+- ["7Publish8LocationP", "Path"]
+- !private ["7Publish8LocationP", "Section"]
+- ["7Publish8LocationP", "String"]
 - !private ["7Publish8LocationP", "id"]
-- !private ["7Publish8LocationP", "language"]
+- ["7Publish8LocationP", "imagePath"]
+- ["7Publish8LocationP", "language"]
+- ["7Publish8LocationP", "pageDescription"]
+- ["7Publish8LocationP", "pageTitle"]
 - ["Sq", "gitHub"]
 - ["SY", "=="]
 - ["SY", "AllCases"]
@@ -217,15 +230,7 @@ depends-member:
 - !private ["SY", "websiteURLPrefix"]
 - ["SY", "zh_cn"]
 - ["10Foundation20ReferenceConvertibleP", "init"]
-- !private ["7Publish7SectionV", "AbnormalMouseWebsite"]
-- ["7Publish7SectionV", "Language"]
-- ["7Publish7SectionV", "Path"]
-- ["7Publish7SectionV", "String"]
-- ["7Publish7SectionV", "description"]
 - !private ["7Publish7SectionV", "id"]
-- ["7Publish7SectionV", "imagePath"]
-- ["7Publish7SectionV", "language"]
-- ["7Publish7SectionV", "title"]
 - ["20AbnormalMouseWebsiteAAV9SectionIDO", "=="]
 - ["20AbnormalMouseWebsiteAAV9SectionIDO", "AllCases"]
 - ["20AbnormalMouseWebsiteAAV9SectionIDO", "Language"]
@@ -283,7 +288,7 @@ depends-nominal:
 - "20AbnormalMouseWebsiteAAV"
 - "s12CaseIterableP"
 - "s9CodingKeyP"
-- !private "7Publish15ContentProtocolP"
+- "7Publish15ContentProtocolP"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -295,11 +300,11 @@ depends-nominal:
 - "SH"
 - "20AbnormalMouseWebsiteAAV12ItemMetadataV"
 - "4Plot8LanguageO"
-- !private "7Publish8LocationP"
+- "7Publish8LocationP"
 - "Sq"
 - "SY"
 - "10Foundation20ReferenceConvertibleP"
-- "7Publish7SectionV"
+- !private "7Publish7SectionV"
 - "20AbnormalMouseWebsiteAAV9SectionIDO"
 - "7Publish5ThemeV"
 - "10Foundation3URLV"
@@ -356,4 +361,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "562d77f4b4d815e19fc31ae37c7c5f9e"
+interface-hash: "87621447f5195e7c758b2d03642c8879"
