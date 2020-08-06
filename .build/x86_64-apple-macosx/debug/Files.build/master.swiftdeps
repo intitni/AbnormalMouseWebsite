@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "e48204572ac7b7dd7201e9aafc946598"
-build_time: [1595430672, 558454000]
-inputs:
-  "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/checkouts/files/Sources/Files.swift": [1595430669, 679277811]

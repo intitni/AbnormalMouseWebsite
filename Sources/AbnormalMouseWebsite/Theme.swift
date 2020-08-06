@@ -216,7 +216,7 @@ private extension Node where Context == HTML.BodyContext {
     static var gtag: Node {
         .noscript(.raw("""
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5K84TFL"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
         """))
     }
 

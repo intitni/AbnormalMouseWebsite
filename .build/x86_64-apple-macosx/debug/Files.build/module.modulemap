@@ -1,4 +1,0 @@
-module Files {
-    header "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/Files.build/Files-Swift.h"
-    requires objc
-}

@@ -1,4 +1,0 @@
-module ShellOut {
-    header "/Users/int123c/Documents/Development/AbnormalMouseWebsite/.build/x86_64-apple-macosx/debug/ShellOut.build/ShellOut-Swift.h"
-    requires objc
-}
