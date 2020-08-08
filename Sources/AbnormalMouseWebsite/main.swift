@@ -48,13 +48,16 @@ extension Language {
     }
 
     var purchaseLink: URL {
-        URL(string: "https://abnormalmouse.intii.com")!
+        switch self {
+        case .chinese: return URL(string: "https://intii.onfastspring.com/zh-cn/abnormal-mouse")!
+        default: return URL(string: "https://intii.onfastspring.com/abnormal-mouse")!
+        }
     }
 
     var purchaseLinkTitle: String {
         switch self {
-        case .chinese: return "现在购买只需¥22。(即将到来) "
-        default: return "Buy now for US$4. (Coming Soon) "
+        case .chinese: return "现在购买只需¥22。"
+        default: return "Buy now for US$4. "
         }
     }
 
