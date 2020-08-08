@@ -37,7 +37,7 @@ extension Language {
     }
 
     var downloadLink: URL {
-        URL(string: "https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.2/Abnormal_Mouse_2020_2.zip")!
+        URL(string: "https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.2/Abnormal_Mouse_2020_3.zip")!
     }
 
     var downloadLinkTitle: String {
