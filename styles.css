@@ -45,10 +45,16 @@ header .wrapper {
     position: relative;
 }
 
-.language-switcher {
+header .page-link-wrapper {
     position: absolute;
     right: 0;
     top: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .page-link {
+    padding-left: 14px;
 }
 
 header a {
