@@ -276,11 +276,21 @@ private extension Node where Context == HTML.BodyContext {
                             .text(language.appDescription.2)
                         )
                     ),
-                    .p(
-                        .class("language-switcher"),
-                        .a(
-                            .href(anotherLanguage.url),
-                            .text(anotherLanguage.title)
+                    .div(
+                        .class("page-link-wrapper"),
+                        .p(
+                            .class("page-link"),
+                            .a(
+                                .href(language.githubLink),
+                                .text("Github")
+                            )
+                        ),
+                        .p(
+                            .class("page-link"),
+                            .a(
+                                .href(anotherLanguage.url),
+                                .text(anotherLanguage.title)
+                            )
                         )
                     )
                 ),
