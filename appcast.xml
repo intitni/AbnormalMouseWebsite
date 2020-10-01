@@ -46,5 +46,13 @@
             <description><![CDATA[]]></description>
             <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/Abnormal_Mouse_2020_5.html</sparkle:releaseNotesLink>
         </item>
+        <item>
+            <title>2020.6</title>
+            <pubDate>Thu, 01 Oct 2020 11:11:58 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2020.6/AbnormalMouse_2020_6.zip" sparkle:version="18" sparkle:shortVersionString="2020.6" length="3766192" type="application/octet-stream" sparkle:edSignature="TgbWWa0ISK/KEcTinqzCpHC1GlZF/u7bAN+gtfC/xWZ0sIm2v89bSEEJ9o6FxwSmVGNDeT29OazVLmAIwu1nBw=="/>
+            <description><![CDATA[]]></description>
+            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/Abnormal_Mouse_2020_6.html</sparkle:releaseNotesLink>
+        </item>
     </channel>
 </rss>
