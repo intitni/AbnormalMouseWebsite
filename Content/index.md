@@ -1,6 +1,6 @@
 ## <img class="title-icon" src="/image/title-icon-scroll.svg"/>Trackpad like “drag” to scroll with a normal mouse.
 
-Abnormal mouse converts mouse movements into scroll events when this feature is active.
+Abnormal Mouse converts mouse movements into scroll events when this feature is active.
 
 If you set a mouse button as an activator, the experience feels somewhat like that you would have with a trackpad or a magic mouse.
 
@@ -13,6 +13,10 @@ During scrolling, mouse movements will also translate into swipe gestures, makin
 More than that, Abnormal Mouse can convert mouse movements to rotate and zoom events. This feature may boost your productivity when you are using apps that heavily relies on these gestures. 
 
 Double-tap to smart zoom also comes as a bonus.
+
+## <img class="title-icon" src="/image/title-icon-dock-swipe.svg"/>Spaces, mission control.
+
+Have problem switching between spaces with a normal mouse? <del>Use your keyboard!</del>  Simply set an activator for 4-finger gesture and "drag" between spaces with your mouse!
 
 ## <img class="title-icon" src="/image/title-icon-more.svg"/>Coop with other apps!
 

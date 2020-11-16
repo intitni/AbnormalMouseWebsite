@@ -3,32 +3,12 @@
     <channel>
         <title>AbnormalMouse</title>
         <item>
-            <title>2020.0</title>
-            <pubDate>Mon, 27 Jul 2020 23:33:14 +0800</pubDate>
+            <title>2020.8</title>
+            <pubDate>Mon, 16 Nov 2020 22:51:40 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseWebsite/releases/download/version%2F2020.0/Abnormal.Mouse_2020_0.zip" sparkle:version="7" sparkle:shortVersionString="2020.0" length="3737518" type="application/octet-stream" sparkle:edSignature="tEwAKozVGT5SzmZbWPSL0E9ycfyJS6PjT+OujDqI8/wHaxNtBUtFgOGjHwjQwH38Nse38Y5yxOQEkMCjZvYPDw=="/>
-        </item>
-        <item>
-            <title>2020.1</title>
-            <pubDate>Wed, 29 Jul 2020 23:03:53 +0800</pubDate>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseWebsite/releases/download/version%2F2020.1/Abnormal_Mouse_2020_1.zip" sparkle:version="8" sparkle:shortVersionString="2020.1" length="3762991" type="application/octet-stream" sparkle:edSignature="Zrwzo5f8bNkgsxsbZpwFDxrU5dmLqgawAsjM1KsBNOPZZ1HHhs+1ibW180p0gQgUCNobR2S76evRGH/SEkpuCQ=="/>
-        </item>
-        <item>
-            <title>2020.2</title>
-            <pubDate>Sat, 01 Aug 2020 22:54:50 +0800</pubDate>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.2/Abnormal_Mouse_2020_2.zip" sparkle:version="9" sparkle:shortVersionString="2020.2" length="3762991" type="application/octet-stream" sparkle:edSignature="U0xwad/EOzNvs0A/858mOgX4HUDE5ya63xNu7DTz6v6/9OP57nrJqFdw5wS+Dh8QgyL+IKa80+pclx4LMdZZBQ=="/>
+            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2020.8/AbnormalMouse.zip" sparkle:version="24" sparkle:shortVersionString="2020.8" length="6765082" type="application/octet-stream" sparkle:edSignature="KzWYL3YNvdxCUQCsbrtwmqiZJZXhNkH1h15zNNfEzMctQhq9ZMIsuRwpQ/4Rp8sv9xPnC+CpruHch9B8cw37DA=="/>
             <description><![CDATA[]]></description>
-            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/Abnormal_Mouse_2020_2.html</sparkle:releaseNotesLink>
-        </item>
-        <item>
-            <title>2020.3</title>
-            <pubDate>Sun, 09 Aug 2020 11:25:54 +0800</pubDate>
-            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.3/Abnormal_Mouse_2020_3.zip" sparkle:version="11" sparkle:shortVersionString="2020.3" length="3751855" type="application/octet-stream" sparkle:edSignature="vUf3OCvuqi68DyibTSjZiYdMeVJaM0gMyS6V7XMf4yxpUFrKudcKR5OKzItI0bPK3P034ifCmNrGU+BeFFuNCA=="/>
-            <description><![CDATA[]]></description>
-            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/Abnormal_Mouse_2020_3.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/changelog.html</sparkle:releaseNotesLink>
         </item>
     </channel>
 </rss>

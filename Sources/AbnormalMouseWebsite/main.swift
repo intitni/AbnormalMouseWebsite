@@ -14,7 +14,7 @@ extension Language {
 
     var appTitle: String {
         switch self {
-        case .chinese: return "不一般鼠标"
+        case .chinese: return "Abnormal Mouse"
         default: return "Abnormal Mouse"
         }
     }
@@ -37,7 +37,7 @@ extension Language {
     }
 
     var downloadLink: URL {
-        URL(string: "https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.3/Abnormal_Mouse_2020_3.zip")!
+        URL(string: "https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2020.8/AbnormalMouse.zip")!
     }
     
     var githubLink: URL {
@@ -81,7 +81,7 @@ extension Language {
     
     var title: String {
         switch self {
-        case .chinese: return "不一般鼠标 for macOS"
+        case .chinese: return "Abnormal Mouse for macOS"
         default: return "Abnormal Mouse for macOS"
         }
     }
