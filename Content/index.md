@@ -25,7 +25,3 @@ Any other app that uses these gestures will now be happy with your beloved norma
 For example, you can navigate through your RSS feed more fluently with Reeder, being able to swipe to the next article or over-scroll to mark all as read.
 
 You can also manage your windows and tabs at ease with swipe gestures with the help of Swish.
-
-## <img class="title-icon" src="/image/title-icon-github.svg"/>90% open-source.
-
-The app, excluding the part to manage and verify license, is open-source on github.

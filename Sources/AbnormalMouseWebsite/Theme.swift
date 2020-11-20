@@ -281,13 +281,6 @@ private extension Node where Context == HTML.BodyContext {
                         .p(
                             .class("page-link"),
                             .a(
-                                .href(language.githubLink),
-                                .text("Github")
-                            )
-                        ),
-                        .p(
-                            .class("page-link"),
-                            .a(
                                 .href(anotherLanguage.url),
                                 .text(anotherLanguage.title)
                             )
