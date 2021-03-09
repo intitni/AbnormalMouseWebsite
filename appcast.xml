@@ -3,10 +3,10 @@
     <channel>
         <title>AbnormalMouse</title>
         <item>
-            <title>2020.9</title>
-            <pubDate>Thu, 31 Dec 2020 00:10:04 +0800</pubDate>
+            <title>2020.10</title>
+            <pubDate>Tue, 09 Mar 2021 17:22:28 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2020.9/AbnormalMouse.zip" sparkle:version="30" sparkle:shortVersionString="2020.9" length="6767707" type="application/octet-stream" sparkle:edSignature="82443HIB+QCXmtzDEfMo2/6nV8nBdVrxAkIamJFI/oL95vk1rqbzRYzOtjTO47kil1uJ9ObsdhxkemjbYBX1Ag=="/>
+            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/2020.10/Abnormal.Mouse.zip" sparkle:version="42" sparkle:shortVersionString="2020.10" length="3840076" type="application/octet-stream" sparkle:edSignature="KFYDjHueLLaEQIX+5Byv3vW7xTBoYp/Rltfo+DhIj8/ed2SfmdKadg1UrqpUl6DM6WtVv+fBhn58abBmG/AOBw=="/>
             <description><![CDATA[]]></description>
             <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/changelog.html</sparkle:releaseNotesLink>
         </item>
