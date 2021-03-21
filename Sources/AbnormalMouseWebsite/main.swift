@@ -19,6 +19,20 @@ extension Language {
         }
     }
 
+    var changelogLink: URL {
+        switch self {
+        case .chinese: return URL(string: "https://www.craft.do/s/l5oiOYOxYeoqOh")!
+        default: return URL(string: "https://www.craft.do/s/ISD8TW1hP4G6MT")!
+        }
+    }
+    
+    var changelogTitle: String {
+        switch self {
+        case .chinese: return "更新日志"
+        default: return "Changelog"
+        }
+    }
+
     var appDescription: (String, String, String) {
         switch self {
         case .chinese:
@@ -37,7 +51,7 @@ extension Language {
     }
 
     var downloadLink: URL {
-        URL(string: "https://github.com/intitni/AbnormalMouseWebsite/releases/download/2020.8/AbnormalMouse.zip")!
+        URL(string: "https://abnormalmouse.intii.com/Abnormal_Mouse.zip")!
     }
     
     var githubLink: URL {
@@ -74,8 +88,8 @@ extension Language {
 
     var contact: String {
         switch self {
-        case .chinese: return "联系我"
-        default: return "Contact"
+        case .chinese: return "联系开发者"
+        default: return "Contact Developer"
         }
     }
     

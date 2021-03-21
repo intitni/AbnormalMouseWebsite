@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "publish run"
+    }
+  },
+  "identifier" : "968D19C4-610F-4F34-B82C-A665FA1921B2"
+}

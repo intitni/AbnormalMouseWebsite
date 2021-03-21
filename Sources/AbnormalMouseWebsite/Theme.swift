@@ -179,14 +179,26 @@ private extension Node where Context == HTML.DocumentContext {
             .url(site.url(for: location)),
             .title(title),
             .description(description),
-            .twitterCardType(.summary),
+            .twitterCardType(.summaryLargeImage),
             .forEach(["/styles.css"], { .stylesheet($0) }),
             .viewport(.accordingToDevice),
             .unwrap(site.favicon, { .favicon($0) }),
             .unwrap(location.imagePath ?? site.imagePath, { path in
                 let url = site.url(for: path)
-                return .socialImageLink(url)
+                var components = URLComponents(url: url, resolvingAgainstBaseURL: false)!
+                components.queryItems = [
+                    .init(name: "random", value: String(Int.random(in: 1...9999)))
+                ]
+                return .socialImageLink(components.url!)
             }),
+            .meta(
+                .attribute(named: "name", value: "twitter:site"),
+                .attribute(named: "content", value: "@intitni")
+            ),
+            .meta(
+                .attribute(named: "name", value: "twitter:creator"),
+                .attribute(named: "content", value: "@intitni")
+            ),
             .script( // Enable Gtag
                 .raw("""
                 window.dataLayer = window.dataLayer || [];
@@ -281,6 +293,20 @@ private extension Node where Context == HTML.BodyContext {
                         .p(
                             .class("page-link"),
                             .a(
+                                .href(language.changelogLink),
+                                .text(language.changelogTitle)
+                            )
+                        ),
+                        .p(
+                            .class("page-link"),
+                            .a(
+                                .href(language.githubLink),
+                                .text("Github")
+                            )
+                        ),
+                        .p(
+                            .class("page-link"),
+                            .a(
                                 .href(anotherLanguage.url),
                                 .text(anotherLanguage.title)
                             )
@@ -359,7 +385,7 @@ private extension Node where Context == HTML.BodyContext {
                 .p(.text("Copyright © 2020")),
                 .p(.a(
                     .text(language.contact),
-                    .href("mailto:abnormalmouse@intii.com")
+                    .href("mailto:abnormalmouseapp@intii.com")
                 ))
             ),
             .script(.attribute( // Gtag
