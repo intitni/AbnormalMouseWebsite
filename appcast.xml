@@ -3,10 +3,10 @@
     <channel>
         <title>AbnormalMouse</title>
         <item>
-            <title>2021.3</title>
-            <pubDate>Thu, 30 Sep 2021 21:41:50 +0800</pubDate>
+            <title>2021.2</title>
+            <pubDate>周四, 18 3月 2021 23:15:18 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2021.3/Abnormal_Mouse.zip" sparkle:version="45" sparkle:shortVersionString="2021.3" length="4321207" type="application/octet-stream" sparkle:edSignature="7g1bqGxNDeBbiMoJ+9bRRhb5xGOMCalX5U1dVDoRBJLYQvvI1XQnk9eAqxzFbY7qvLc/OplOHRopvcC1bRrRAA=="/>
+            <enclosure url="https://abnormalmouse.intii.com/Abnormal_Mouse.zip" sparkle:version="44" sparkle:shortVersionString="2021.2" length="3839480" type="application/octet-stream" sparkle:edSignature="4Q0Z3coFN27dL7kXIldtdD/9UjvpbRaZMDZhyU23+TCCz0KmxjcaFQ9rYwOS3oo9iDtBfX/dxYWx02aL+mj+AA=="/>
             <description><![CDATA[]]></description>
             <sparkle:releaseNotesLink>https://www.craft.do/s/ISD8TW1hP4G6MT</sparkle:releaseNotesLink>
         </item>
