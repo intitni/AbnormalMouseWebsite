@@ -51,7 +51,7 @@ extension Language {
     }
 
     var downloadLink: URL {
-        URL(string: "https://abnormalmouse.intii.com/Abnormal_Mouse.zip")!
+        URL(string: "https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2022.1/Abnormal_Mouse.zip")!
     }
     
     var githubLink: URL {

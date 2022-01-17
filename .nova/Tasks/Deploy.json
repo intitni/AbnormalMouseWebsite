@@ -1,9 +1,0 @@
-{
-  "actions" : {
-    "build" : {
-      "enabled" : true,
-      "script" : "publish deploy"
-    }
-  },
-  "identifier" : "3EC0E6AE-CB1D-4779-BD46-7588C4DDF604"
-}
