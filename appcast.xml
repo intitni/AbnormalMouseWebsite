@@ -8,7 +8,7 @@
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2022.1/Abnormal_Mouse.zip" sparkle:version="51" sparkle:shortVersionString="2022.1" length="4658589" type="application/octet-stream" sparkle:edSignature="mL/7DjeQuI6UHS4o0D52LpnzhYZln6s/SmFry3hqCXh9Bn2imwDSmI+pCF/++pHXoOozXksk3mgDc0uS1DosBg==" />
             <description><![CDATA[]]></description>
-            <sparkle:releaseNotesLink>https://www.craft.do/s/ISD8TW1hP4G6MT</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/changelog.html</sparkle:releaseNotesLink>
         </item>
     </channel>
 </rss>
