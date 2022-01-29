@@ -106,6 +106,15 @@ extension Language {
         default: return "Fix normal mice for macOS."
         }
     }
+    
+    var twitterCard: Path {
+        switch self {
+        case .chinese:
+            return "image/twitter-card.png"
+        default:
+            return "image/twitter-card-en.png"
+        }
+    }
 }
 
 extension Location {
@@ -118,7 +127,7 @@ extension Location {
     
     var pageTitle: String { language.title }
     var pageDescription: String { language.description }
-    var imagePath: Path? { "image/twitter-card.png" }
+    var imagePath: Path? { language.twitterCard }
 }
 
 struct AbnormalMouseWebsite: Website {
