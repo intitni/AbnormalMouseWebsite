@@ -180,17 +180,17 @@ private extension Node where Context == HTML.DocumentContext {
             .title(title),
             .description(description),
             .twitterCardType(.summaryLargeImage),
-            .forEach(["/styles.css"], { .stylesheet($0) }),
+            .forEach(stylesheets) { .stylesheet($0) },
             .viewport(.accordingToDevice),
-            .unwrap(site.favicon, { .favicon($0) }),
-            .unwrap(location.imagePath ?? site.imagePath, { path in
+            .unwrap(site.favicon) { .favicon($0) },
+            .unwrap(location.imagePath ?? site.imagePath) { path in
                 let url = site.url(for: path)
                 var components = URLComponents(url: url, resolvingAgainstBaseURL: false)!
                 components.queryItems = [
-                    .init(name: "random", value: String(Int.random(in: 1...9999)))
+                    .init(name: "random", value: String(Int.random(in: 1 ... 9999)))
                 ]
                 return .socialImageLink(components.url!)
-            }),
+            },
             .meta(
                 .attribute(named: "name", value: "twitter:site"),
                 .attribute(named: "content", value: "@intitni")
@@ -320,11 +320,20 @@ private extension Node where Context == HTML.BodyContext {
                         url: language.downloadLink,
                         title: language.downloadLinkTitle
                     ),
-                    .downloadLink(
+                    .purchaseLink(
                         id: "purchase",
                         url: language.purchaseLink,
                         title: language.purchaseLinkTitle,
+                        language: language,
                         description: language.purchaseLinkDescription
+                    ),
+                    .div(
+                        .id("currency-picker-wrapper"),
+                        .class("currency-picker-wrapper hidden"),
+                        .component(
+                            CurrencyPicker()
+                                .environmentValue(language, key: .language)
+                        )
                     )
                 )
             )
@@ -343,13 +352,47 @@ private extension Node where Context == HTML.BodyContext {
                 .class("download-link-arrow")
             ),
             .a(
-                .id(id), 
+                .id(id),
                 .href(url),
                 .text(title),
                 .span(
                     .class("download-link-description"),
                     .text(description)
                 )
+            )
+        )
+    }
+
+    static func purchaseLink(
+        id: String,
+        url: URL,
+        title: String,
+        language: Language,
+        description: String = ""
+    ) -> Node {
+        return .p(
+            .class("download-link"),
+            .span(
+                .class("download-link-arrow")
+            ),
+            .a(
+                .id(id),
+                .text(title),
+                .span(
+                    .class("download-link-description"),
+                    .text(description)
+                ),
+                .onclick("""
+                let isDisplayed = window.isCurrencyPickerDisplayed;
+                let picker = document.getElementById('currency-picker-wrapper');
+                if (isDisplayed != undefined && isDisplayed) {
+                    picker.className = 'currency-picker-wrapper hidden';
+                    window.isCurrencyPickerDisplayed = false;
+                } else {
+                    picker.className = 'currency-picker-wrapper displayed';
+                    window.isCurrencyPickerDisplayed = true;
+                }
+                """)
             )
         )
     }

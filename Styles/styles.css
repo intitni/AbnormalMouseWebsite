@@ -75,6 +75,7 @@ header .site-name {
 }
 
 .download-link-container {
+    position: relative;
     margin-top: 30px;
 }
 
@@ -113,9 +114,44 @@ header .site-name {
 }
 
 .download-link-description {
+    position: relative;
     font-size: 0.45em;
     color: #828282;
     font-weight: 400;
+}
+
+.currency-picker-wrapper {
+    position: absolute;
+    left: calc(50% - 460px);
+    bottom: -70px;
+    -webkit-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.currency-picker-wrapper.displayed {
+    opacity: 1;
+}
+
+.currency-picker-wrapper.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.currency-picker {
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 12px;
+    padding: 4px;
+    box-shadow: 0 4px 15px rgba(206, 74, 111, 0.3);
+}
+
+.currency-button {
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    border-radius: 8px;
+    padding: 0;
+    height: 46px;
 }
 
 nav {
@@ -280,6 +316,10 @@ footer .wrapper {
     .download-link:hover .download-link-arrow {
         width: calc(50% - 340px);
     }
+    
+    .currency-picker-wrapper {
+        left: calc(50% - 360px);
+    }
 }
 
 @media(max-width: 760px) {
@@ -298,6 +338,10 @@ footer .wrapper {
     
     .download-link:hover .download-link-arrow {
         width: 50px;
+    }
+    
+    .currency-picker-wrapper {
+        left: 30px;
     }
     
     footer {

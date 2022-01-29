@@ -4,6 +4,11 @@ import Publish
 
 private let websiteURLPrefix: String = "https://abnormalmouse.intii.com"
 
+enum Currency {
+    case cny
+    case auto
+}
+
 extension Language {
     var anotherLanguage: (title: String, url: URL) {
         switch self {
@@ -25,7 +30,7 @@ extension Language {
         default: return URL(string: "https://www.craft.do/s/ISD8TW1hP4G6MT")!
         }
     }
-    
+
     var changelogTitle: String {
         switch self {
         case .chinese: return "更新日志"
@@ -53,7 +58,7 @@ extension Language {
     var downloadLink: URL {
         URL(string: "https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2022.1/Abnormal_Mouse.zip")!
     }
-    
+
     var githubLink: URL {
         URL(string: "https://github.com/intitni/AbnormalMouseApp")!
     }
@@ -67,8 +72,8 @@ extension Language {
 
     var purchaseLink: URL {
         switch self {
-        case .chinese: return URL(string: "https://intii.onfastspring.com/zh-cn/abnormal-mouse")!
-        default: return URL(string: "https://intii.onfastspring.com/abnormal-mouse")!
+        case .chinese: return purchaseLink(for: .cny)
+        default: return purchaseLink(for: .auto)
         }
     }
 
@@ -92,27 +97,48 @@ extension Language {
         default: return "Contact Developer"
         }
     }
-    
+
     var title: String {
         switch self {
         case .chinese: return "Abnormal Mouse for macOS"
         default: return "Abnormal Mouse for macOS"
         }
     }
-    
+
     var description: String {
         switch self {
         case .chinese: return "让你在 macOS 中更轻松地使用一般鼠标。"
         default: return "Fix normal mice for macOS."
         }
     }
-    
+
     var twitterCard: Path {
         switch self {
         case .chinese:
             return "image/twitter-card.png"
         default:
             return "image/twitter-card-en.png"
+        }
+    }
+    
+    func purchaseLink(for currency: Currency) -> URL {
+        switch currency {
+        case .cny: return URL(string: "https://intii.onfastspring.com/zh-cn/abnormal-mouse")!
+        default: return URL(string: "https://intii.onfastspring.com/abnormal-mouse")!
+        }
+    }
+
+    func currencyIcon(for currency: Currency) -> String {
+        switch currency {
+        case .cny:
+            return "/image/currency-icon-cny.svg"
+        case .auto:
+            switch self {
+            case .chinese:
+                return "/image/currency-icon-auto-cn.svg"
+            default:
+                return "/image/currency-icon-auto-en.svg"
+            }
         }
     }
 }
@@ -124,7 +150,7 @@ extension Location {
         default: return .english
         }
     }
-    
+
     var pageTitle: String { language.title }
     var pageDescription: String { language.description }
     var imagePath: Path? { language.twitterCard }
@@ -150,7 +176,22 @@ struct AbnormalMouseWebsite: Website {
     var imagePath: Path? { "image/twitter-card.png" }
 }
 
+var stylesheets = [String]()
+
+extension PublishingStep where Site == AbnormalMouseWebsite {
+    static var hashStylesheet: Self {
+        step(named: "Hash style sheet") { context in
+            let hash = String(UUID().uuidString.prefix(6))
+            let file = try context.createOutputFile(at: "styles.\(hash).css")
+            let source = try context.file(at: "Styles/styles.css")
+            try file.write(try source.read())
+            stylesheets.append("/styles.\(hash).css")
+        }
+    }
+}
+
 try AbnormalMouseWebsite().publish(
     withTheme: .this,
-    deployedUsing: .gitHub("intitni/AbnormalMouseWebsite")
+    deployedUsing: .gitHub("intitni/AbnormalMouseWebsite"),
+    additionalSteps: [.hashStylesheet]
 )
