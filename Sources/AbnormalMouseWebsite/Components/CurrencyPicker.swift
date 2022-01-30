@@ -8,10 +8,15 @@ extension EnvironmentKey where Value == Language {
 }
 
 struct CurrencyPicker: Component {
+    @EnvironmentValue(.language) var language
     var body: Component {
         Div {
-            CurrencyButton(currency: .cny)
-            CurrencyButton(currency: .auto)
+            Paragraph(language == .chinese ? "选择货币类型" : "Choose Your Currency")
+            Div {
+                CurrencyButton(currency: .cny)
+                CurrencyButton(currency: .auto)
+            }
+            .class("currency-button-wrapper")
         }
         .class("currency-picker")
     }
