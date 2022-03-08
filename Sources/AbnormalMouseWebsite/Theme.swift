@@ -377,7 +377,10 @@ private extension Node where Context == HTML.BodyContext {
             ),
             .a(
                 .id(id),
-                .text(title),
+                .span(
+                    .id("purchase-title"),
+                    .text(title)
+                ),
                 .span(
                     .class("download-link-description"),
                     .text(description)
@@ -431,9 +434,33 @@ private extension Node where Context == HTML.BodyContext {
                     .href("mailto:abnormalmouseapp@intii.com")
                 ))
             ),
+            .dynamicPrice(for: language),
             .script(.attribute( // Gtag
                 .src(URL(string: "https://www.googletagmanager.com/gtag/js?id=UA-17603222-4")!)
             ))
         )
+    }
+
+    static func dynamicPrice(for language: Language) -> Node {
+        let isEnglish = language == .english ? "true" : "false"
+        return .script(
+            .raw("""
+            fetch("https://abnormalmouse-api.intii.com/product/price", {
+                  "method": "GET",
+                  "headers": {
+                        "Accept": "application/json"
+                  }
+            })
+            .then((res) => res.json())
+            .then((object) => {
+                const element = window.document.getElementById('purchase-title');
+                if (\(isEnglish)) {
+                    element.innerHTML = `Buy now for ${object["display"]}. `;
+                } else {
+                    element.innerHTML = `立即购买只需 ${object["display"]}。`
+                }
+            })
+            .catch(console.error.bind(console));
+            """))
     }
 }

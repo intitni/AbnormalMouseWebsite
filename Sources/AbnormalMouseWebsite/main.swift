@@ -79,8 +79,8 @@ extension Language {
 
     var purchaseLinkTitle: String {
         switch self {
-        case .chinese: return "现在购买只需¥22。"
-        default: return "Buy now for US$4. "
+        case .chinese: return "立即购买。"
+        default: return "Buy now. "
         }
     }
 
