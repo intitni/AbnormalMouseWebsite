@@ -173,7 +173,7 @@ struct AbnormalMouseWebsite: Website {
     var name: String { language.title }
     var description: String { language.description }
     var language: Language { .english }
-    var imagePath: Path? { "image/twitter-card.png" }
+    var imagePath: Path? { language.twitterCard }
 }
 
 var stylesheets = [String]()
