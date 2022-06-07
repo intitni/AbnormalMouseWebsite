@@ -37,7 +37,21 @@ extension Language {
         default: return "Changelog"
         }
     }
+    
+    var faqLink: URL {
+        switch self {
+        case .chinese: return URL(string: "https://www.craft.do/s/ZJprgeIVKWnqNd")!
+        default: return URL(string: "https://www.craft.do/s/3weV2b266H9haY")!
+        }
+    }
 
+    var faqTitle: String {
+        switch self {
+        case .chinese: return "常见问题"
+        default: return "FAQ"
+        }
+    }
+    
     var appDescription: (String, String, String) {
         switch self {
         case .chinese:

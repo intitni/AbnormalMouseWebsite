@@ -293,6 +293,13 @@ private extension Node where Context == HTML.BodyContext {
                         .p(
                             .class("page-link"),
                             .a(
+                                .href(language.faqLink),
+                                .text(language.faqTitle)
+                            )
+                        ),
+                        .p(
+                            .class("page-link"),
+                            .a(
                                 .href(language.changelogLink),
                                 .text(language.changelogTitle)
                             )
