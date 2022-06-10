@@ -82,7 +82,16 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
         for page: Page,
         context: PublishingContext<Site>
     ) throws -> HTML {
-        HTML(
+        if (page.path.absoluteString.contains("release-note")) {
+            return HTML(
+                .lang(context.site.language),
+                .theHead(for: page, on: context.site),
+                .body(
+                    .wrapper(.contentBody(page.body))
+                )
+            )
+        }
+        return HTML(
             .lang(context.site.language),
             .theHead(for: page, on: context.site),
             .body(
