@@ -3,12 +3,12 @@
     <channel>
         <title>AbnormalMouse</title>
         <item>
-            <title>2022.2</title>
-            <pubDate>Sat, 26 Feb 2022 00:14:04 +0800</pubDate>
+            <title>2022.3</title>
+            <pubDate>Thu, 9 Jun 2022 23:22:39 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2022.2/Abnormal_Mouse.zip" sparkle:version="60" sparkle:shortVersionString="2022.2" length="4565995" type="application/octet-stream" sparkle:edSignature="ksca+qO2vpxVixG1V8I2PBUKBFOgJIX+miK98d1AOmNRxk6qlR8UXxaWJ4wu+4Fg15bge3d03HpaiiSn0VYEDg=="/>
+            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2022.3/Abnormal.Mouse.zip" sparkle:version="67" sparkle:shortVersionString="2022.3" length="4594967" type="application/octet-stream" sparkle:edSignature="HyEJZ7oeP1NBISfc27MTGxyaVhqh5bd1y1vdGxZR3DcF1+0DTdjVpUK/1YrCwyttvH9U+Slhosm82sacMWi1BQ=="/>
             <description><![CDATA[]]></description>
-            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/changelogs/changelog.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/release-note</sparkle:releaseNotesLink>
         </item>
     </channel>
 </rss>
