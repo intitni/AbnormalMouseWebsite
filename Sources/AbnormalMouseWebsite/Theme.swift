@@ -82,7 +82,7 @@ private struct AHTMLFactory<Site: Website>: HTMLFactory {
         for page: Page,
         context: PublishingContext<Site>
     ) throws -> HTML {
-        if (page.path.absoluteString.contains("release-note")) {
+        if page.path.absoluteString.contains("release-note") {
             return HTML(
                 .lang(context.site.language),
                 .theHead(for: page, on: context.site),
@@ -189,14 +189,14 @@ private extension Node where Context == HTML.DocumentContext {
             .title(title),
             .description(description),
             .twitterCardType(.summaryLargeImage),
-            .forEach(stylesheets) { .stylesheet($0) },
+            .forEach(["/styles.\(cssHash).css"]) { .stylesheet($0) },
             .viewport(.accordingToDevice),
             .unwrap(site.favicon) { .favicon($0) },
             .unwrap(location.imagePath ?? site.imagePath) { path in
                 let url = site.url(for: path)
                 var components = URLComponents(url: url, resolvingAgainstBaseURL: false)!
                 components.queryItems = [
-                    .init(name: "random", value: String(Int.random(in: 1 ... 9999)))
+                    .init(name: "random", value: String(Int.random(in: 1 ... 9999))),
                 ]
                 return .socialImageLink(components.url!)
             },
@@ -231,7 +231,7 @@ private extension Node where Context == HTML.DocumentContext {
 
 private extension Node where Context == HTML.BodyContext {
     static func wrapper(_ nodes: Node...) -> Node {
-        .div(.class("wrapper"), .group(nodes))
+        .div(.class("wrapper h-14"), .group(nodes))
     }
 
     static var gtag: Node {
@@ -381,9 +381,9 @@ private extension Node where Context == HTML.BodyContext {
 
     static func purchaseLink(
         id: String,
-        url: URL,
+        url _: URL,
         title: String,
-        language: Language,
+        language _: Language,
         description: String = ""
     ) -> Node {
         return .p(
@@ -449,6 +449,13 @@ private extension Node where Context == HTML.BodyContext {
                     .text(language.contact),
                     .href("mailto:abnormalmouseapp@intii.com")
                 ))
+            ),
+            .div(
+                .class("h-20 w-full")
+            ),
+            .div(
+                .class("flex fixed w-full right-0 bottom-0 px-6 pt-2 pb-6 flex-row justify-center md:justify-end"),
+                .component(ProductHuntBadge())
             ),
             .dynamicPrice(for: language),
             .script(.attribute( // Gtag

@@ -188,24 +188,19 @@ struct AbnormalMouseWebsite: Website {
     var description: String { language.description }
     var language: Language { .english }
     var imagePath: Path? { language.twitterCard }
+    var favicon: Favicon? { .init(path: "image/favicon.png") }
 }
 
-var stylesheets = [String]()
-
-extension PublishingStep where Site == AbnormalMouseWebsite {
-    static var hashStylesheet: Self {
-        step(named: "Hash style sheet") { context in
-            let hash = String(UUID().uuidString.prefix(6))
-            let file = try context.createOutputFile(at: "styles.\(hash).css")
-            let source = try context.file(at: "Styles/styles.css")
-            try file.write(try source.read())
-            stylesheets.append("/styles.\(hash).css")
-        }
-    }
-}
+let cssHash = String(UUID().uuidString.prefix(6))
 
 try AbnormalMouseWebsite().publish(
     withTheme: .this,
     deployedUsing: .gitHub("intitni/AbnormalMouseWebsite"),
-    additionalSteps: [.hashStylesheet]
+    additionalSteps: [
+        .installPlugin(.tailwindcss(
+            themeFilePath: "Resources/styles.css",
+            configFilePath: "Resources/tailwind.config.js",
+            outputFilePath: "styles.\(cssHash).css"
+        )),
+    ]
 )

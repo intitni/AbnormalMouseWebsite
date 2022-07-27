@@ -1,8 +1,6 @@
-/**
-*  Publish Foundation theme
-*  Copyright (c) John Sundell 2019
-*  MIT license, see LICENSE file for details
-*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 * {
     margin: 0;
@@ -101,7 +99,8 @@ header .site-name {
     right: 0;
     position: absolute;
     display: inline-block;
-    top: -16px;
+    top: -20px;
+    right: -2px;
 }
 
 .download-link {
@@ -288,18 +287,20 @@ a {
 
 footer {
     margin-top: 80px;
-    height: 120px;
     color: #8a8a8a;
     background-color: #F2F2F2;
 }
 
 footer .wrapper {
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+footer .wrapper > p {
+    margin: 0;
 }
 
 /*@media (prefers-color-scheme: dark) {*/
@@ -321,7 +322,7 @@ footer .wrapper {
 /*    }*/
 /*}*/
 
-@media(max-width: 960px) {
+@media(max-width: 1024px) {
     .wrapper {
         max-width: 700px
     }
@@ -339,7 +340,7 @@ footer .wrapper {
     }
 }
 
-@media(max-width: 760px) {
+@media(max-width: 768px) {
     .wrapper {
         margin-left: 20px;
         margin-right: 20px;

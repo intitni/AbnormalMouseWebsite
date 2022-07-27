@@ -22,9 +22,9 @@ Abnormal Mouse 能够将鼠标的移动转变为滚动事件。
 
 所有用到这些手势的 app 现在都能够和你的一般鼠标好好相处了！ 
 
-比如说，在 Reeder 中滚动切换文章、下拉刷新、上拉标记为已读，这一切手势都能通过一般鼠标做到；
+比如说，在 [Reeder](https://reederapp.com) 中滚动切换文章、下拉刷新、上拉标记为已读，这一切手势都能通过一般鼠标做到；
 
-像 Swish 这种大量依赖于触控板手势的窗口管理工具，一般鼠标也可以愉快地使用了。
+像 [Swish](https://highlyopinionated.co/swish/) 这种大量依赖于触控板手势的窗口管理工具，一般鼠标也可以愉快地使用了。
 
 ## <img class="title-icon" src="/image/title-icon-github.svg"/>90% 开源。
 
