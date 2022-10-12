@@ -70,3 +70,4 @@ DerivedData/
 # End of https://www.toptal.com/developers/gitignore/api/xcode,macos
 /.swiftpm
 node_modules
+Resources/.DS_Store

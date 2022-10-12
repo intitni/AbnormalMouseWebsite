@@ -454,8 +454,7 @@ private extension Node where Context == HTML.BodyContext {
                 .class("h-20 w-full")
             ),
             .div(
-                .class("flex fixed w-full right-0 bottom-0 px-6 pt-2 pb-6 flex-row justify-center md:justify-end"),
-                .component(ProductHuntBadge())
+                .component(BottomPanel())
             ),
             .dynamicPrice(for: language),
             .script(.attribute( // Gtag
