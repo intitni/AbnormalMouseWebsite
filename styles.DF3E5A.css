@@ -590,6 +590,10 @@ video {
   height: 5rem;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .h-\[fill-available\] {
   height: -webkit-fill-available;
   height: -moz-available;
