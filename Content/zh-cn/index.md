@@ -26,6 +26,3 @@ Abnormal Mouse 能够将鼠标的移动转变为滚动事件。
 
 像 [Swish](https://highlyopinionated.co/swish/) 这种大量依赖于触控板手势的窗口管理工具，一般鼠标也可以愉快地使用了。
 
-## <img class="title-icon" src="/image/title-icon-github.svg"/>90% 开源。
-
-除去验证和管理软件许可证的部分，这个 app 已经在 github 上面开源了。

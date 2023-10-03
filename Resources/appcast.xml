@@ -6,7 +6,7 @@
             <title>2022.3</title>
             <pubDate>Thu, 9 Jun 2022 23:22:39 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/intitni/AbnormalMouseApp/releases/download/version%2F2022.3/Abnormal.Mouse.zip" sparkle:version="67" sparkle:shortVersionString="2022.3" length="4594967" type="application/octet-stream" sparkle:edSignature="HyEJZ7oeP1NBISfc27MTGxyaVhqh5bd1y1vdGxZR3DcF1+0DTdjVpUK/1YrCwyttvH9U+Slhosm82sacMWi1BQ=="/>
+            <enclosure url="https://abnormalmouse.intii.com/Abnormal.Mouse.zip" sparkle:version="67" sparkle:shortVersionString="2022.3" length="4594967" type="application/octet-stream" sparkle:edSignature="HyEJZ7oeP1NBISfc27MTGxyaVhqh5bd1y1vdGxZR3DcF1+0DTdjVpUK/1YrCwyttvH9U+Slhosm82sacMWi1BQ=="/>
             <description><![CDATA[]]></description>
             <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/release-note</sparkle:releaseNotesLink>
         </item>
