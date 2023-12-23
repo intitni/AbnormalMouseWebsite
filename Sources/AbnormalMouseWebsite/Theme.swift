@@ -336,13 +336,6 @@ private extension Node where Context == HTML.BodyContext {
                         url: language.downloadLink,
                         title: language.downloadLinkTitle
                     ),
-                    .purchaseLink(
-                        id: "purchase",
-                        url: language.purchaseLink,
-                        title: language.purchaseLinkTitle,
-                        language: language,
-                        description: language.purchaseLinkDescription
-                    ),
                     .div(
                         .id("currency-picker-wrapper"),
                         .class("currency-picker-wrapper hidden"),

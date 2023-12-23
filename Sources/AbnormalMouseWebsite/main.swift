@@ -79,8 +79,8 @@ extension Language {
 
     var downloadLinkTitle: String {
         switch self {
-        case .chinese: return "下载试用。"
-        default: return "Download free trial."
+        case .chinese: return "免费下载使用。"
+        default: return "Download and use for free."
         }
     }
 
