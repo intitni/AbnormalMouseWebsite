@@ -3,6 +3,16 @@
     <channel>
         <title>AbnormalMouse</title>
         <item>
+            <title>2023.12</title>
+            <pubDate>Sat, 23 Dec 2023 23:44:52 +0800</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>2023.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://abnormalmouse.intii.com/Abnormal.Mouse.zip" length="4449637" type="application/octet-stream" sparkle:edSignature="dWES8KzFm0am8AjZKm3rSrhv7Ie/5WkDxeC9wDLEhefHy4CVOvRi9YlEGyn2Fq62/aKhL2W2ViyLEt1GTk+lAw=="/>
+            <description><![CDATA[]]></description>
+            <sparkle:releaseNotesLink>https://abnormalmouse.intii.com/release-note</sparkle:releaseNotesLink>
+        </item>
+        <item>
             <title>2022.3</title>
             <pubDate>Thu, 9 Jun 2022 23:22:39 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
