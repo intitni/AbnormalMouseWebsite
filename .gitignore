@@ -71,3 +71,4 @@ DerivedData/
 /.swiftpm
 node_modules
 Resources/.DS_Store
+Output/

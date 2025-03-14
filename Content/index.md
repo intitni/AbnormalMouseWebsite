@@ -25,3 +25,7 @@ Any other app that uses these gestures will now be happy with your beloved norma
 For example, you can navigate through your RSS feed more fluently with [Reeder](https://reederapp.com), being able to swipe to the next article or over-scroll to mark all as read.
 
 You can also manage your windows and tabs at ease with swipe gestures with the help of [Swish](https://highlyopinionated.co/swish/).
+
+## <img class="title-icon" src="/image/title-icon-github.svg"/>Open-source.
+
+The app is open-source on GitHub. It's not under active development at the moment, but if you want to help, please feel free to fork and submit a pull request!
